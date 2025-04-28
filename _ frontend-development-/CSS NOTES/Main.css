@@ -1,0 +1,90 @@
+/*h1{
+    background-color: blue;
+}
+#m{
+    background-color: brown;
+}
+/*div.bgcolor{
+    background-color: red;
+}
+.bgcolor{
+    background-color: violet;
+}
+div{
+    color: red;
+}*/
+/*div, .bgcolor, div.bgcolor{
+    color: peru;
+}
+*{
+    background-color: blue;
+}
+*/
+
+
+   /* div p{
+       background-color:  aqua;
+    }
+div div{
+    background-color: blueviolet;
+}
+div > p{
+    background-color: blue;
+}
+
+div ~ p{
+    color: goldenrod;
+} 
+  div + p{
+    background-color: blue;
+  } 
+  .jai::before{
+            content: "ke hal h";
+            font-size: 50px ;
+            color: rebeccapurple;
+  }
+  .jai::after{
+    content: "ke hal h";
+    font-size: 50px ;
+    color: rebeccapurple;
+}
+.kalu::first-line{
+        background-color : brown ;
+}
+.dk::selection{
+      background-color: cyan;
+}
+::marker{
+    color: blue;
+}
+a:link{
+    background-color: brown;
+}
+
+a:visited{
+    background-color: red;
+}
+a:hover{
+    background-color: green;
+}
+a:active{
+    background-color: bisque;
+}
+div:hover{
+    background-color: green;
+}*/
+#j:hover{
+    font-size: 50px;
+}
+input:focus{
+    background-color: yellowgreen;
+}
+#jvm:valid{
+    border: 50px solid green;
+}
+#jv:valid{
+    border: 5px solid blue;
+}
+inpit:read-only{
+    background-color: gray;
+}
