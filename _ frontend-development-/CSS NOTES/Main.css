@@ -20,8 +20,6 @@ div{
     background-color: blue;
 }
 */
-
-
    /* div p{
        background-color:  aqua;
     }
@@ -73,18 +71,16 @@ a:active{
 div:hover{
     background-color: green;
 }*/
-#j:hover{
+
+#input:hover{
+    font-size: blue;
+}
+ form:hover{
     font-size: 50px;
-}
-input:focus{
-    background-color: yellowgreen;
-}
-#jvm:valid{
-    border: 50px solid green;
-}
-#jv:valid{
-    border: 5px solid blue;
-}
-inpit:read-only{
-    background-color: gray;
-}
+ }
+
+
+
+
+
+
