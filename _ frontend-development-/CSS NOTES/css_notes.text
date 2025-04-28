@@ -142,6 +142,11 @@ ________________________________________________________________________
 attribute selector -->
       syntax [attibutes]
 
+      variants :
+        1. selector[attribute_name]
+        2. selector [attribute_name=attribute]
+        3. selector [attribute_name^=attribute] (^ is for starting )
+
 
 
 
