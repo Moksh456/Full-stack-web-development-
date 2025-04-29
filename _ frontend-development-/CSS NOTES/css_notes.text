@@ -19,7 +19,7 @@ implemenation of css in html?
                                         }
                                 </style>
                                    </head>
-                                         
+                                          
                     3. external -> with he help of link tag.
                                     <link rel="style sheet" src="css file name"
 
