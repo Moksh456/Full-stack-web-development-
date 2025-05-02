@@ -84,7 +84,7 @@ div:hover{
  a[href^=gk]{
     background-color: aqua;
  }*/
- div p:last-child{
+ div p:first-of-type{
     background-color: red;
  }
 
