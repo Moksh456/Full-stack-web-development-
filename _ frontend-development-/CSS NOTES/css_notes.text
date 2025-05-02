@@ -154,7 +154,7 @@ attribute selector -->
         6. selector[attribute_name~= attribute] --> used to search the exact value or space sepreted value.
 
         7. selector[attribute_name |= attribute] --> used when to search yhe exact value and separated value.
-
+ 
 
 
 
