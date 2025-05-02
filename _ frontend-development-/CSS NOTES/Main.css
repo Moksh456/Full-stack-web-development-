@@ -80,9 +80,12 @@ div:hover{
  } 
  a[href]{ 
     background-color: blue;
- }*/
+ }*//*
  a[href^=gk]{
     background-color: aqua;
+ }*/
+ div p:last-child{
+    background-color: red;
  }
 
 

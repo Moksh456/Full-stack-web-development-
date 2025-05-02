@@ -154,7 +154,14 @@ attribute selector -->
         6. selector[attribute_name~= attribute] --> used to search the exact value or space sepreted value.
 
         7. selector[attribute_name |= attribute] --> used when to search yhe exact value and separated value.
+
+________________________________________________________________________________
  
+    pseudo classes  : 
+                (can be applied to any html element)
+        
+         1. :first-child
+         2. :last-child 
 
 
 
