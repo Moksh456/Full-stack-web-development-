@@ -78,7 +78,7 @@ div:hover{
  form:hover{
     font-size: 50px;
  } 
- a[href]{
+ a[href]{ 
     background-color: blue;
  }*/
  a[href^=gk]{
