@@ -13,7 +13,7 @@ implemenation of css in html?
                     2. internal --> in the internal method style attribute convert into style tag and it lie in the head tga.
 
                                 <head >
-                                <style>
+                                <style> 
                                         h1{
                                             background color : red;
                                         }
