@@ -1,8 +1,8 @@
 CSS -> cascading style sheet..
-                    html is the the structure and skelton. 
- 
+                    html is the the structure and skelton.
+
 css   use case --> 1.to style there html tags.
-                   2. to provide to change / alter layout 
+                   2. to provide to change / alter layout
 
 implemenation of css in html?
                  there are 3 ways to apply css in html--?
@@ -13,17 +13,17 @@ implemenation of css in html?
                     2. internal --> in the internal method style attribute convert into style tag and it lie in the head tga.
 
                                 <head >
-                                <style> 
+                                <style>
                                         h1{
                                             background color : red;
                                         }
                                 </style>
                                    </head>
-                                           
+                                        
                     3. external -> with he help of link tag.
                                     <link rel="style sheet" src="css file name"
 
- 
+
                                     css syntax--> selector{
                                         css_property_name: value
                                     }
@@ -137,7 +137,8 @@ pseudo classes -->
                8. :read-write
                9. :enable
                10. optional
-________________________________________________________________________
+_____________________________________________________________________
+
 
 attribute selector -->
       syntax [attibutes]
@@ -163,11 +164,28 @@ ________________________________________________________________________________
          1. :first-child
          2. :last-child 
          3. : first-of-type
+         4. : last of type
 
+ex. company requirement 
+company = exyz.
+ 
+ 1. table look n feel is 3of particular type
+ 2. list odere list lis is n feel of particular type
 
+ --> look n feel -> style -> custom css
+ <ol>
+ <li></li>
+ <li></li>
+ <li></li>
+ </ol>
 
 
  
+
+
+
+
+
 
 
 
