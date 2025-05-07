@@ -180,7 +180,20 @@ company = exyz.
  </ol>
 
 
+ background => green 
+ font size => 16px
  
+ now 10 front end developer engineer work in the newton school then 
+
+ now 10 new feature in pipeline 
+ 10 new design by the designer
+ now we use base feature of css 
+  <ol>
+  <li></li>
+  <li></li>
+  </ol>
+  if we want to give css on all odered list to then u have use base feature of css and u want to give css on individual css ont the ant tah or element then we use .class property.
+
 
 
 
