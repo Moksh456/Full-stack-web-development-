@@ -165,7 +165,7 @@ ________________________________________________________________________________
          2. :last-child 
          3. : first-of-type
          4. : last of type
-         5. :nth-child()
+         5. :nth-child() --> it take number and also take value like "even/odd", also it take formulla
 
 ex. company requirement 
 company = exyz.
