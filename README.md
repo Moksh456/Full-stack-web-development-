@@ -15,5 +15,6 @@ full stack devellopment is divide into a 2 parts :-
                                                                    3. js   -  java script. js is used to join it with the server. and make it more attractive and flexible
                                                       
                                                                   
-                                                2. back end => 
+                                                2. back end =>  
+                                                
                                                   

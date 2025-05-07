@@ -1,29 +1,29 @@
 CSS -> cascading style sheet..
-                    html is the the structure and skelton.
-
+                    html is the the structure and skelton. 
+ 
 css   use case --> 1.to style there html tags.
-                   2. to provide to change / alter layout
+                   2. to provide to change / alter layout 
 
 implemenation of css in html?
                  there are 3 ways to apply css in html--?
 
                     1. inline element >with the help of style attribute.
-
+ 
                                     eg. <h1 style= background color: red; ></h1>
                     2. internal --> in the internal method style attribute convert into style tag and it lie in the head tga.
 
                                 <head >
-                                <style>
+                                <style> 
                                         h1{
                                             background color : red;
                                         }
                                 </style>
                                    </head>
-                                        
+                                           
                     3. external -> with he help of link tag.
                                     <link rel="style sheet" src="css file name"
 
-
+ 
                                     css syntax--> selector{
                                         css_property_name: value
                                     }
@@ -142,16 +142,32 @@ ________________________________________________________________________
 attribute selector -->
       syntax [attibutes]
 
+      variants :
+        1. selector[attribute_name]
+        2. selector [attribute_name=attribute]
+
+        3. selector [attribute_name^=attribute] --> used when something start with
+        4. selector [attribute_name$=attribute] --> used when something end with
+
+        5. selector[attribute_name*= attribute] --> used when substring
+
+        6. selector[attribute_name~= attribute] --> used to search the exact value or space sepreted value.
+
+        7. selector[attribute_name |= attribute] --> used when to search yhe exact value and separated value.
+
+________________________________________________________________________________
+ 
+    pseudo classes  : 
+                (can be applied to any html element)
+        
+         1. :first-child
+         2. :last-child 
+         3. : first-of-type
 
 
 
 
  
-
-
-
-
-
 
 
 
