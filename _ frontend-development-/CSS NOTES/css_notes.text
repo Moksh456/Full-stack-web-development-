@@ -10,7 +10,7 @@ implemenation of css in html?
                  there are 3 ways to apply css in html--?
  
                     1. inline element >with the help of style attribute.
-   
+
                                     eg. <h1 style= background color: red; ></h1>
                     2. internal --> in the internal method style attribute convert into style tag and it lie in the head tga.
 
