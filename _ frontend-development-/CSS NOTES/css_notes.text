@@ -24,7 +24,7 @@ implemenation of css in html?
                                         
                     3. external -> with he help of link tag.
                                     <link rel="style sheet" src="css file name"
-
+                                    
 
                                     css syntax--> selector{
                                         css_property_name: value
