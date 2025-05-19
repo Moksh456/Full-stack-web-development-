@@ -8,7 +8,7 @@ html (hyper.text.markup.Language)
 
 main detail for using tags:--->    
                                  html tags are opening and closeing also  => for ex.  <tagname>  </tagname>
-attributes:------>
+attributes:------> 
                   attributes are give more info about the tag.
                   for ex=> anchor tag :- <a href="flipcatr.com"> clic here to redirect at flip cart.com</a> 
 
