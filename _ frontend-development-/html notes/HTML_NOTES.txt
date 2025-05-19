@@ -16,7 +16,7 @@ self closing tag ==>  self closing tag is not require to close. these tag     is
                         for ex=> <hr> , <br> , <meta> etc.
 
 
-tere are two type in html---->
+tere are two type in html----> 
 
                     1.  block tag-->
                                   block tag means which tag is start from new line or next line is called block tag.
