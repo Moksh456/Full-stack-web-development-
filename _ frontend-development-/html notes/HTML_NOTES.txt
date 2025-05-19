@@ -6,7 +6,7 @@ Some Important tips for web development---->
 html (hyper.text.markup.Language)
   this is called skleton and structure of web development. our brouswer only understand three things HTML, CSS, JAVA SCRIPT.
 
-main detail for using tags:--->   
+main detail for using tags:--->    
                                  html tags are opening and closeing also  => for ex.  <tagname>  </tagname>
 attributes:------>
                   attributes are give more info about the tag.
