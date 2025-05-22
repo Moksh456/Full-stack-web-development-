@@ -190,7 +190,9 @@ ________________________________________________________________________________
 
 
 company = xyz
-  let us assume u are the first developer of the newton. and u make the font portal of newton school and new school hire 100 developer after a ur page and now on the newton portal modified by the 100 developer.
+  let us assume u are the first developer of the newton. and u make the font portal of newton school and new school hire 100 developer after a ur page and now  the newton portal modified by the 100 developer. 
+ when the 100 developer work on the portal then u can not able to say that to individual developer for to use the any class in your code which is give the expencive look to the newton portal. for this kind of behaviour we use the pseudo classes like :first child , :first-of-type, last of type, etc.
+
   
  
 
