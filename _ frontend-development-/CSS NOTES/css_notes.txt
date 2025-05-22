@@ -1,8 +1,8 @@
 CSS -> cascading style sheet..
-                    html is the the structure and skelton.
-
+                    html is the the structure and skelton. 
+ 
 css   use case --> 1.to style there html tags.
-                   2. to provide to change / alter layout
+                   2. to provide to change / alter layout 
 
 implemenation of css in html?
                  there are 3 ways to apply css in html--?
@@ -13,17 +13,17 @@ implemenation of css in html?
                     2. internal --> in the internal method style attribute convert into style tag and it lie in the head tga.
 
                                 <head >
-                                <style>
+                                <style> 
                                         h1{
                                             background color : red;
                                         }
                                 </style>
                                    </head>
-                                        
+                                           
                     3. external -> with he help of link tag.
                                     <link rel="style sheet" src="css file name"
 
-
+ 
                                     css syntax--> selector{
                                         css_property_name: value
                                     }
@@ -137,8 +137,7 @@ pseudo classes -->
                8. :read-write
                9. :enable
                10. optional
-_____________________________________________________________________
-
+________________________________________________________________________
 
 attribute selector -->
       syntax [attibutes]
@@ -164,6 +163,7 @@ ________________________________________________________________________________
          1. :first-child
          2. :last-child 
          3. : first-of-type
+<<<<<<< HEAD:_ frontend-development-/CSS NOTES/css_notes.text
          4. : last of type
          5. :nth-child() --> it take number and also take value like "even/odd", also it take formulla
          --> formula is = An+b
@@ -191,37 +191,13 @@ ________________________________________________________________________________
 
 
 company = exyz.
+=======
+
+
+
+
+>>>>>>> 0fdf9214266ee8177906115733a8ce444e663018:_ frontend-development-/CSS NOTES/css_notes.txt
  
- 1. table look n feel is 3of particular type
- 2. list odere list lis is n feel of particular type
-
- --> look n feel -> style -> custom css
- <ol>
- <li></li>
- <li></li>
- <li></li>
- </ol>
-
-
- background => green 
- font size => 16px
- 
- now 10 front end developer engineer work in the newton school then 
-
- now 10 new feature in pipeline 
- 10 new design by the designer
- now we use base feature of css 
-  <ol>
-  <li></li>
-  <li></li>
-  </ol>
-  if we want to give css on all odered list to then u have use base feature of css and u want to give css on individual css ont the ant tah or element then we use .class property.
-
-
-
-
-
-
 
 
 

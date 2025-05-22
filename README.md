@@ -2,8 +2,8 @@
 we make all notes of my full stack development day by day with source code
 
 full stack devellopment is divide into a 2 parts :-
-
-
+ 
+ 
                                                 1. fornt end => 
                                                             
                                                                 frontend means which can we see in the broswer those whole thing called forntend
