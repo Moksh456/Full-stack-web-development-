@@ -171,9 +171,25 @@ ________________________________________________________________________________
             a -> step size
             n -> number is start from 0,1,2,3,........
             b -> off sets
+            remember -> n is start from the 0 but the ui is strt counting from 1
+        6. :nth-last-child -->  it take number and also take value like "even/odd", also it take formulla
+         --> formula is = An+b
+          here An+b is 
+            a -> step size
+            n -> number is start from 0,1,2,3,........
+            b -> off sets
+        7. :nth-last-of-type.
+        combination of OF-TYPE means it looki for the meantion child irespective of position inside parent only thing matter here is it own order
+        8. :nth-first-of-type.
 
 
-ex. company requirement 
+
+
+
+
+
+
+
 company = exyz.
  
  1. table look n feel is 3of particular type

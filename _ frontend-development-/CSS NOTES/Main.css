@@ -86,11 +86,14 @@ div:hover{
  }
  div p:nth-child(even){
     background-color: red;
- }*/
- 
- div p:nth-child(2n+0){
-    background-color: red;
  }
+ 
+ div p:nth-child(2n+0 ){
+    background-color: red;
+ }*/
+
+
+
 
 
 
