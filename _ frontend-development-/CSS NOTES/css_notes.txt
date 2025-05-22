@@ -1,0 +1,175 @@
+CSS -> cascading style sheet..
+                    html is the the structure and skelton. 
+ 
+css   use case --> 1.to style there html tags.
+                   2. to provide to change / alter layout 
+
+implemenation of css in html?
+                 there are 3 ways to apply css in html--?
+
+                    1. inline element >with the help of style attribute.
+ 
+                                    eg. <h1 style= background color: red; ></h1>
+                    2. internal --> in the internal method style attribute convert into style tag and it lie in the head tga.
+
+                                <head >
+                                <style> 
+                                        h1{
+                                            background color : red;
+                                        }
+                                </style>
+                                   </head>
+                                           
+                    3. external -> with he help of link tag.
+                                    <link rel="style sheet" src="css file name"
+
+ 
+                                    css syntax--> selector{
+                                        css_property_name: value
+                                    }
+
+
+css want to know which one tag which you want to apply css.
+
+            In the css  we have three ways to apply css in html file.
+
+        que1.     the quetion is in the three ways which is the way html file     select for apply. means which have more priority then other ways ?
+
+        ans-> the ans is the inline tag is get more priority and second is internal way and third priority is give to external. 
+
+        ________________________________________________________________________
+    
+during html lecture:-
+ we used to talk on 2 attibutes 
+  id(), class
+
+  these both attribute is used to in css file 
+  id() tag is used to edit a individiual html code id tag is used with the help of # hash. 
+    class attribute is used to edit a all tag. class attribute is used with the help of . dot.
+    
+    selectors in css :-
+            1. element selector :
+                 p{}
+                 div{}
+
+            2. id selector :
+                #id_name{}
+
+            3.  Class selector :
+                .Class_Name{} 
+
+            4. class selector with element :
+                            <element?":> gfvzn
+                        _Name> <class_name> 
+                        eg. p.bgcolor -> applying css only those which are having class bgcolor.
+            5. global selector  :
+                    Symbol - *
+
+    combinator selector :-
+     combination of more than one selector.
+
+ 
+                    1.  dedcendent selector
+                        <Selector> <space> <selector2>..... {
+
+                        }
+                       -> all selector (all children/grand children) under selector1(parent ) should be seleted.
+                       space is compulsry in decendent selector.
+             2. child selector --> 
+                                syntax: 
+                                        <selector1 > < > > <selector2>........
+
+             3. sibling selector (~)   :
+                                    this selector is used to apply css on external html tag.
+                             eg.-->       <selector> <~> <selector1>  .........
+                                    {    
+                                    } 
+             4. adjecnt selector(+):
+                        this selector is used to apply css on the nearest html tag.
+                         eg.    <selector> <+> <selector1>      
+
+________________________________________________________________________
+
+pseudo elements :
+ 
+            usecase:
+               -->  to style html tags before/after.
+               -->  to style first letter / first sentence
+
+                 syntax:
+                     <selector>:: <pseudo_element>
+                     
+  
+
+            1. first letter --> it element is used to color the first letter of any paragraph.
+            2. first line
+            3. marker
+            4. before
+            5. after
+            6. selection
+________________________________________________________________________
+
+pseudo classes -->
+          syntax: 
+                        <selector>: <name_of_pseudo_class>
+
+--> it used to define state of html elements. eg.hover, link, focus, click.......
+    example:.
+                anchor tag <a> 
+                anchor tag has its own multiple tags
+        1. link
+        2. visited
+        3. hover
+        4. active
+
+  --> order of applying pseudo classes is Important.    
+  ________________________________________________________________________
+
+  form :
+          pseudo class -->
+               1. :required 
+               2. :hover
+               3. :valid  
+               4. :invalid
+               5. :disable
+               6. :cheacked
+               7. :readonly
+               8. :read-write
+               9. :enable
+               10. optional
+________________________________________________________________________
+
+attribute selector -->
+      syntax [attibutes]
+
+      variants :
+        1. selector[attribute_name]
+        2. selector [attribute_name=attribute]
+
+        3. selector [attribute_name^=attribute] --> used when something start with
+        4. selector [attribute_name$=attribute] --> used when something end with
+
+        5. selector[attribute_name*= attribute] --> used when substring
+
+        6. selector[attribute_name~= attribute] --> used to search the exact value or space sepreted value.
+
+        7. selector[attribute_name |= attribute] --> used when to search yhe exact value and separated value.
+
+________________________________________________________________________________
+ 
+    pseudo classes  : 
+                (can be applied to any html element)
+        
+         1. :first-child
+         2. :last-child 
+         3. : first-of-type
+
+
+
+
+ 
+
+
+
+
+
