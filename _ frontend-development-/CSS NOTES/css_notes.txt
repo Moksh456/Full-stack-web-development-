@@ -212,7 +212,23 @@ colors :
 
 color : red -
 
- how may ways in which we can represent red color.         
+ how may ways in which we can represent red color ?
+  1. rgb ->
+   (red, green, blue)       
+    rgb(red, Green, blue)
+    range -> 0 - 255
+
+
+  2. rgba -> 
+  extension of rgb only
+    a -> alpha
+    rgb(red, Green, blue, Alpha)
+    alpha -> opacity 
+     value of range -> 0 - 1
+
+     the alpha is used to give transpency to 
+  3. 
+
  
 
 
