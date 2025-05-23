@@ -226,8 +226,15 @@ color : red -
     alpha -> opacity 
      value of range -> 0 - 1
 
-     the alpha is used to give transpency to 
-  3. 
+     the alpha is used to give transpency to rgb.
+
+
+  3. hex code ->
+   color -> #rrggbb;
+
+   range -> 0,1,2,3,4,5,6,7,8,9,a,b,c,d,e,f
+
+   this work like -> #0066ff
 
  
 
