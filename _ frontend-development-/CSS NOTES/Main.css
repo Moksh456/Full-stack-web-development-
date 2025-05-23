@@ -92,6 +92,10 @@ div:hover{
     background-color: red;
  }
 
+ .jak p:first-of-type{
+        background-color: rgb(45, 65, 85);
+ }
+
 
 
 
