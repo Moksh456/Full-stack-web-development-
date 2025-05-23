@@ -178,22 +178,41 @@ ________________________________________________________________________________
             n -> number is start from 0,1,2,3,........
             b -> off sets
         7. :nth-last-of-type.
-        combination of OF-TYPE means it looki for the meantion child irespective of position inside parent only thing matter here is it own order
+        combination of OF-TYPE means it look like for the meantion child irespective of position inside parent only thing matter here is it own order
         8. :nth-first-of-type.
-
-
-
-
-
-
-
 
 
 company = xyz
   let us assume u are the first developer of the newton. and u make the font portal of newton school and new school hire 100 developer after a ur page and now  the newton portal modified by the 100 developer. 
  when the 100 developer work on the portal then u can not able to say that to individual developer for to use the any class in your code which is give the expencive look to the newton portal. for this kind of behaviour we use the pseudo classes like :first child , :first-of-type, last of type, etc.
 
-  
+_____________________________________________________________________
+
+specificity : 
+  each elements have its own specificity 
+   element : 
+   inline css - 1000
+   id (100) [specificity value] 
+   class, pseudo class, attribute selector - 10
+   elements pseudo elements - 1
+
+   eg. 
+   #dummy div.random:focus{}
+   calculate specificity - 100+1+10+10 = 121
+_____________________________________________________________________
+code is run from top to bottom there is priority.
+inline css > internal or external depends on where it is written
+
+colors : 
+         1. rgb 
+         2. rgba
+         3. HEX code
+         4. HSL
+         5. Hsla
+
+color : red -
+
+ how may ways in which we can represent red color.         
  
 
 
