@@ -234,7 +234,28 @@ color : red -
 
    range -> 0,1,2,3,4,5,6,7,8,9,a,b,c,d,e,f
 
-   this work like -> #0066ff
+   this work like -> #00ff00
+
+   shortcut / short hand:
+    color rgb -> #rgb
+    color -> #0f0
+  4. HSL ->
+     h -> hue
+     s -> saturation
+     l -> light
+
+     hue -> represent color -> rgb
+      range value -> 0 - 360
+
+      0, 360 -> red
+      120    -> green
+      240    -> blue
+      
+      saturation -> degree of greyness.
+      percentage -> 0 - 100%
+
+      light -> degree of white/black
+      percentage -> 0 - 100%
 
  
 
