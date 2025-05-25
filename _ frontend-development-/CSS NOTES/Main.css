@@ -87,9 +87,13 @@ div:hover{
  
  
 
- .jak{
+/* .jak{
         background-color: hsl(65, 30, 50);
+ }*/
+ div p{
+    background-color: rgb(50, 60, 56);
  }
+ 
 
 
 

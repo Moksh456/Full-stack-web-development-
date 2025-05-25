@@ -257,7 +257,16 @@ color : red -
       light -> degree of white/black
       percentage -> 0 - 100%
 
- 
+ 5. hsla :- 
+    hsla 
+
+    a -> alpha 
+    opacity
+
+_____________________________________________________________________
+
+background image :->
+      
 
 
 
