@@ -266,7 +266,12 @@ color : red -
 _____________________________________________________________________
 
 background image :->
-      
+
+  feature ->
+  1. background repeat:
+  2. background-size:
+    
+
 
 
 
