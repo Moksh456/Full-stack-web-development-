@@ -97,18 +97,9 @@ div:hover{
     background-image: url("bg.jpg");
     background-repeat: no-repeat;
     background-size: 50%;
-    background-position: right;
+    background-attachment: fixed;
+
  }
  div p{
-    background-color: white;
+    
  }
- 
-
-
-
-
-
-
-
-
-

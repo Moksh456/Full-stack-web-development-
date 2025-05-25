@@ -268,11 +268,12 @@ _____________________________________________________________________
 background image :->
 
   feature ->
-  1. background repeat:
-  2. background-size:
-    
+  1. background repeat: repeat/not repeat
+  
+  2. background-size: cover/contain / auto(Default), single value->
+     it take width as a input and height assume as a "auto"
 
-
+  3. background-position: right/left/right bottom/ bottom/ top left/ 
 
 
 
