@@ -277,7 +277,17 @@ background image :->
 
   4. background-attachments: fixed / scroll etc. 
   
+_____________________________________________________________________
 
+box model : 
+ it says every thing is in box in html
+
+ box -> content + padding + border + margin
+
+ content -> actual content
+ padding -> distance between contents and border 
+ border -> actual border
+ margin -> distance between two element
 
 
 
