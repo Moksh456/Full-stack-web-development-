@@ -100,4 +100,11 @@ div:hover{
     border-radius: 50px;
     border-bottom-left-radius: 555px;
  }
+ .two{
+    background-color: blue;
+    padding: 50px;
+    border-color: red;
+    border-radius: 50px;
+    border-bottom-left-radius: 555px;
+ }
  

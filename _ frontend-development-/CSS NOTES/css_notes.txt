@@ -290,6 +290,12 @@ box model :
  margin -> distance between two element
 
  margin colapse ?
+it happen only in vertical scenario.  
+which ever value is greatest that will be taken 
+
+margin-bottom: 50px
+
+margin-top: 30px
 
 
 
