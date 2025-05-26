@@ -323,8 +323,8 @@ BOX SIZING :
  _____________________________________________________________________
 
 css units :> 
-     1. px
-     2. rem
+     1. px  - pixel - fixed  (not recommended /  last resort)
+     2. rem -  
      3. em
      4. %
      5. vw
