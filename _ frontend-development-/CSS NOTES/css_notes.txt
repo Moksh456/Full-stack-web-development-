@@ -306,5 +306,15 @@ CALCULATION :
  TWO DIV'S WITH -ID ONE N TWO
 
  DIV # ONE 
- HOW MUCH IS TGE WIDTH
+ HOW MUCH IS THE WIDTH ?
 
+
+
+
+WIDTH = content + padding left+ padding RIGHT + border left + border RIGHT   
+
+BOX SIZING : 
+ HELPS/ALTER TO CALC WIDTH/HEIGHT OF HTML ELEMENTS.
+
+ 1. CONTENT-BOX(Default)
+ 2. border-box
