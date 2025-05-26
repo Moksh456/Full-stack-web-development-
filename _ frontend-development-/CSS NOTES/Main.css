@@ -93,11 +93,11 @@ div:hover{
  /*div p{
     background-color: rgb(50, 60, 56);
  }*/
- body {
-    background-image: url("bg.jpg");
-    background-repeat: no-repeat;
-    background-size: 50%;
-    background-attachment: fixed;
-
+ .one{
+    background-color: blue;
+    padding: 50px;
+    border-color: red;
+    border-radius: 50px;
+    border-bottom-left-radius: 555px;
  }
  
