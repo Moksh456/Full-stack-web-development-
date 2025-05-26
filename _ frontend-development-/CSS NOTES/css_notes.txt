@@ -312,9 +312,22 @@ CALCULATION :
 
 
 WIDTH = content + padding left+ padding RIGHT + border left + border RIGHT   
+_____________________________________________________________________
 
 BOX SIZING : 
  HELPS/ALTER TO CALC WIDTH/HEIGHT OF HTML ELEMENTS.
 
  1. CONTENT-BOX(Default)
  2. border-box
+
+ _____________________________________________________________________
+
+css units :> 
+     1. px
+     2. rem
+     3. em
+     4. %
+     5. vw
+     6. vh
+     7. ch 
+
