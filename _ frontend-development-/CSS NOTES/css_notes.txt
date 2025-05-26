@@ -294,8 +294,17 @@ it happen only in vertical scenario.
 which ever value is greatest that will be taken 
 
 margin-bottom: 50px
-
 margin-top: 30px
 
+note : 
+ inline elements -> margin top, margin bottom does not work
 
+_____________________________________________________________________
+
+
+CALCULATION : 
+ TWO DIV'S WITH -ID ONE N TWO
+
+ DIV # ONE 
+ HOW MUCH IS TGE WIDTH
 
