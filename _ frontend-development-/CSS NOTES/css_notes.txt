@@ -324,8 +324,8 @@ BOX SIZING :
 
 css units :> 
      1. px  - pixel - fixed  (not recommended /  last resort)
-     2. rem -  
-     3. em
+     2. rem -  size calculation w.r.t parent element
+     3. em  -  size calculation w.r.t root element
      4. %
      5. vw
      6. vh
