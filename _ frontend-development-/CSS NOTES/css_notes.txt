@@ -331,5 +331,12 @@ css units :>
      6. vh
      7. ch 
 
-     
+2. rem :->
+     broswer default/standrad font size is :  16px 
+    
+    1 rem is equal to = 16px
+    1.2 rem = 1.2 * 16px ->  
+    1.5 rem = 1.5 * 16px -> 24px
+     rem is better then px beacuse it change the font size on the basis of broswer font size to will add rem in the default font size of broswer
+    
 
