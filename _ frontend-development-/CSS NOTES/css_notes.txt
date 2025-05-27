@@ -330,8 +330,7 @@ css units :>
      5. vw
      6. vh
      7. ch 
-
-2. rem :->
+     
      broswer default/standrad font size is :  16px 
     
     1 rem is equal to = 16px
