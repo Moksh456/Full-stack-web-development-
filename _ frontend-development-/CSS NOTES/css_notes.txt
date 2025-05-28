@@ -356,8 +356,15 @@ Text/Typography ->
   1. text-align : center
   2. text-transform : capitalize, upper case, lowercase
   3. White-space: nowrap;
-     overflow: hidden;
-     text-overflow: ellipsis;
-  4.  
+  4. overflow: hidden;
+  5.  text-overflow: ellipsis;
+
+  _____________________________________________________________________
+  fonts -> 
+
+     1. font-family 
+     2. font-size
+     3. font-weight
+      
     
 
