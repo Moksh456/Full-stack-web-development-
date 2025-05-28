@@ -107,7 +107,15 @@ div:hover{
     border-radius: 50px;
     border-bottom-left-radius: 555px;
  }*/
-  .g{
+ /* .g{
     background-color: rgba(2, 5, 5, 0.5);
+    width : 6ch
+  }*/
+  div{
+    width: 60%;
+    background-color: aquamarine;
+  }
+  p{
+    width: 50%
   }
  

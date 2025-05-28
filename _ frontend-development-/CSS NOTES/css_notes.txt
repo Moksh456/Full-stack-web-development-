@@ -326,10 +326,10 @@ css units :>
      1. px  - pixel - fixed  (not recommended /  last resort)
      2. em -  size calculation w.r.t parent element
      3. rem  -  size calculation w.r.t root element (html tag if not implemented it will take from browser default -16px) eg. font size, margin, padding
-     4. %
-     5. vw
-     6. vh
-     7. ch 
+     4. %   - it is used for width/height of html element.
+     5. vw  - vw(view width ) -> 1vw -> one view portion of viewport width. 
+     6. vh  - vh(view height ) 
+     7. ch - it is mostly used for characters eg. after 50 characters it will be return in next line
 
      broswer default/standrad font size is :  16px 
     
