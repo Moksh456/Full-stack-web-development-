@@ -350,6 +350,11 @@ em ->
 
         p -> font size: 1.5em (1.5 *  2rem) -> (1.5 * 2 *  16px) -> 48px
   
+_____________________________________________________________________
 
+Text/Typography ->
+  1. text-align : center
+  2. text-transform : capitalize, upper case, lowercase
+  3.
     
 
