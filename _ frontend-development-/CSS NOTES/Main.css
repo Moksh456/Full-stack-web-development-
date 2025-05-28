@@ -107,8 +107,7 @@ div:hover{
     border-radius: 50px;
     border-bottom-left-radius: 555px;
  }*/
- #ls{
-    background-color: blue;
- }
- 
+  .g{
+    background-color: rgba(2, 5, 5, 0.5);
+  }
  
