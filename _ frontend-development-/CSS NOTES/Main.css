@@ -111,11 +111,19 @@ div:hover{
     background-color: rgba(2, 5, 5, 0.5);
     width : 6ch
   }*/
-  div{
+ /* div{
     width: 60%;
     background-color: aquamarine;
   }
   p{
     width: 50%
-  }
+  }*/
+
+  div p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background-color: aquamarine;
+}
+  
  

@@ -355,6 +355,9 @@ _____________________________________________________________________
 Text/Typography ->
   1. text-align : center
   2. text-transform : capitalize, upper case, lowercase
-  3.
+  3. White-space: nowrap;
+     overflow: hidden;
+     text-overflow: ellipsis;
+  4.  
     
 
