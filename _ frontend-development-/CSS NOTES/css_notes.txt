@@ -1,4 +1,4 @@
-CSS -> cascading style sheet.. 
+ CSS -> cascading style sheet.. 
                     html is the the structure and skelton.  
  
 css   use case --> 1.to style there html tags.
