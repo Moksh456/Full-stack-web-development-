@@ -388,6 +388,39 @@ css usage w.r.t Layout ->
 
 _____________________________________________________________________
 
+position : 
+ 1. Static (default value )
+ 2. relative - left, top, bottom,right,  left,
+ 3. absolute 
+ 4. fixed 
+ 5. sticky
 
+ Position:
+ 1. relatives -> 
+     after applying it ,,, used offset -> left, top, bottom,right,  left,
+ 2. absolute ->
+ offset values are relative to nearest positioned parent 
+        observation -> 
+           1. it gives up the space allocated to the html element
+           2. it appears to be Floating over html element 
 
+ 3. fixed -> 
+    offset value are relatives to viewport.
+   observation -> 
+           1. almost same as absolute but it's Sticks!(fixed) around during scroll.
+           
+ 4. Sticky -> (COMBINATION OF RELATIVE+fixed)
+     observation -> 
+           1.   Initially it appears same as position: relative
+           2.   Whenever threshold (offset value) is crossed it starts behaving as position fixed.\
+      ques-
+      what is diff between position fixed b position absolute?
+      --> in one it will not scroll, and in one it will 
+      --> in fixed offset value are relative to viewport 
+          in absolute offset value are relatives to nearest positioned parent .
+         
+_____________________________________________________________________
 
+Floating :
+          when we say positioned elements (absolute, sticky, fixed ) we say these elements are Floating on the top of out html element 
+      
