@@ -359,12 +359,35 @@ Text/Typography ->
   4. overflow: hidden;
   5.  text-overflow: ellipsis;
 
-  _____________________________________________________________________
   fonts -> 
 
-     1. font-family 
+     1. font-family -> A, B, C, D, E  Where A, B, C, D, E -> fonts -> fallback -> if a is not available in the os, go for b if b is not available in the os,go for c 
      2. font-size
-     3. font-weight
+     3. font-weight - to make the text bold, bolder it accepts value like -100,500, 95 
       
     
+_____________________________________________________________________
+css usage w.r.t Layout ->
+ display online : 
+   1. block
+   2. inline
+   3. inline block (new) - mix of inline n block properties 
+ 
+ inline :
+  1. start on same line 
+  2. only occupy space which is required for it's content 
+
+ Block :  
+  1. Start form next line 
+  2. Its occies all available all the available width 
+
+ Inline block: 
+    Its occies all available all the available width AND Start from Next line (Initially)
+    if width is given then its take only that much Space (Just like Inline Element )
+    and also it start on the same line (Just like inline Element )
+
+_____________________________________________________________________
+
+
+
 
