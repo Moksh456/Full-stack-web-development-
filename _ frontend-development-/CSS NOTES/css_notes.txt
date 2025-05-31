@@ -442,5 +442,10 @@ _____________________________________________________________________
             
 FlexBox :->
       layout system
+      one dimensional Layout System
+
+    FlexBox : 
+        1. Flex container
+        2. Flex items
  
       
