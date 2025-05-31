@@ -436,7 +436,7 @@ Floating :
              z-index is work when Element is positioned(any value other then static)
 
           Float : 
-              Float is a old css property.
+              Float is a old css property. it's is not use in modren page but it is ask by the interviewer
 
 _____________________________________________________________________
             
