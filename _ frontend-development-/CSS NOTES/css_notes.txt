@@ -430,5 +430,10 @@ Floating :
           css properties that help to context ? 
           z - index  
 
+          Element with higher x-index win!
+
+          Note :
+             z-index is work when Element is positioned(any value other then static)
+
  
       
