@@ -1,9 +1,9 @@
-CSS -> cascading style sheet..
-                    html is the the structure and skelton. 
+ CSS -> cascading style sheet.. 
+                    html is the the structure and skelton.   
  
 css   use case --> 1.to style there html tags.
                    2. to provide to change / alter layout 
-
+  
 implemenation of css in html?
                  there are 3 ways to apply css in html--?
 
@@ -33,7 +33,7 @@ css want to know which one tag which you want to apply css.
 
             In the css  we have three ways to apply css in html file.
 
-        que1.     the quetion is in the three ways which is the way html file     select for apply. means which have more priority then other ways ?
+        que1.     the quetion is in the three ways which is the way html file     select for apply. means which have more priority then other ways ? 
 
         ans-> the ans is the inline tag is get more priority and second is internal way and third priority is give to external. 
 
