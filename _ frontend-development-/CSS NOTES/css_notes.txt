@@ -435,5 +435,11 @@ Floating :
           Note :
              z-index is work when Element is positioned(any value other then static)
 
+          Float : 
+              Float is a old css property.
+
+_____________________________________________________________________
+            
+
  
       
