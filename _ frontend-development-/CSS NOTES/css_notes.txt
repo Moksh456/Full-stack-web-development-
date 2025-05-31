@@ -444,8 +444,23 @@ FlexBox :->
       layout system
       one dimensional Layout System
 
-    FlexBox : 
-        1. Flex container
+     FlexBox : 
+
+        1. Flex container:
+            any parent element having property display: flex
+
         2. Flex items
+           direct children of Flex container
+
+ FlexBox : 
+       1.   rows
+       2.   columns
+
+       by default flex box itms in a row . 
+       all flex start behaving different that is block element do not behaving like block.
+
+       Axis: 
+           1. Main-Axis
+           2. cross-axis
  
       
