@@ -127,16 +127,14 @@ div:hover{
 
 }*/
 
-.gk{
-    background-color: red;
-}
-.Blue{
-    background-color: blue;
-
-}
-.Green{
-    background-color: green;
-}
+ div{
+        display: flex;
+    flex-direction: column;
+    height: 47vh;
+    justify-content: center;
+    border: 4px dotted;
+    align-items: center;
+ }
 
   
  
