@@ -495,7 +495,18 @@ property applicable on flex container :
              justify-content: center;
 
             And i want to place my flex items in the center vertically?
-            align-items: center;                 
+            align-items: center;      
 
+            And i want to place my flex item in the end vertically ?
+              align-items: flex-end;     
+_____________________________________________________________________     
+
+flex-direction: columns (MAin Axis)
+     
+     aND I want to place my flex items in the center horizontally ?
+     align-item: center;
+
+     And i want to place my flex items in the center vertically?
+     justify-content: center;
  
       
