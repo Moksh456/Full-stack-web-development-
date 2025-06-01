@@ -390,7 +390,7 @@ _____________________________________________________________________
 
 position : 
  1. Static (default value )
- 2. relative - left, top, bottom,right,  left,
+ 2. relative - left, top, bottom,right,  left, 
  3. absolute 
  4. fixed 
  5. sticky
@@ -457,10 +457,45 @@ FlexBox :->
        2.   columns
 
        by default flex box itms in a row . 
+
+       above statement is not exactly true,
+      exactly true is,  by default flex box items on a  MAin-axis. 
+
+      By default main axis is row (x axis)
+      and cross-axis is columns(y axis)
+ 
        all flex start behaving different that is block element do not behaving like block.
 
        Axis: 
            1. Main-Axis
            2. cross-axis
+        both the axis are governed by a property called flex direction 
+
+MAin-Axis/cross-Axis:
+       1. starting point - starting point of my main axis
+
+       2. ending point  -  Starting point of my end axis
+
+property applicable on flex container :
+
+                        1. Flex direction
+
+                        
+                        2. justify content 
+                        it works on main axis (y axis)
+                        - flex start, space-between, space-around, center, space-evenly etc. 
+
+                        3. align-items -
+                         it work on cross axis (x axis)
+                         - center, flex-end, flex-start 
+                          
+    scenario :
+            FLEX-direction: ROW;
+            aND I want to place my flex items in the center horizontally ?
+             justify-content: center;
+
+            And i want to place my flex items in the center vertically?
+            align-items: center;                 
+
  
       
