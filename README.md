@@ -3,9 +3,10 @@ we make all notes of my full stack development day by day with source code
 
 full stack devellopment is divide into a 2 parts :-
  
+
  
- 1. fornt end => 
-                                                            
+ 1. fornt end =>
+                                             
                 frontend means which can we see in the broswer those whole thing called forntend
                 fornt end is made for three languege.
                                1. html - hyper text markup languege.
