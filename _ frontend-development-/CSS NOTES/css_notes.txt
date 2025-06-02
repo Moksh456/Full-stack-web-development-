@@ -440,7 +440,7 @@ Floating :
 
 _____________________________________________________________________
             
-FlexBox :->
+ FlexBox :->
       layout system
       one dimensional Layout System
 
@@ -526,26 +526,4 @@ property applicable on flex container :
 
 
 
-                                                         
-    scenario :
-            FLEX-direction: ROW;
-            aND I want to place my flex items in the center horizontally ?
-             justify-content: center;
-
-            And i want to place my flex items in the center vertically?
-            align-items: center;       OL\
-            GR5F4V%
-
-            And i want to place my flex item in the end vertically ?
-              align-items: flex-end;     
-_____________________________________________________________________     
-
-flex-direction: columns (MAin Axis)
-     
-     aND I want to place my flex items in the center horizontally ?
-     align-item: center;
-
-     And i want to place my flex items in the center vertically?
-     justify-content: center;
- 
-      
+    
