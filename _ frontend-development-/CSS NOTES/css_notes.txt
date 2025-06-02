@@ -506,7 +506,21 @@ property applicable on flex container :
 
    
 
-   
+      FLEX-item =>
+
+      1. order -> 
+     
+      2. flex-grow -> default:0
+       flex-grow: 0 -> even if any space is left in the flex container 
+      
+      
+      3. flex-shrink -> (default 1)
+      flex-shrink: 1 -> 
+           
+      4. flex-basis ->
+      5. flex(shorthand property) flex-grow, flex-shrink, flex-basis
+
+      6. align-self
            
                                                       
     scenario :
