@@ -455,8 +455,8 @@ FlexBox :->
  FlexBox : 
        1.   rows
        2.   columns
-
-       by default flex box itms in a row . 
+9..
+       by default fv lex box itms in a row . 
 
        above statement is not exactly true,
       exactly true is,  by default flex box items on a  MAin-axis. 
@@ -478,24 +478,63 @@ MAin-Axis/cross-Axis:
 
 property applicable on flex container :
 
-                        1. Flex direction
+       1. Flex direction
 
                         
-                        2. justify content 
-                        it works on main axis (y axis)
-                        - flex start, space-between, space-around, center, space-evenly etc. 
+       2. justify content 
+          it works on main axis (y axis)
+          - flex start, space-between, space-around, center, space-evenly etc.             
 
-                        3. align-items -
-                         it work on cross axis (x axis)
-                         - center, flex-end, flex-start 
-                          
+       3. align-items -
+           it work on cross axis (x axis)
+            - center, flex-end, flex-start 
+
+       4. flex-wrap -
+           flex-wrap: default(no wrap)
+            wrap
+          
+
+       5. flex-flow - 
+          (  shorthand property)   flex-direction , flex-wrap
+
+       6. gap -
+          gap: 0.4rem;
+
+       7. align-content - 
+          (mostly used when there is a property applied called 
+           Flex-wrap: wrap) it is used  determine spacing between line
+
+  FLEX-item =>
+
+      1. order -> 
+     
+      2. flex-grow -> default:0
+       flex-grow: 0 -> even if any space is left in the flex container 
+      
+      
+      3. flex-shrink -> (default 1)
+      flex-shrink: 1 -> 
+           
+      4. flex-basis ->
+      5. flex(shorthand property) flex-grow, flex-shrink, flex-basis
+
+      6. align-self
+
+   
+           
+      
+
+
+
+                                                         
     scenario :
             FLEX-direction: ROW;
             aND I want to place my flex items in the center horizontally ?
              justify-content: center;
 
             And i want to place my flex items in the center vertically?
-            align-items: center;      
+            align-items: center;       OL\
+            GR5F4V%
 
             And i want to place my flex item in the end vertically ?
               align-items: flex-end;     
