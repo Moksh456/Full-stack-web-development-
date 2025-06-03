@@ -36,5 +36,7 @@ button{
   border-radius: 25px;
   width: 28%;
   height: 39px;
+  background-color: rgba(5, 153, 199, 0.5);
+    cursor: pointer;
 
 }
