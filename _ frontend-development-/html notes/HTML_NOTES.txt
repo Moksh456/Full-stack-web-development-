@@ -256,11 +256,3 @@ input tag is self closing tag.
                     attribute of iframe tag :-
                                         1. width
                                         2. height
-
-
-
-
-
-
-
-
