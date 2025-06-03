@@ -538,10 +538,12 @@ _____________________________________________________________________
 
 flex-direction: columns (MAin Axis)
      
-     aND I want to place my flex items in the center horizontally ?
+     And I want to place my flex items in the center horizontally ?
      align-item: center;
 
      And i want to place my flex items in the center vertically?
      justify-content: center;
+_____________________________________________________________________
+
      
     
