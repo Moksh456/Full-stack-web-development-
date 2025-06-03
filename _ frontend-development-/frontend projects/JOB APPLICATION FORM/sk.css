@@ -29,9 +29,8 @@ border-radius: 30px;
 input{
   margin: 10px;
 }
+
 button{
-  
-  
   margin-left: 62%;
   margin-top: 3px;
   border-radius: 25px;
@@ -39,5 +38,4 @@ button{
   height: 39px;
   background-color: rgba(5, 153, 199, 0.5);
     cursor: pointer;
-
 }
