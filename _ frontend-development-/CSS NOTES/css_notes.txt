@@ -544,7 +544,74 @@ flex-direction: columns (MAin Axis)
      And i want to place my flex items in the center vertically?
      justify-content: center;
 _____________________________________________________________________
+rwd(Responsive web design)
+ 1. <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
+    
+media Query :
+   based on media/device change certain css.
 
-     
-     
+   syntax :
+       @media(max-width: 600px)   {
+          //css code goes here 
+ }
+
+ condition:
+  1. max-width-> value or less than max value
+_____________________________________________________________________
+
+mobile first development :
+
+    1. code your html, css for moblie user first
+    2. the apply media queries (if required to scale it for desktop user. )
+    3. Media query condition changes max-width to min width. 
+ 
+ Media Query - orientation :
+  @media (orientation : landscape) {
+   applicable only when width of viewport > height of viewport
+}
+
+_____________________________________________________________________
+
+Grid Layout :
+      
+      2 dimension layout system
+
+      role:
+        1. container
+        2. item
+
+who is a container? 
+display: grid;
+
+who is item?
+ only those elements who are direct children of container
+    
+terms:
+  columns
+  rows 
+
+ unit used:
+  fr(Fractional)
+
+dotted lines these items (grid-items) -> Grid line
+I want 3 coloum and 2 row.
+
+Container properties:
+      1. display: grid
+      2. grid-template-columns
+      3. grid-template-rows
+      4. gap(shorthand)
+      5 row-gap
+      6. column-
+      8. grid-template-columns: repeat(8 , 1fr)
+      9. justify-items:
+      10. align-items:
+      11. place-items
+      12. grid-area
+
+I want first item to span 2 column, grid-column-start and grid-column-end,
+I want first item to span 2 row, grid-row-start and grid-row-end.
+ short hand properties 
+      grid-row: <grid-row-start> /<grid-coloum-end>
+
     

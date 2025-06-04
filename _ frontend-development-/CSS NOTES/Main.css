@@ -145,5 +145,13 @@ div:hover{
     background-color: green;
  }
 
+
+
+ @media(max-width: 600px)   {
+      /*apply some css
+      max-width: 600px; -> apply below css to these screen whose which width is 600px or less */
+      
+ }
+
   
  
