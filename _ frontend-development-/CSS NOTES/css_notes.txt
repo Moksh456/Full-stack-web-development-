@@ -724,5 +724,43 @@ css variables :
 
 
     font awsome :
-       font awsome is a library which is used for APPLY ICONS LIKE LINKED IN TWITTER ANY TYPE ICON WILL USE WITH THEHRLP OF FONT awsome
-       
+       font awsome is a library which is used for APPLY ICONS LIKE LINKED IN TWITTER ANY TYPE ICON WILL USE WITH THEHRLP OF FONT awsome.
+
+_____________________________________________________________________
+
+
+bootstrap  :
+ helps in :
+  1. layout
+  2. Styling
+  3. give some ui widgets out of the box
+
+  1. layout :
+      <div class="container"></div>
+
+      or
+
+      <div class="container-fluid></div>
+
+  what is the difference between these 2?
+
+  in container -> width of div element is fixed(1200px, 720px,540px) and it gets changed according to  media queries i.e there are multiple media queries written in bootstrap code (source code)
+
+  in fluid -> width if div element is 100% (basically not fixed not line px). and width gets changed dynamically based on viewport size
+
+--------------------------------------------------------------------------------
+
+i want to create 3 column under 1row.
+    <div> -> flex container 
+      <div> -> flex-item
+      </div>
+    </div>
+Grid system :
+ it says there can be 12 column in a row i.e 1 row can be divided into 12 parts
+
+<div class="row"> -> flex container (display flex)
+      <div class="col"> -> flex-item
+      </div>
+      <div class="col">
+      </div>
+    </div>
