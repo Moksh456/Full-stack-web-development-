@@ -764,3 +764,18 @@ Grid system :
       <div class="col">
       </div>
     </div>
+
+--------------
+i want to create 3 column under 1 row such that div 1  should occupy 6 column out of 12 div2 occupy 3 columns out of 12 div3 3 cols./12s
+
+_____________________________________________________________________
+On mobile device :
+i want div 1 to occupy 6 column div 2 to occupy 3 col and div 3 to occupy 3 column.
+
+On tablets : 
+i want div 1 to occupy 4 column and div 3 to occupy 4 column.
+
+breakpoints(  eng letters ) but these are numbers 574,720, 122px)
+          - xs sn md lg xl xxl 
+            sn -> div1 -6, div2 -3, div3 -3
+            md -> div1 -4, div2 -4, div3 -4
