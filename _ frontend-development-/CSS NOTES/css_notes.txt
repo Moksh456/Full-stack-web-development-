@@ -613,5 +613,109 @@ I want first item to span 2 column, grid-column-start and grid-column-end,
 I want first item to span 2 row, grid-row-start and grid-row-end.
  short hand properties 
       grid-row: <grid-row-start> /<grid-coloum-end>
+      grid-column: <grid-column-start>/<grid-column-end>
+
+_____________________________________________________________________
+
+
+    Gradients:
+         animation
+         pseudo_element/element
+         css variables
+
+      Animation :
+         when we change any style - in between transition 
+         anything that transition ->
+          0-100
+          0...1.....2......3.....4.....100
+          (transition started)  (transition ended)
+
+      Question -
+       initially div is of color red then when transsition starts make it yellow and when transition is about to end make it green.
+
+       animation-name
+       animation-duration -> tells how long animate should continue (default:0) 
+       it take seconds and milliseconds as input - 2s, 3s,1ms, 10ms
+       @keyframe (identifier) {  
+        from -> stage of transition when animation start 
+        end -> stage of transition when Animation end (about to end )
+        } from and to
+
+  there is another way of writing code inside @keyFrame ->
+   @keyFrame(identifier){
+    0% {}
+    .
+    .
+    30%{}
+    .
+    .
+    50%{}
+    .
+    .
+    100%
+   }
+
+
+   Question -:
+    i want to start my animate after some time?
+    animation-Delay
+
+    Quetion: 
+    I want to start my animation is reverse ?
+    animation-direction
+
+_____________________________________________________________________
+
+
+    Gradients :
+     
+       1. linear-Gradients
+           syntax :  linear-Gradients(direction)
+               if direction is not give it is taken as a "to bottom"
+
+            eg -  background-image:linear-gradient(red , Green); color transition from red to green in top to bottom fashion.
+      using angles :
+       0dge -> to top
+       90deg -> to right
+       180deg -> to bottom
+
+       2. radial-gradient 
+       3. conic-gradient
+
+_____________________________________________________________________
+
+Shadow :
+    Box-Shadow : <right portion> <bottom portion> <blurness> <degree_of_spread>  <color></color>;
+
+    right_portion -> positive value -> right side of html element 
+                  -> negative value -> left side of html element
+    bottom_portion ->  positive value -> bottom side of html element 
+                  -> negative value -> negative side of html element
+
+_____________________________________________________________________
+ 
+ ::pseudo-selector;
+ p:empty
+
+ input:in-range
+ input: out-range
+
+:lang()
+
+:root
+
+ _____________________________________________________________________
+
+css variables :
+ :root{
+  --variable-name: "value;
+ }
+ .class_name{
+  background-color: var(--variable_name);
+ }
+ 
+ _____________________________________________________________________
+
 
     
+       
