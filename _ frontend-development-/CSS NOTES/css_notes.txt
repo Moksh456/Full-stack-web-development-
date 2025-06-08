@@ -775,7 +775,7 @@ i want div 1 to occupy 6 column div 2 to occupy 3 col and div 3 to occupy 3 colu
 On tablets : 
 i want div 1 to occupy 4 column and div 3 to occupy 4 column.
 
-breakpoints(  eng letters ) but these are numbers 574,720, 122px)
+breakpoints(  eng letters ) but these are numbers 574,720, 122px.
           - xs sm md lg xl xxl 
             sm -> div1 -6, div2 -3, div3 -3
             md -> div1 -4, div2 -4, div3 -4
