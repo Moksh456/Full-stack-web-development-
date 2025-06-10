@@ -55,3 +55,24 @@ PRIMITIVE DATA TYPE ->
 
   UNDEFINED -> if we have not assigned any value to variable any value to the variable by the default value is given as undefined and also type of that variable result in "undefined" 
   i.e   VALUE OF DATATYPE BOTH APPEAR TO BE THE SAME.
+
+________________________________________________________________________________
+
+NOT PRIMITIVE DATATYPE :
+        1. OBJECT =>
+          IS A ENTITY HAVING STATE N BEHAVIOR 
+
+          VAR OBJECT = {
+            KEY: "VALUE"
+            KEY: "VALUE"
+          }
+
+          VAR PERSON = {
+            NAME: "SHARED";
+            NAME: 28;
+            IS_IIT: FALSE;
+            EDUCATION:{
+                HIESEC: "PASS";
+                B.TECH: "PASS";
+            }
+          }
