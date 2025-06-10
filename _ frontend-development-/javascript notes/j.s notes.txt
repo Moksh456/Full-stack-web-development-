@@ -51,5 +51,7 @@ PRIMITIVE DATA TYPE ->
   6. UNDEFINED 
   7. SYMBOL
 
-  
+  null => is a value that can be ASSIGNed  TYPE OF NULL IS NOT EQUAL TO "NULL" ROTATE IT IS AN "OBJECT" -> IT WAS A BUG THAT GOT INTRODUCED IN J.S INTRODUCED IN JS IN 1990ss
 
+  UNDEFINED -> if we have not assigned any value to variable any value to the variable by the default value is given as undefined and also type of that variable result in "undefined" 
+  i.e   VALUE OF DATATYPE BOTH APPEAR TO BE THE SAME.
