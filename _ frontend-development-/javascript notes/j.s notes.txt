@@ -42,5 +42,14 @@ VARIABLE NAME CAN START WITH $,_,AND ALPHABETS AND OTHER NUMBER ARE ALSO ALLOWED
 
 ________________________________________________________________________________
 
+PRIMITIVE DATA TYPE ->
+  1. STRING
+  2. NUMBER
+  3. BOOLEAN
+  4. BIGINT
+  5. NULL
+  6. UNDEFINED 
+  7. SYMBOL
 
+  
 
