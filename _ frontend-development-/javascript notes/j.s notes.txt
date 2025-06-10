@@ -1,0 +1,46 @@
+LIVE SERVER : 
+        HTTP://127.0.01/  =  HTTP://LOCAL HOST
+
+        LOCAL HOST -> 127.0.0.1
+
+        HTTP://127.0.0.1/INDEX.HTML
+
+        PROTOCOL://IP_ADDRESS:PORT/INDEX.HTML
+
+________________________________________________________________________________
+
+JAVASCRIPT :
+    
+    JAVASCRIPT FEATURES ->
+     1. SINGLE THREADED
+     2. PROTOTYPE BASED
+     3. DYNAMIC
+     4. INTERPRETED 
+     
+    MULTIPARADIGM =>
+
+     1. EVENT DRIVEN -> J.S REACT TO EVENT (MOSTLY USER ACTION LIKE SUBMIT BUTTON)
+     2. FUNCTIONAL -> PURE FUNCTION/FUNCTION TREATED AS FIRST CLASS.
+     3. OBJECT ORIENTED PROGRAMMING LANGUAGE 
+     4. IMPERATIVE
+     5. DECLARATION
+
+________________________________________________________________________________
+
+JS.VARIABLE => 
+     1. DECLARE A VARIABLE
+     2. ASSIGN/DEFINE A VARIABLE
+     3. USED THAT VARIABLE
+     
+     1. VAR <VARIABLE_NAME>  {JAVASCRIPT WAS ABLE TO DETECT THE VALUE BY IT NATURE OF THE VALUE THAT'S WHY JAVASCRIPT IS DYNAMIC LANGUAGE}
+     2. <VARIABLE NAME> = VALUE;
+     3. <VARIABLE NAME>
+
+________________________________________________________________________________
+
+VARIABLE NAME CAN START WITH $,_,AND ALPHABETS AND OTHER NUMBER ARE ALSO ALLOWED ALSO THE ARE.
+
+________________________________________________________________________________
+
+
+
