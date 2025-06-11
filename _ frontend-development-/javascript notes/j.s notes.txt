@@ -113,8 +113,24 @@ Arrays =>
   using new keyword
     var arr = new array ();
     var arr = new array (1,2,3,); -> for declare value in Arrays
-    
+    var arr = new array (10); -> declare the length of array.
 
+for (var a = 0; a>arr; a++){
+  console.log()
+}
+
+
+________________________________________________________________________________
+
+FUNCTION => 
+      syntax -> 
+       function fun_name(){
+        function reusable code of and set of insertion to ne executed
+       }
+
+       eg. function sum(a,b){
+        return a+b
+       }
 
 
 

@@ -8,6 +8,8 @@
     //}
 //}
 
-var person = new Object();
-person.name = "sharad"
-person.age ="25"
+//var person = new Object();
+//person.name = "sharad"
+//person.age ="25"
+
+
