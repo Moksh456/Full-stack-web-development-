@@ -1,9 +1,13 @@
- var PERSON = {
+ //var PERSON = {
     
-    name: "John",
-    age: 30,
-    education: {
-        school: "ABC High School",
-        degree: "High School Diploma",
-    }
-}
+   // name: "John",
+    //age: 30,
+    //education: {
+      //  school: "ABC High School",
+        //degree: "High School Diploma",
+    //}
+//}
+
+var person = new Object();
+person.name = "sharad"
+person.age ="25"
