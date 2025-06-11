@@ -9,7 +9,7 @@ LIVE SERVER :
 
 ________________________________________________________________________________
 
-j.s is very flexible because it will automatic detect which datatype is prefect for the value.
+j.s is very flexible because it will automatic detect which datatype is prefect for the
 
 JAVASCRIPT :
     

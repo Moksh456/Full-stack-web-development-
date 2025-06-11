@@ -20,8 +20,12 @@ person[1] = 28
 
 var person = new Array(12,14,25,65,87,85,45,78,98,65,45,23);*/
 
-function sum(a, b) {
+/*function sum(a, b) {
   return a + b;
   console.log(a+b);
 }
+
+sum(10, 20);*/
+
+
 
