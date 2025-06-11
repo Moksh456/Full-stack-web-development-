@@ -27,5 +27,9 @@ var person = new Array(12,14,25,65,87,85,45,78,98,65,45,23);*/
 
 sum(10, 20);*/
 
-
+function userclick(){
+  alert("button is clicked");
+ 
+ 
+}
 
