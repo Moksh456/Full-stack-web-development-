@@ -242,7 +242,8 @@ element = h1
 
 element.innertext = h1 value
 
-for select id in js file 
+for select id in js file  -> docment.queryselector(#id name);
+
 
 
 
