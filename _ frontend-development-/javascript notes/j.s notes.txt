@@ -218,7 +218,22 @@ comparison operators ->
  20 == 20     = true
  20 == "20"   = true
  20 === 20    = true
- 20 =
+ 20 === "20"  = false
+
+ == only check the value
+ === check the value and also check the value both.
+
+________________________________________________________________________________
+
+short overview of (DOM):- 
+                          DOM(Document, object, Model)
+
+  browser = lets represent html Document in the form of object.
+
+  j.s -> DOM ->
+
+  js file    -> Dom -> html
+  
 
 
 
