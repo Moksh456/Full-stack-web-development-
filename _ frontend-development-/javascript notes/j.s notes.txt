@@ -233,10 +233,16 @@ short overview of (DOM):-
   j.s -> DOM ->
 
   js file    -> Dom -> html
-  
 
+Document.queryselector("h1");
 
+var element = document.queryselector("h1");
 
+element = h1
+
+element.innertext = h1 value
+
+for select id in js file 
 
 
 
