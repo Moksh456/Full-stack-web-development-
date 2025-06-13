@@ -31,4 +31,10 @@ sum(10, 20);*/
   alert("button is clicked");
 }*/
 
+ function add2num(a,b){
+  var num1 =  document.querySelector("#sum_1");
+ var num2 = document.querySelector("#sum2");
 
+alert("num1");
+
+ }
