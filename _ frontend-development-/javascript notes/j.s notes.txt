@@ -186,6 +186,39 @@ arithmetic =
         10 + null   = 10
         10 + undefined = NAN
 
+number + string  -> 
+  choice1 = convert both into a to number 
+
+  choice2 = convert both in String.
+
+  but one rule remains some -> 
+  i.e both type should should be same.
+
+  they gone with option2 -> ie 10 + "20" internally convert to =
+   => "10" + "20" -> finally 2string concat (+) -> "1020"
+
+________________________________________________________________________________
+
+number + true 
+
+  number + boolean ->
+  but one rule remain same -> i.e bothtype should be same 
+
+  number + boolean ->
+   choice 1 = both convert into a boolean = b + B
+   choice 2 = both convert into a number = n+N
+
+   "a" + "b" = NAN
+
+________________________________________________________________________________
+
+comparison operators -> 
+ <,>,<=,>=,==,===
+
+ 20 == 20     = true
+ 20 == "20"   = true
+ 20 === 20    = true
+ 20 =
 
 
 
