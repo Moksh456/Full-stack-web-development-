@@ -33,8 +33,9 @@ sum(10, 20);*/
 
  function add2num(a,b){
   var num1 =  document.querySelector("#sum_1");
- var num2 = document.querySelector("#sum2");
+ var num2 = document.querySelector("#sum");
 
-alert("num1");
+ var result = parseInt(num1.value) + parseInt(num2.value);
+ document.querySelector(#result).innerHTML = result;
 
  }
