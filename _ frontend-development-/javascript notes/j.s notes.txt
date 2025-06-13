@@ -136,8 +136,34 @@ FUNCTION =>
        }
 
 
+________________________________________________________________________________
 
+function sum (a,b){
+  var sum = a+b;
 
+  return function dummy (){
+    console.log("I am a dummy");
+  }
+}
 
+arrays are internally store as a object in j.S
 
+________________________________________________________________________________
 
+type of a function (){}
+      => function
+
+functin sumof(a,b){
+  var sum a+b;
+
+  var dummy = function sharad(){
+    console.log("i am a dummy");
+  }
+
+  return dummy;
+}
+var result = sumof(50,30);
+console.log(result());
+
+J.S operators :- /,+,*,-
+ operands ->   2(operands)  +(operator)  3(operands)
