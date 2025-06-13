@@ -165,5 +165,33 @@ functin sumof(a,b){
 var result = sumof(50,30);
 console.log(result());
 
+________________________________________________________________________________
 J.S operators :- /,+,*,-
  operands ->   2(operands)  +(operator)  3(operands)
+
+
+operands -> op1 operator op2 (binary operator)
+
+op1 operator -> eg a++ (unary operator)
+
+________________________________________________________________________________
+arithmetic = 
+      +,-,*,/,%,++,-- .......etc.
+
+        10 + "20"   = 1020
+        "10" + "20" = 1020
+        10 + true   = 11
+        10 + false  = 10
+        10 + " "    = 10
+        10 + null   = 10
+        10 + undefined = NAN
+
+
+
+
+
+
+
+
+
+
