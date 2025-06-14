@@ -261,12 +261,37 @@ scope ->
 
   global Scope ->
   if any variable is defined globally them it is accessible to every function.
+________________________________________________________________________________
+
+function ->
+syntax 1 :
+function DECLARATION
+funciton <function name>(){
+
+} 
+
+syntax 2 -> 
+function expression
 
 
+2.1 -> named function
+var <variable_name> = function<function_name>(){
+.......
+}
+
+2.2 ->
+anonymous function
+
+var <variable_name> = function(){
+......
+......
+........
+Runtime error
+.....
+......
+........
+}
 
 
-
-
-
-
+ 
 
