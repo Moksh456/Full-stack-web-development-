@@ -29,13 +29,16 @@ sum(10, 20);*/
 
 /*function userclick(){
   alert("button is clicked");
-}*/
+}*/ 
 
- function add2num(a,b){
-  var num1 =  document.querySelector("#sum_1");
- var num2 = document.querySelector("#sum");
+ // sum_1 sum   my    result
 
- var result = parseInt(num1.value) + parseInt(num2.value);
- document.querySelector(#result).innerHTML = result;
+ function add2number(){
+  var num1 = document.querySelector("#sum_1");
+  var num2 = document.querySelector("#sum");
+  var sum = parseInt(num1.value) + parseInt(num2.value);
+  var result = document.querySelector("#result");
+  result.value = sum;
+
 
  }
