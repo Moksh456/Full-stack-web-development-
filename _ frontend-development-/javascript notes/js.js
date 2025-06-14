@@ -35,10 +35,10 @@ sum(10, 20);*/
 
   function my(){
   var sum = 2+3;
-  return sum
-  console.log(sum);
+    console.log(sum);
+  return sum;
+ 
   }
 
-
-
+my();
  
