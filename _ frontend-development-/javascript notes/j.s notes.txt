@@ -244,6 +244,26 @@ element.innertext = h1 value
 
 for select id in js file  -> docment.queryselector(#id name);
 
+________________________________________________________________________________
+
+
+
+
+
+
+________________________________________________________________________________
+
+scope ->
+ local vs global
+
+  local scope->
+  if any variable is defined inside function then that varuable can only be accessed inside that function 
+
+  global Scope ->
+  if any variable is defined globally them it is accessible to every function.
+
+
+
 
 
 
