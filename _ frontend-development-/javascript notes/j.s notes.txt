@@ -293,5 +293,24 @@ Runtime error
 }
 
 
- 
+ syntax 3->
+Ife (immediately invoked function expression)
+
+
+ function my(){
+  var sum = 2+3;
+  return sum
+ }
+ my();
+
+requiraments->
+ -> i want to be function be execute immediately but also it should execute only once 
+
+
+syntax: 
+{
+  function (){
+    ......
+  }
+}
 
