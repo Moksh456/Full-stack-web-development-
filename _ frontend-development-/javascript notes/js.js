@@ -33,12 +33,11 @@ sum(10, 20);*/
 
  // sum_1 sum   my    result
 
-  function my(){
+/*  function my(){
   var sum = 2+3;
     console.log(sum);
   return sum;
  
   }
 
-my();
- 
+my();*/
