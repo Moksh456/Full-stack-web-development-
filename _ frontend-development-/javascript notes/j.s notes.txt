@@ -246,11 +246,58 @@ for select id in js file  -> docment.queryselector(#id name);
 
 ________________________________________________________________________________
 
+logical operators =>
+      (and)&&, ||(or), !(not)
+
+      A && B  
+        if a -> false will B Be evaluted 
+        ans: no
+
+        if a is true then B is evalated true (yes) 
+      var a =  true && "sha" 
+      ans: sha
+
+      var a =   true && true
+      ans: true
+      
+      var a = false && true
+       ans: false
+  if left operands is truen then return right operands.
+
+  here left operand neet to be type of boolean and if it is not then implicity javascript will convert is to boolean () constructor.
+
+||(or) =>
+      is left operands is true then return left return
+
+!(not)=>
+ it is used for not.
+
+________________________________________________________________________________
+
+Assigment operators = 
+
+=, +=, -=, *=, /=, %/ **=
+
+________________________________________________________________________________
+
+bitwise operator => 
+  not imp for web dev but very imp for dsa.
+
+  var a = 3 +  2 *  5  = 13
+  var a = (3+2) * 5    = 25
+________________________________________________________________________________
+
+  precedence & associativity:
+  each operators in an lang have it own associativity there are 2 type left associative && right associative.
+
+  operators ->
+    (=) -> either flow will be from left to right or from right to left.
 
 
+________________________________________________________________________________
 
-
-
+var a = 3 + 2 * 3;
+first check operators who have highest precedence then executive them according to their associativity then again repeat return 1
 ________________________________________________________________________________
 
 scope ->
