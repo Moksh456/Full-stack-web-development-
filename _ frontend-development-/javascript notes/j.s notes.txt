@@ -375,6 +375,8 @@ that means only 1 statement can execute at a time.
 Execution context :
 Whenever js script is INTERPRETED, execution is created context is created for each function invocation.
 
+by default there is global execution context created Whenever our code is executed. 
+
 Execution context is made of 2 phases :
   1. memory 
   2. execution
@@ -394,5 +396,13 @@ Execution context is made of 2 phases :
   here, sum and name needs to be allocated memory.
 
   once memory is allocated js will assign value to these.
+
+  for variable default value is undefined.
+
+  for function default value is -> whole funciton body is copy/pasted.
+
+  2. execution phases: 
+
+
 ________________________________________________________________________________
 
