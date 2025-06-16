@@ -374,13 +374,5 @@ that means only 1 statement can execute at a time.
 
 Execution context :
 Whenever js script is INTERPRETED, execution is created context is created for each function invocation.
-
 ________________________________________________________________________________
-
-
-
-
-
-
-
 
