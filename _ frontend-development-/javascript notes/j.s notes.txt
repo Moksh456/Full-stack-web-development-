@@ -374,5 +374,25 @@ that means only 1 statement can execute at a time.
 
 Execution context :
 Whenever js script is INTERPRETED, execution is created context is created for each function invocation.
+
+Execution context is made of 2 phases :
+  1. memory 
+  2. execution
+
+  1. Memory creation :
+  Memory is allocated to each object and function (internally function are also object ) 
+
+  eg:
+  function sum(){
+    var result = 10 + 20;
+    console.log(result);
+    return result;
+  }
+
+  var name = "sharad";
+
+  here, sum and name needs to be allocated memory.
+
+  once memory is allocated js will assign value to these.
 ________________________________________________________________________________
 
