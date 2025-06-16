@@ -402,7 +402,7 @@ Execution context is made of 2 phases :
   for function default value is -> whole funciton body is copy/pasted.
 
   2. execution phases: 
-
+  
 
 ________________________________________________________________________________
 
