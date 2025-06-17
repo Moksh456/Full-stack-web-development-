@@ -406,3 +406,11 @@ Execution context is made of 2 phases :
 
 ________________________________________________________________________________
 
+by value vs  by reference :
+in js object & arays (basically object only) are reference while peimitive (number, boolean,String etc ) are treated as value
+
+int arr []
+
+________________________________________________________________________________
+hoisting ->
+  
