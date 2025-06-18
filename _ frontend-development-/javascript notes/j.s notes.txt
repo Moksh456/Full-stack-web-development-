@@ -437,3 +437,8 @@ let ->
             any thing defined inside function key word will be visible in that function only.
 
 
+  Block Scoped =>
+            any thing defined inside block i.e opening block { and closing block } it will be visible inside these bracket.
+            it will inside in the opening and closing bracket.
+            
+
