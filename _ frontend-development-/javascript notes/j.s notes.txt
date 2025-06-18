@@ -450,4 +450,29 @@ ________________________________________________________________________________
 
 var =>  declare with var hoisted it can be accessed before declaration.
 
-let,const => variable with var are not hoisted but in reality js work the same (i.e execution context memory allocation please happen for these variables also that mean memory is allocated to these variable also that mean memory is allocated to these variable to but they still can not be accessed due to temporary zone  )
+let,const => variable with var are not hoisted but in reality js work the same 
+(i.e execution context memory allocation please happen for these variables also 
+that mean memory is allocated to these variable also that mean memory is 
+allocated to these variable to but they still can not be accessed due to temporary zone  )
+
+________________________________________________________________________________
+ loops =>
+      1. while loop 
+      2. do while
+      3. for
+      4. switch case 
+      5. if else 
+      6. else.if....if..else
+      7. break continue
+
+________________________________________________________________________________
+
+parse Int /  Parse Float =>
+                    parse int ("saved25 ) -> NAN
+
+                    i.e only when digit are present in the being it is able to extract.
+
+    parse Float ->
+              same rules as parsing change to float.
+
+________________________________________________________________________________
