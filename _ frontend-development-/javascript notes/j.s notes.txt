@@ -413,4 +413,27 @@ int arr []
 
 ________________________________________________________________________________
 hoisting ->
+  ability to access variable and function even before   declaration internally there is no magic this is how js execution context work and  due to which this kind of phenomena.
+
+________________________________________________________________________________
+
+ES6 variable construct : (es6 ~ es2015  ~ feature intruduced in 2015 in javascript)
+{  let,   const  }
+
+
+both keyword are used for declaration.
+
+let -> 
+    1.   var title = "moksh"
+
+       v/S
+    2.   let title = "moksh"
+
+  both are different with respect to scope 
   
+  var is function scoped and let let is block.
+
+  function scope: 
+            any thing defined inside function key word will be visible in that function only.
+
+
