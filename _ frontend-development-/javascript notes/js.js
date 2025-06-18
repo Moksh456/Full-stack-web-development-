@@ -42,9 +42,12 @@ sum(10, 20);*/
 
 my();*/
 
-function sum(){
+/*function sum(){
   var result = 10+20;
   console.log(result);
   return result;
 }
-var a = "sharad";
+var a = "sharad";*/
+
+ console.log();
+ 
