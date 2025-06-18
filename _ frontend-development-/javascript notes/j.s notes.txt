@@ -470,7 +470,7 @@ ________________________________________________________________________________
 parse Int /  Parse Float =>
                     parse int ("saved25 ) -> NAN
 
-                    i.e only when digit are present in the being it is able to extract.
+                    i.e only when digit are present in the being it is able to extract. 
 
     parse Float ->
               same rules as parsing change to float.
