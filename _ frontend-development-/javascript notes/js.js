@@ -48,6 +48,4 @@ my();*/
   return result;
 }
 var a = "sharad";*/
-
- console.log();
  
