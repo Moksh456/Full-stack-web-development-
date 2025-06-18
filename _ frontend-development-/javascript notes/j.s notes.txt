@@ -445,4 +445,9 @@ let ->
 
 const -> it BEHAVIOR same as let only diff being it cannot be reassigned.
 
+ 
+________________________________________________________________________________
 
+var =>  declare with var hoisted it can be accessed before declaration.
+
+let,const => variable with var are not hoisted but in reality js work the same (i.e execution context memory allocation please happen for these variables also that mean memory is allocated to these variable also that mean memory is allocated to these variable to but they still can not be accessed due to temporary zone  )
