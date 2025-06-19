@@ -537,9 +537,66 @@ ________________________________________________________________________________
 ________________________________________________________________________________
 
 shorthand: 
-      let title = sharad;
+      let title = "sharad";
 
         let obj ={
-
+          title: title,
 
         }
+
+        or
+
+        let title = "shara";
+
+        let obj ={
+          title
+        }
+
+        or
+
+        let person = {
+          name: sharad,
+          age: 28,
+        }
+
+        
+        let person = {
+          name: sharad,
+          age: 28,
+        }
+
+        
+        let person = {
+          name: sharad,
+          age: 28,
+        }
+j.s is not close base lan
+
+function person (name, age){
+  
+}
+
+let person1 = ("sharad", 28);
+------------
+
+function person (name, age){
+  this.name = name;
+  this.age = age;
+}
+
+let person1 = new person("sharad", 28);
+
+here new -> create new object and assign that newly related object to this variable and it return newly created object.
+
+
+this -> it is act as a place holder variable name for this newly created  object.
+
+new => 
+      created object -> {}
+      point "this" to newly created object.
+
+      this ={};
+
+      return newly created object.
+
+    whenever inside the function we want to fill certain details in the newly created object we can use "this" keyword for that. 
