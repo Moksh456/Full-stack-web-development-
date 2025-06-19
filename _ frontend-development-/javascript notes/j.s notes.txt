@@ -617,3 +617,32 @@ console.log(person1)
 
 this keyword point to some entity on js(generally it will point window object )creating object via function constructor this  point to newly created object.
 
+________________________________________________________________________________
+
+SYMBOL: =>
+            primitive type 
+            used to generate new value 
+
+            Syntax: 
+                    symbol(<name_declare);
+
+even if name description is same then also symbol constructor will return different/ unique symbol VALUE
+________________________________________________________________________________
+
+symbol ("sharad" ) -> return symbol value or symbol (which is always unique)
+
+usecase:
+     primarly sued as a key of object since key always be unique hence creating keys of object with symbol instead of String will help avoid key duplication.
+
+Note:
+    in order to avoid uniqueness we can use symbol for()
+
+--------------------------------------------------------
+eg. 
+    let symbol = symbol.for("title);
+    let symbol2 = symbol.for("title");
+
+    symbol === symbol2 
+    => true
+
+i.e if description is same then symbol value should also be the same.
