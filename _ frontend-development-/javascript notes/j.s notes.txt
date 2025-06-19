@@ -655,3 +655,15 @@ object:
 
   has own property keyword:
       <keyname>.hasOwnProperty<object_name>
+
+________________________________________________________________________________
+
+Methods: 
+      let obj = {
+        title: "sharad"
+        age: 28
+        
+        showtitle : function(){
+          console.log("hey i am a function");
+        }
+      }
