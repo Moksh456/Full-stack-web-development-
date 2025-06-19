@@ -646,3 +646,12 @@ eg.
     => true
 
 i.e if description is same then symbol value should also be the same.
+
+
+object:
+  
+  In keyword:
+      <keyname> in <object_name>
+
+  has own property keyword:
+      <keyname>.hasOwnProperty<object_name>
