@@ -599,4 +599,21 @@ new =>
 
       return newly created object.
 
-    whenever inside the function we want to fill certain details in the newly created object we can use "this" keyword for that. 
+    whenever inside the function we want to fill certain details in the newly 
+    created object we can use "this" keyword for that. 
+
+________________________________________________________________________________
+"this" is nothing it is the empty object
+________________________________________________________________________________
+
+making object using constructor 
+function person(name, age){
+  this.name = name;
+  this.age = age;
+}
+
+let person1 = new person ("sharad", 28);
+console.log(person1)
+
+this keyword point to some entity on js(generally it will point window object )creating object via function constructor this  point to newly created object.
+
