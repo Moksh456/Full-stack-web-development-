@@ -476,4 +476,44 @@ parse Int /  Parse Float =>
               same rules as parsing change to float.
 
 ________________________________________________________________________________
- 
+ object's :->
+            var obj = {
+              key: value
+            }
+
+            or 
+
+            const obj ={
+              KEY: value
+            }
+
+            or
+
+            let obj ={
+              key:value
+            }
+
+            here key can be String or symbol where as value can be anything also key needs to be unique also.
+
+            let obj ={
+              title : "moksh",
+              age : 25,
+              }
+
+
+            how to access => 
+            1. Dot notation 
+            2. bracket notation
+
+            obj["title" ]
+
+
+            let object ={
+              title : "moksh",
+              age : 28;
+              "this is age" : "lol"
+            }
+
+for access this is age we use bracket notation
+
+obj["this is age"]
