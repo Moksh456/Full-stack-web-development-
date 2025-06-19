@@ -518,4 +518,16 @@ for access this is age we use bracket notation
 
 obj["this is age"]
 
+bracket preferd/only option the 
+
+this is space between keyword.
+
+when we want access some value of object with dynamic key'S
+
+--------
+obj delete ['age']
+
+delete ant property of object 
+delete<object_name> [keyword]
+
 
