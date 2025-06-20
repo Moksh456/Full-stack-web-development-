@@ -731,7 +731,7 @@ now,
 
  under document object we will use certaing methods to interact with out html page. 
 
-1. getElementById
+1. getElementById -> input is Id name -> output is html element is found and null if id will not found by the js selector.
 2. getElementByClass
 3. getElementByTAgName
 4. queryselector
@@ -743,5 +743,7 @@ this is similar to css selector where we used to catch hold of particular html e
 
 eg: Id selector(#ID), class selector(.class_name);
 
+
+ 
 
 
