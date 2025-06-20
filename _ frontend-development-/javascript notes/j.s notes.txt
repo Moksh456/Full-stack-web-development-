@@ -717,3 +717,23 @@ loops :
 
       it is trying to itterate over obj object and on each iteration there is a variable called element which is filled with keyname.
 
+________________________________________________________________________________
+
+Dom (document object model):
+interface/bridge between js and html/css 
+
+whole document (ie html page ) represent in the form of js object
+
+object is available globally and named as "document" it is a part of global window object also (window.docment).
+
+now,
+ any js object consists of properties and method.
+
+ under document object we will use certaing methods to interact with out html page. 
+
+1. getElementById
+2. getElementByClass
+3. getElementByTAgName
+4. queryselector
+5. queryselectorAll
+
