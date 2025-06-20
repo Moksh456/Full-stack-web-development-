@@ -659,6 +659,8 @@ object:
 ________________________________________________________________________________
 
 Methods: 
+
+
       let obj = {
         title: "sharad",
         age: 28,
@@ -668,4 +670,25 @@ Methods:
         }
       }
 
+
+
+getters & setters :
+          any method inside object can be termed as a getter or setter via keyword "get" and "set"
+
+while calling getters/setters methods, () should not be used.
+
+let person ={
+  title: "sharad",
+
+  get gettitle(){
+    //can do anything bu generally used to fetch object properties
+    return this.title;
+  }
+
+  set settitle(name){
+    this.title = name;
+  }
+}
+person.settitle = "ankit";
+________________________________________________________________________________
 
