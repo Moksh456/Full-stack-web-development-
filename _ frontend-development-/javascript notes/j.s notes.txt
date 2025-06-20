@@ -732,18 +732,21 @@ now,
  under document object we will use certaing methods to interact with out html page. 
 
 1. getElementById -> input is Id name -> output is html element is found and null if id will not found by the js selector.
-2. getElementByClass
-3. getElementByTAgName
-4. queryselector
-5. queryselectorAll
 
+2. getElementByClass -> input is Class_name -> output is htmlCollectionOf<element>
+
+3. getElementByTAgName -> input is tag_name -> output is -> htmlCollectionOf<element>
+
+
+4. queryselector -> input is css_selector -> output is -> Element or null
+
+not : query selector always return signle element if more than one element matchesm, then element tag comes first will be returned by this method (top to bottom manner)
+
+5. queryselectorAll -> input is css_selector -> output is nodelistof<element> or null
 all the above element of document are for ->
 to get hold of particular html element.
 this is similar to css selector where we used to catch hold of particular html element.
 
 eg: Id selector(#ID), class selector(.class_name);
-
-
- 
 
 
