@@ -737,3 +737,11 @@ now,
 4. queryselector
 5. queryselectorAll
 
+all the above element of document are for ->
+to get hold of particular html element.
+this is similar to css selector where we used to catch hold of particular html element.
+
+eg: Id selector(#ID), class selector(.class_name);
+
+
+
