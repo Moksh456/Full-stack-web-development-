@@ -48,4 +48,17 @@ my();*/
   return result;
 }
 var a = "sharad";*/
- 
+   /*        let obj ={
+              title: "sharad",
+              age: 28,
+              isNew: false
+
+            }
+          
+            const listofallket = Object.keys(obj);
+              const listofallvalue = Object.values(obj);
+              const lisofkeyanevalue = Object.entries(obj);
+            console.log(listofallket);
+            console.log(listofallvalue);
+            console.log(lisofkeyanevalue);*/
+            

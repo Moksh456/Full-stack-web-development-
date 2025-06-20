@@ -698,4 +698,22 @@ loops :
         2. while
 
         3. do.while
-        
+
+
+   1.    
+   (i)  for...in ->
+
+            let obj ={
+              title: "sharad",
+              age: 28;
+              isNew: false
+
+            }
+            for(let element in obj){
+              console.log(element);
+            }
+
+
+
+      it is trying to itterate over obj object and on each iteration there is a variable called element which is filled with keyname.
+
