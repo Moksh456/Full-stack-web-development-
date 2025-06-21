@@ -724,7 +724,7 @@ interface/bridge between js and html/css
 
 whole document (ie html page ) represent in the form of js object
 
-object is available globally and named as "document" it is a part of global window object also (window.docment).
+object is available globally and named as "document" it is a part of global window object also (window.document).
 
 now,
  any js object consists of properties and method.
@@ -733,9 +733,9 @@ now,
 
 1. getElementById -> input is Id name -> output is html element is found and null if id will not found by the js selector.
 
-2. getElementByClass -> input is Class_name -> output is htmlCollectionOf<element>
+2. getElementByClass -> input is Class_name -> output is htmlCollectionOf<element>  (arrays of element but not completely true)
 
-3. getElementByTAgName -> input is tag_name -> output is -> htmlCollectionOf<element>
+3. getElementByTAgName -> input is tag_name -> output is -> htmlCollectionOf<element>   (arrays of element but not completely true)
 
 
 4. queryselector -> input is css_selector -> output is -> Element or null
@@ -743,6 +743,8 @@ now,
 not : query selector always return signle element if more than one element matchesm, then element tag comes first will be returned by this method (top to bottom manner)
 
 5. queryselectorAll -> input is css_selector -> output is nodelistof<element> or null
+
+
 all the above element of document are for ->
 to get hold of particular html element.
 this is similar to css selector where we used to catch hold of particular html element.
