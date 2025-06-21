@@ -634,7 +634,7 @@ symbol ("sharad" ) -> return symbol value or symbol (which is always unique)
 usecase:
      primarly sued as a key of object since key always be unique hence creating keys of object with symbol instead of String will help avoid key duplication.
 
-Note:
+Note:+++++++++++
     in order to avoid uniqueness we can use symbol for()
 
 --------------------------------------------------------
@@ -748,5 +748,9 @@ to get hold of particular html element.
 this is similar to css selector where we used to catch hold of particular html element.
 
 eg: Id selector(#ID), class selector(.class_name);
+
+________________________________________________________________________________
+
+
 
 
