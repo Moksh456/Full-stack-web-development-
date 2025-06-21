@@ -753,3 +753,4 @@ eg: Id selector(#ID), class selector(.class_name);
 
 ________________________________________________________________________________
 
+split is very imp interview que
