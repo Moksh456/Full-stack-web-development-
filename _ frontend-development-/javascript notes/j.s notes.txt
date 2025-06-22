@@ -756,4 +756,15 @@ ________________________________________________________________________________
 split is very imp interview que
 ________________________________________________________________________________
 
-how to add htm
+how to add and create html element via js add to html page?
+
+document.createElement("div");
+ 
+ const element = document.createElement("div");
+ element.innertext = "h1 Created via js";
+
+
+ how to attach to html page?
+
+ document.body.appendChild(element);
+
