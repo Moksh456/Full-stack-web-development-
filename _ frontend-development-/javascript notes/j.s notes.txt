@@ -706,7 +706,7 @@ loops :
             let obj ={
               title: "sharad",
               age: 28;
-              isNew: false
+              isNew: false 
 
             }
             for(let element in obj){
