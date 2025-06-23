@@ -773,3 +773,11 @@ ________________________________________________________________________________
 script tag ->
  
         defer vs async
+
+defer suits in situations -> where js file is intereacting with DOM
+async suits in situations -> where js file is intereacting with with Dom
+
+initially
+In Defer there is a guarantee of order of execution whereas in async there is
+no guarantee
+
