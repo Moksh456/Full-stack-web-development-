@@ -1,5 +1,5 @@
  //var PERSON = {
-    
+     
    // name: "John",
     //age: 30,
     //education: {
