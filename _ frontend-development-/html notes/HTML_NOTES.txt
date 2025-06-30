@@ -1,4 +1,4 @@
- In this reposatry we use many tags of html which are used in our 
+In this reposatry we use many tags of html which are used in our 
 daily routine. and all tags are explain individually.
 html = hyper text markup languege
 
