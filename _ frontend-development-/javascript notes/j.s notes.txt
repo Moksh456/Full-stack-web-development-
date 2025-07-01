@@ -790,4 +790,28 @@ if value "" given  then it will treated as a "" value
 
 ________________________________________________________________________________
 
+function beautifuname(name, prefix = "lord", decorate){
+    if(decorate){
+        return decorate(name)
+    }
+    return `${prefix } $ {name}`
+}
+
+const v1 = beautifuname("sharad");
+const  v2 =  beautifuname("sharad", "newton -")
+
+const decorfunc = function(name){
+    return  ` $ {name} name is going to enjoy week`
+}
+
+const v3 = beautifuname("sharad", "" , decorfunc);
+
+here line no. 807 we are passing function and we are allowed to do so in javascript since functions are treated as first class citizens in js i.e function should be treated as a normal value/variable like boolean object array number etc. that mean function can be passed as input to any other function also it can be returned i.e can be returned i.e function can return function 
+
+console.log(v1)// lord sharad
+console.log(v2) // newton - sharand
+console.log(v3) // sharad
+
+
+
 
