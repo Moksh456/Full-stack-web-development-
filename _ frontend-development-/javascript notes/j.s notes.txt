@@ -26,7 +26,7 @@ JAVASCRIPT :
      3. OBJECT ORIENTED PROGRAMMING LANGUAGE 
      4. IMPERATIVE
      5. DECLARATION
-
+ 
 ________________________________________________________________________________
 
 JS.VARIABLE => 
@@ -806,7 +806,10 @@ const decorfunc = function(name){
 
 const v3 = beautifuname("sharad", "" , decorfunc);
 
-here line no. 807 we are passing function and we are allowed to do so in javascript since functions are treated as first class citizens in js i.e function should be treated as a normal value/variable like boolean object array number etc. that mean function can be passed as input to any other function also it can be returned i.e can be returned i.e function can return function 
+here line no. 807 we are passing function and we are allowed to do so in javascript since functions are treated as first class citizens in js i.e function should be treated as a normal value/variable like boolean object array number etc. that mean function can be passed as input to any other function also it can be returned i.e can be returned i.e function can return function here decorfunc can be called as "cal back function"
+why? because decorfunc is not called directly rather it is being called by other function
+
+Note: in above usecase, actual power of callback funcation is not visible it is primarly used for async
 
 console.log(v1)// lord sharad
 console.log(v2) // newton - sharand
