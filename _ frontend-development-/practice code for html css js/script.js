@@ -1,7 +1,10 @@
 const frutis = [ "banana", "apple", "orange", "kiwi", "mango" ];
+a1[3] = "Mango";
+console.log(a1[3]);
 
 const a1 = [7, " banana", true, "M", "orang"];
 
-console.log(a1.toString());
+  
 
-console.log(typeof a1[3]);
+a1[3] = "Mango";
+ 
