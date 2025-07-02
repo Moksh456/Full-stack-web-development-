@@ -4,7 +4,7 @@ const frutis = [ "banana", "apple", "orange", "kiwi", "mango" ];
 const a1 = [7, " banana", true, "M", "orang"];
 //a1[3] = "Mango";
 
-
+let num = [1,2,3,4,5,6,7,8,9];
 
 //console.log(a1.length); // Get the length of the array
 /*console.log(a1.pop());
