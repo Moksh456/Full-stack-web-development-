@@ -3,7 +3,7 @@ const frutis = [ "banana", "apple", "orange", "kiwi", "mango" ];
 //console.log(a1[3]);
 const a1 = [7, " banana", true, "M", "orang"];
 //a1[3] = "Mango";
-
+let num = [1,2,3,4,5,6,7,8,9]
 /*let num = [1,2,3,4,5,6,7,8,9];
 
 //console.log(a1.length); // Get the length of the array
@@ -16,7 +16,7 @@ console.log(a1.length);*/
 //console.log(a1.shift()); // Remove the first element of the array
 //console.log(a1.length);
 //console.log(a1.shift("shantra"));
-a1.toString
+//a1.toString
 /*ƒ toString() { [native code] }
 typeof a1[0]
 'number'
@@ -57,3 +57,6 @@ num.slice(2, 3)
 num
 (6) [1, 2, 3, 255, 266, 288]*/
 
+
+//console.log(num.reverse());
+ 
