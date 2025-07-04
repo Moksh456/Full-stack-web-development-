@@ -77,4 +77,15 @@ function createtable(){
 // addlisttener take 2 arguments - event_name and function to be called ehenever this event get fixed.
 // previsouly we were calling create table functon from html with the help of onclick attribute  now we want to have seperetions of concerns and don't want to write js inside html unstill required .
 // so we went with a approach of calling addEventListener method on Target element
-// here second argument of add llistner can be called as callback function since we are not calling it directly in js is internally calling it.
+// here second argument of add llistner can be called as callback function since we are not calling it directly in js is internally calling it. 
+
+// document.querySelector("button").addEventListener("click", function() {
+//    const entername = name.element.value;
+//  const enteremail = email.element.value;
+//const tableRow = document.createElement("tr");
+//    const tableColoum = document.createElement("td")
+//    const tableColoum2 = document.createElement("td");
+//    tableRow.appendChild(tableColoum);
+//    tableRow.appendChild(tableColoum2);
+//    tableelement.appendChild(tableRow);
+//})   
