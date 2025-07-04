@@ -72,5 +72,9 @@ function createtable(){
      
 }
 
-//  sumbmitelement.addEventListener("click", createtable);
+  sumbmitelement.addEventListener("click", createtable);
  
+// addlisttener take 2 arguments - event_name and function to be called ehenever this event get fixed.
+// previsouly we were calling create table functon from html with the help of onclick attribute  now we want to have seperetions of concerns and don't want to write js inside html unstill required .
+// so we went with a approach of calling addEventListener method on Target element
+// here second argument of add llistner can be called as callback function since we are not calling it directly in js is internally calling it.
