@@ -60,4 +60,17 @@ num
 
 //console.log(num.reverse());
 
+function createtable(){
+    const entername = name.element.value;
+    const enteremail = email.element.value;
+    const tableRow = document.createElement("tr");
+    const tableColoum = document.createElement("td")
+    const tableColoum2 = document.createElement("td");
+    tableRow.appendChild(tableColoum);
+    tableRow.appendChild(tableColoum2);
+    tableelement.appendChild(tableRow);
+     
+}
+
+//  sumbmitelement.addEventListener("click", createtable);
  
