@@ -60,7 +60,7 @@ num
 
 //console.log(num.reverse());
 
-function createtable(){
+/*function createtable(){
     const entername = name.element.value;
     const enteremail = email.element.value;
     const tableRow = document.createElement("tr");
@@ -70,9 +70,9 @@ function createtable(){
     tableRow.appendChild(tableColoum2);
     tableelement.appendChild(tableRow);
      
-}
+}*/
 
-  sumbmitelement.addEventListener("click", createtable);
+  //sumbmitelement.addEventListener("click", createtable);
  
 // addlisttener take 2 arguments - event_name and function to be called ehenever this event get fixed.
 // previsouly we were calling create table functon from html with the help of onclick attribute  now we want to have seperetions of concerns and don't want to write js inside html unstill required .
@@ -90,3 +90,17 @@ function createtable(){
 //    tableelement.appendChild(tableRow);
 //})    
 
+document.querySelector(".box1").addEventListener("click", function(){
+console.log("Box 1 clicked");true
+})
+document.querySelector(".box2").addEventListener("click", function(){
+    console.log("Box 2 clicked");true
+})
+document.querySelector(".parent").addEventListener("click", function(){
+    console.log("Parent clicked"); true
+})
+ 
+document.querySelector(".grandparent").addEventListener("click", function(event){
+    console.log("Grandparent clicked");
+  true   
+});
