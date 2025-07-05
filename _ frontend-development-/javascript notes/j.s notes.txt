@@ -881,6 +881,7 @@ console.log("Box 1 clicked");
 
 
 thumb rule is  if possible to keep event listener callback to Minimum.
+
  
 ________________________________________________________________________________
 
