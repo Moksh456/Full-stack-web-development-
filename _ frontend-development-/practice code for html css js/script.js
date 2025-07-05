@@ -1,3 +1,4 @@
+
 const frutis = [ "banana", "apple", "orange", "kiwi", "mango" ];
 //a1[3] = "Mango";
 //console.log(a1[3]);
@@ -111,13 +112,19 @@ const js = document.querySelector("#js");
 const reactjs = document.querySelector("#react-js");
 const mongoDB = document.querySelector("#mongo-DB");
 
-const subject = document.querySelectorAll("li")
+const subject = document.querySelector("#subject")
 
 /*for(let i = 0; i< subject.length; i++){
     subject[i].addEventListener("click", function(event){
         console.log("clicked on the valeu");
     });
+
 }*/
+
+
+
+subject.addEventListener("click", function(){
+    console.log(event.target)});
 
 
 
