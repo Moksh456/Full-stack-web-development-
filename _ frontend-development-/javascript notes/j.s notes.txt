@@ -854,8 +854,15 @@ ________________________________________________________________________________
   capture meant it goes down (i.r from first htm element w.r.t hirerachy till the point where it happened )
 
   by default Event Bubble technique is applied
+   In order to change the stragety to capture ->
+   we use supply third argument to add event listner methnod methnod as true
+
+   Now we want to conclude How events are actually traversing across DOM:
    
-   
+   we need to remember that flow always goes form top to targer first.
+   then, it travarses back from target to Top.
+
+   i.e each DOM element is given 2 chances to execute their callback funciton either during capture phases or During bubble please.
 ________________________________________________________________________________
 
 

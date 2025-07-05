@@ -90,18 +90,18 @@ num
 //    tableelement.appendChild(tableRow);
 //})    
 
-document.querySelector(".grandparent").addEventListener("click", function(event){
+document.querySelector(".grandparent").addEventListener("click", function(){
     console.log("Grandparent clicked");
-  true   
-}true);
+ 
+}, true);
 document.querySelector(".parent").addEventListener("click", function(){
-    console.log("Parent clicked"); true
-}true)
+        console.log("Parent clicked");  
+},  true)
 document.querySelector(".box2").addEventListener("click", function(){
-    console.log("Box 2 clicked");true
+    console.log("Box 2 clicked"); 
 }, true)
 document.querySelector(".box1").addEventListener("click", function(){
-console.log("Box 1 clicked");true
+console.log("Box 1 clicked"); 
 }, true);
 
  
