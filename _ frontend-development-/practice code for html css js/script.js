@@ -104,6 +104,7 @@ document.querySelector(".box1").addEventListener("click", function(){
 console.log("Box 1 clicked"); 
 }, true);
 
+
  
  
  

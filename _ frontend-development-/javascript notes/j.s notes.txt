@@ -817,7 +817,20 @@ console.log(v3) // sharad
 
 ________________________________________________________________________________
 
-      
+document.querySelector(".grandparent").addEventListener("click", function(){
+    console.log("Grandparent clicked");
+ 
+}, true);
+document.querySelector(".parent").addEventListener("click", function(){
+        console.log("Parent clicked");  
+},  true)
+document.querySelector(".box2").addEventListener("click", function(){
+    console.log("Box 2 clicked"); 
+}, true)
+document.querySelector(".box1").addEventListener("click", function(){
+console.log("Box 1 clicked"); 
+}, true);
+
    whenever child is cliked (OR basically any event is fired ),
    then only callback function of child div should be ivoked?
 
@@ -863,6 +876,10 @@ ________________________________________________________________________________
    then, it travarses back from target to Top.
 
    i.e each DOM element is given 2 chances to execute their callback funciton either during capture phases or During bubble please.
+   
+  in case we want to stop propgation of events we can use stopProgpogation() methnod of event object.
+
+  
 ________________________________________________________________________________
 
 
