@@ -90,7 +90,7 @@ num
 //    tableelement.appendChild(tableRow);
 //})    
 
-document.querySelector(".grandparent").addEventListener("click", function(){
+/*document.querySelector(".grandparent").addEventListener("click", function(){
     console.log("Grandparent clicked");
  
 }, true);
@@ -102,7 +102,25 @@ document.querySelector(".box2").addEventListener("click", function(){
 }, true)
 document.querySelector(".box1").addEventListener("click", function(){
 console.log("Box 1 clicked"); 
-}, true);
+}, true);*/
+
+const dsa = document.querySelector("#dsa");
+const html = document.querySelector("#html"); 
+const css = document.querySelector("#css");
+const js = document.querySelector("#js");
+const reactjs = document.querySelector("#react-js");
+const mongoDB = document.querySelector("#mongo-DB");
+
+const subject = document.querySelectorAll("li")
+
+for(let i = 0; i>subject.length; i++){
+    subject[i].addEventListener("click", function(event){
+        console.log(event.target);
+    });
+    console.log(event.target.value)
+}
+
+
 
 
  
