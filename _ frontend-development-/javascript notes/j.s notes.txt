@@ -880,6 +880,7 @@ console.log("Box 1 clicked");
   in case we want to stop propgation of events we can use stopProgpogation() methnod of event object.
 
   
+
 ________________________________________________________________________________
 
 
