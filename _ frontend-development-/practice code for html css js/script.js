@@ -90,17 +90,20 @@ num
 //    tableelement.appendChild(tableRow);
 //})    
 
-document.querySelector(".box1").addEventListener("click", function(){
-console.log("Box 1 clicked");true
-})
-document.querySelector(".box2").addEventListener("click", function(){
-    console.log("Box 2 clicked");true
-})
-document.querySelector(".parent").addEventListener("click", function(){
-    console.log("Parent clicked"); true
-})
- 
 document.querySelector(".grandparent").addEventListener("click", function(event){
     console.log("Grandparent clicked");
   true   
-});
+}true);
+document.querySelector(".parent").addEventListener("click", function(){
+    console.log("Parent clicked"); true
+}true)
+document.querySelector(".box2").addEventListener("click", function(){
+    console.log("Box 2 clicked");true
+}, true)
+document.querySelector(".box1").addEventListener("click", function(){
+console.log("Box 1 clicked");true
+}, true);
+
+ 
+ 
+ 
