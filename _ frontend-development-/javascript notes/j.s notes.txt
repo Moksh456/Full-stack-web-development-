@@ -817,6 +817,46 @@ console.log(v3) // sharad
 
 ________________________________________________________________________________
 
+      
+   whenever child is cliked (OR basically any event is fired ),
+   then only callback function of child div should be ivoked?
+
+   or
+
+   all the html element (who are in hiererchy w.r.t child div) ->
+   for these html elements onclick callbackj function should be run (only for when callback functoin is registered on them via addEventListener ).
+
+   second approach got finalized.
+   Now  quetion was ->
+   Now to implement the flow?
+
+   i.r->
+   Whether function of child should be called first then  
+   callback function of parent should be called,
+   callback function of grand parent should be called 
+
+   or (oppsite flow)
+
+  Whether function of child should be called first, then,  
+   callback function of parent should be called,
+   callback function of grand parent should be called 
+
+  -->
+
+  it was decided that lets keep both the flows.
+  first  flow was named as -> BUBLE
+  second flow was named as -> CAPTURE
+
+  Event Bubble -> 
+  Bubble means it goes up (i.e from where it happend till last html element)
+
+  Event Capture ->
+  capture meant it goes down (i.r from first htm element w.r.t hirerachy till the point where it happened )
+
+  by default Event Bubble technique is applied
+   
+________________________________________________________________________________
+
 
 
 
