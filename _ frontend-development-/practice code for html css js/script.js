@@ -113,12 +113,11 @@ const mongoDB = document.querySelector("#mongo-DB");
 
 const subject = document.querySelectorAll("li")
 
-for(let i = 0; i>subject.length; i++){
+/*for(let i = 0; i< subject.length; i++){
     subject[i].addEventListener("click", function(event){
-        console.log(event.target);
+        console.log("clicked on the valeu");
     });
-    console.log(event.target.value)
-}
+}*/
 
 
 
