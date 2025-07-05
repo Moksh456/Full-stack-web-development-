@@ -879,8 +879,8 @@ console.log("Box 1 clicked");
    
   in case we want to stop propgation of events we can use stopProgpogation() methnod of event object.
 
-  
 
+thum rule is  if possible to keep event listner callabck to Minimum.
 ________________________________________________________________________________
 
 
