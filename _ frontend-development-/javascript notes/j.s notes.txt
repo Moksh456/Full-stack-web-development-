@@ -882,7 +882,27 @@ console.log("Box 1 clicked");
 
 thumb rule is  if possible to keep event listener callback to Minimum.
 
- 
+
 ________________________________________________________________________________
+ Call, bind, apply
 
+if we want to change CONTEXT of THIS variable inside methods we  can do that with the help of method called - call(), apply(), Bind().
 
+let obj = {
+  name: "sharad",
+  age: 28,
+  printname function(){
+    console.log(obj.name);
+  }
+}
+
+here this points to obj obj object
+Now we want "this" to point some other object.
+
+eg.
+let obj = {
+  name: "trikajh"
+
+}
+
+Basically we want "this" inside printname method of obj to point to "obj2" rather than "obj".
