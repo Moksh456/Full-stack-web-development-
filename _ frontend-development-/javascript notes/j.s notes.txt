@@ -941,7 +941,7 @@ bind ->
 
 
 
- 2. by the help of apply() method
+ 2. by the help of apply() method 
  
           obj.printname.call(obj);
 
@@ -949,4 +949,3 @@ bind ->
            obj.printname.bind(obj);
 
 ________________________________________________________________________________
-
