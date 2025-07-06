@@ -936,7 +936,7 @@ bind ->
 
 
  1. by the help of call method:
-
+ 
          obj.printname.call(obj);
 
 
