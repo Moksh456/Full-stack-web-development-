@@ -916,7 +916,7 @@ to do that there are 3 type
 
 call: 
 
-<function>.call(<variable_that_you_want_this_to_point_towards>)
+<function>.call(<variable_that_you_want_this_to_point_towards>, <input1> , <input2>)
 
 apply:
 <function>.apply(<variable_that_you_want_this_to_point_towards>)
