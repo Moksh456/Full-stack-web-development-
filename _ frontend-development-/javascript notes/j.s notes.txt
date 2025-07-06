@@ -897,13 +897,19 @@ let obj = {
 }
 
 here this points to obj object
-Now we want "this" to point some other object.
+Now we want "this" to point towards some other object.
 
 eg.
-let obj = {
+let obj2 = {
   name: "trikajh"
 
 } 
 
-Basically we want "this" inside printname method of obj to point to "obj2" rather than "obj". 
+Basically we want "this" inside printname method of obj2 to point to "obj2" rather than "obj". 
+
+obj.pritname() -> this will point to obj.
+but i want to perform some magic that it should be start pointing to obj2
+
+
+
 
