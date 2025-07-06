@@ -910,6 +910,17 @@ Basically we want "this" inside printname method of obj2 to point to "obj2" rath
 obj.pritname() -> this will point to obj.
 but i want to perform some magic that it should be start pointing to obj2
 
+basically we want to change CONTEXT of this i.e we want to change - where this is pointing to ?
+
+to do that there are 3 type
+
+<function>.call(<variable_that_you_want_this_to_point_towards>)
 
 
 
+
+ 1. by the help of call method:
+
+          obj.printname.call(obj);
+
+ 2. by the help of bind() method
