@@ -927,9 +927,12 @@ in case of apply second arguments is array form
 bind ->
   bind is also changes context of this but its different from call and apply in the sense that incase of bind function is not good executed immediately.
 
-  bind method -> returns a function with context of "this" 
+  bind method -> returns a function with context of "this"
 
+    <function>.bind(<variable_that_you_want_this_to_point_towards>)
 
+    bind method returns new function with new context of "this"
+    i.e we can call the function at a later stage whenever it is required.
 
 
  1. by the help of call method:
