@@ -110,7 +110,7 @@ const html = document.querySelector("#html");
 const css = document.querySelector("#css");
 const js = document.querySelector("#js");
 const reactjs = document.querySelector("#react-js");
-const mongoDB = document.querySelector("#mongo-DB");
+const mongoDB = document.querySelector("#mongo-DB" );
 
 const subject = document.querySelector("#subject") 
 
