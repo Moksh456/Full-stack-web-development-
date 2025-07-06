@@ -914,14 +914,20 @@ basically we want to change CONTEXT of this i.e we want to change - where this i
 
 to do that there are 3 type
 
-call: 
-
+call ->
 <function>.call(<variable_that_you_want_this_to_point_towards>, <input1> , <input2>)
 
-apply:
-<function>.apply(<variable_that_you_want_this_to_point_towards>)
 
-bind:
+apply ->
+<function>.apply(<variable_that_you_want_this_to_point_towards>[<input1>, input2])
+
+
+in case of apply second arguments is array form
+
+bind ->
+  bind is also changes context of this but its different from call and apply in the sense that incase of bind function is not good executed immediately.
+
+  bind method -> returns a function with context of "this" 
 
 
 
