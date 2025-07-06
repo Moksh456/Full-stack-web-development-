@@ -914,13 +914,27 @@ basically we want to change CONTEXT of this i.e we want to change - where this i
 
 to do that there are 3 type
 
+call: 
+
 <function>.call(<variable_that_you_want_this_to_point_towards>)
+
+apply:
+<function>.apply(<variable_that_you_want_this_to_point_towards>)
+
+bind:
 
 
 
 
  1. by the help of call method:
 
+         obj.printname.call(obj);
+
+
+
+ 2. by the help of apply() method
+
           obj.printname.call(obj);
 
- 2. by the help of bind() method
+  2. by the help of  bind() method
+           obj.printname.bind(obj);
