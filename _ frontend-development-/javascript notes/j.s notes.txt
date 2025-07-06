@@ -905,4 +905,4 @@ let obj = {
 
 }
 
-Basically we want "this" inside printname method of obj to point to "obj2" rather than "obj".
+Basically we want "this" inside printname method of obj to point to "obj2" rather than "obj". 
