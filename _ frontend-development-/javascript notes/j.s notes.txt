@@ -991,6 +991,27 @@ var obj  ={
 
 object.Keys(obj) -> {name, age}
 object.values(obj) -> {sharad, 28}
+object.entries(obj) -> [[name : sharad]]
+
+
+ for in loops :
+
+ emurable properties of object: 
+
+ any object in js that has properties 
+ here we can attach some behaviours(writabble, emmurable) to these properties
+ emmurable can be set to true or false on each properties of an object.
+
+var person ={
+  name: "saharad",
+  age: 28,
+}
+
+now we want to this object "person" but whenever any1 tries to itereate over this object.....then..... property should not be visible during iteration.
+
+whenever we create properties of an object via literals then enumrable flag is automatically set to TRUE. i.e these properties can be itereated over loops like for..in and also present present in object.keys
+
+but if your want explicitly change enumrable flag
 
 ________________________________________________________________________________
 
