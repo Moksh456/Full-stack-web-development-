@@ -983,3 +983,14 @@ var brocoli = object.create(vegettabls)
 
  By default whenever we create any object in javascript.... this newly created object inherits some of the properties and methods and object.
 
+var obj  ={
+  name: sharad,
+  age: 28;
+
+}
+
+object.Keys(obj) -> {name, age}
+object.values(obj) -> {sharad, 28}
+
+________________________________________________________________________________
+
