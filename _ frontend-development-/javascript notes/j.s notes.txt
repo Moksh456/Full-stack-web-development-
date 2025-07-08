@@ -949,3 +949,37 @@ bind ->
            obj.printname.bind(obj);
 
 ________________________________________________________________________________
+
+object -> creation constructor function 
+object literal -> " "
+new object{}
+
+object.create; 
+
+if you want to inherit some properties if existing object while creating new object.
+
+var vege ={
+  status: healthy
+
+}
+
+now lets create new type of vegetables called - brocoli.
+since brocolli in type of vegetables then means should be inherit all the properties of vegetables ...............
+
+this is some waht trending towards inheritence i.e inhiriting properties of parent.
+
+var brocoli = new object(); X
+
+var brocoli = object.create(vegettabls)
+
+ as soon as we did that brocali got created bu there is no properly called "status" directly attached to brocolli.
+ then there is one random object {[prototype]}; object inside which "status"
+ property reside.
+
+ Now whenever we use dot operator to referencs some property inside object.
+ How javascript behaves?
+ first js will chect or olook put for that property at top most level.
+ if not Found -> it continues it's search in there {[prototype]};
+
+ By default whenever we create any object in javascript.... this newly created object inherits some of the properties and methods and object.
+
