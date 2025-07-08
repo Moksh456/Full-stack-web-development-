@@ -1011,7 +1011,20 @@ now we want to this object "person" but whenever any1 tries to itereate over thi
 
 whenever we create properties of an object via literals then enumrable flag is automatically set to TRUE. i.e these properties can be itereated over loops like for..in and also present present in object.keys
 
-but if your want explicitly change enumrable flag
+but if your want explicitly change enumrable flag to false for some property of an object.
+it can be done with the help of ->
+object.defineProperty
+
+syntax:
+  object.definedProperty(<object_WHERE_PROPERTY_WERE_DEFINE>, <KEY_NAME>, {
+    //descripter i.e 3rd arg is an object that describes the value along with enumrable flag
+    <value>: <whatever_value_you_Want_to_assign>
+    <enumrable>: <boolean> if set to false => this property won't be presented during intereation of object and also, not presented during object.keys
+  })
+
+
+
+
 
 ________________________________________________________________________________
 
