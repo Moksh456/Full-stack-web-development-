@@ -1022,9 +1022,31 @@ syntax:
     <enumrable>: <boolean> if set to false => this property won't be presented during intereation of object and also, not presented during object.keys
   })
 
+to check wheather property is enumrable or not -->
+<object_name>.propertyIsEnumrable(<property_name>)
+
+to check wheather property is of own or inherites.
 
 
+for..in loop ->
 
-
+iterated over enumrable String properties only.
 ________________________________________________________________________________
+
+I'a a js library creater and i gave 1 object to uotside world to use in their codebase.
+
+now lets assime object has big if any consumer itereate iver it then unnecceary he will have to inhrit over properties which are not meant to be iterated upon.
+
+var person ={
+  name: "",
+  age: "",
+  printMyName: function (){
+    //
+  
+  }
+
+}
+
+now from we undertand that itereating over anme, age might make sense for some programing logic... why to waste  itereation over printName?          
+
 
