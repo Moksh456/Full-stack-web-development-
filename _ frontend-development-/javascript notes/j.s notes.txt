@@ -1128,7 +1128,7 @@ let ovj1 ={
   2. Right way:
 
    using Object.create
-   
+
     let ovj2 ={
       name: shra,
     }
@@ -1139,8 +1139,25 @@ let ovj1 ={
     let obj2 = Object.create(obj1)
     obj.title = "sharad"
 
+  eg. 
+  lets create parent object called "person" and implement certain methods specific to a person 
   
-  suing constructor function
+  let person ={
+    canWalk: funcation(){
+      console.log("person can walk")
+    }
+    canTalk: fucntion(){
+      console.log("person can talk");
+    } 
+  }
+
+  Now lets create object representing specific person called "sharad". Now since sharad is "type" of person so "sharad" would like to inherit properties/methods of person.
+
+  let personSharad = objec.create(person)
+  //above line create an empty object with "prototype" property of this empty object set to/point to person object.
+
+  
+  using constructor function
 
 ________________________________________________________________________________
 
