@@ -1116,8 +1116,19 @@ inheritence:
   1. Wrong/discouraged way:
 
     directly <changing __proto__ property of object.
+    let ovj2 ={
+      name: shra,
+    }
+let ovj1 ={
+      name: shra3,
+    }
+
+    obj1.__proto__ = obj2;
 
   2. Right way:
+
+  using Object.create
+  suing constructor function
 
 ________________________________________________________________________________
 
