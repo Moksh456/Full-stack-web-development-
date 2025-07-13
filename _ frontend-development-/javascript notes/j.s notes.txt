@@ -1171,6 +1171,9 @@ let ovj1 ={
   }
 
 const p1 = new person("sharad");
+here every thing we wanted to achieve is done 
+also it look like there no need of in but there is issue here.
+
 ________________________________________________________________________________
 
 fucntion prototype: 
