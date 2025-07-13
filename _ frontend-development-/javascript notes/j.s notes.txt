@@ -1126,6 +1126,15 @@ let ovj1 ={
     obj1.__proto__ = obj2;
 
   2. Right way:
+    let ovj2 ={
+      name: shra,
+    }
+    let ovj1 ={
+      name: shra3,
+    }
+
+    let obj2 = Object.create(obj1)
+    obj.title = "sharad"
 
   using Object.create
   suing constructor function
