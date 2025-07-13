@@ -1061,7 +1061,7 @@ prototype:
 
 ________________________________________________________________________________
 
-now "prototype" propeerty of any object is referred by a key Called "__proto__"
+now "prototype" propeerty of any object is referred by a key Called "__proto__" --> here generally whenever "_" is prefixed on any property name, it signifies that it is a internal property and it should Not be used.
 
 var obj ={
   Key: VALUE,
@@ -1074,8 +1074,7 @@ Now, whenever we are accessing obj.__proto__ ->
 we are getting object is retuen.
 this object is nothing but value of prototype OBJECT.
 
-const obj = new obj();
-here object is constructor function.
+ 
 
 ________________________________________________________________________________
 let arr = [1,2,3];
@@ -1110,4 +1109,14 @@ inheritence:
     //inplement or overrieds
   }
 
-  Noq in js which is a "object based " Inheritence is done via prototype. i.e all the properties/methods whcich are added to the  "prototype" property of the object.
+  Now in js which is a "object based " Inheritence is done via prototype. i.e all the properties/methods whcich are added to the  "prototype" property of the object.
+
+  Now does prototype inheritence inplemented?
+
+________________________________________________________________________________
+
+fucntion prototype:
+ every function cunstructor in js have one property called <prototype>
+ 
+ const obj = new obj();
+ here object is constructor function.
