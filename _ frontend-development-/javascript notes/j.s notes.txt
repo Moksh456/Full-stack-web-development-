@@ -1112,6 +1112,12 @@ inheritence:
   Now in js which is a "object based " Inheritence is done via prototype. i.e all the properties/methods whcich are added to the  "prototype" property of the object.
 
   Now does prototype inheritence inplemented?
+  
+  1. Wrong/discouraged way:
+
+    directly <changing __proto__ property of object.
+
+  2. Right way:
 
 ________________________________________________________________________________
 
@@ -1120,3 +1126,4 @@ fucntion prototype:
  
  const obj = new obj();
  here object is constructor function.
+
