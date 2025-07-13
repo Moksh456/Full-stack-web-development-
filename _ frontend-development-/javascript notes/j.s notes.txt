@@ -1159,6 +1159,18 @@ let ovj1 ={
 
   using constructor function
 
+
+    let person = function(name){
+      this.title = name;
+    canWalk: funcation(){
+      console.log("person can walk")
+    } 
+    canTalk: fucntion(){
+      console.log("person can talk");
+    }  
+  }
+
+const p1 = new person("sharad");
 ________________________________________________________________________________
 
 fucntion prototype: 
