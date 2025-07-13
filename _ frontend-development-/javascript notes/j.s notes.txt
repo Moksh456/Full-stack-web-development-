@@ -1155,8 +1155,8 @@ let ovj1 ={
 
   let personSharad = objec.create(person)
   //above line create an empty object with "prototype" property of this empty object set to/point to person object.
+ 
 
-  
   using constructor function
 
 ________________________________________________________________________________
