@@ -1181,6 +1181,19 @@ here properties can be of type - number, boolean, object, function....etc
 Common Behaviours is like canTAlk, canWalk are given memory on each object Instantiation.
 
 
+to mitigate that we can make use of "prototype" peroperty of function constructor 
+i.e all the functionality/methods/properties which are common to every instance can be put insitde "prototype" property.
+
+example:
+
+person.prototype.canwalk = fucntion(){
+  console.log("person can walk")
+}
+
+person.prototype.canTalk = funciton(){
+  console.log("person can talk");
+}
+
 
 ________________________________________________________________________________
 
