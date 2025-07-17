@@ -1214,6 +1214,8 @@ confusing creating statement :
 prototype chain ->
 every object have one peroeprty called "prototype".
 this property is itself an object, thereby having peroperty called "prototype" this goes on till the value of "PROTOTYPE" IS NULL
+
+THIS CAHIN OF PROTOTYPE IS NOTHING BUT "PROTOTYPE" CHAIN"
 ________________________________________________________________________________
 
 fucntion prototype: 
@@ -1223,6 +1225,3 @@ fucntion prototype:
  here object is constructor function.
  
 ________________________________________________________________________________
-
-
-  
