@@ -1190,3 +1190,6 @@ fucntion prototype:
  const obj = new obj();
  here object is constructor function.
  
+________________________________________________________________________________
+
+
