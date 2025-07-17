@@ -1222,6 +1222,6 @@ fucntion prototype:
  every function cunstructor in js have one property called <prototype>
  
  const obj = new obj();
- here object is constructor function.
+ here object is constructor function. 
  
 ________________________________________________________________________________
