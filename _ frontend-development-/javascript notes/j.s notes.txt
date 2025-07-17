@@ -1063,7 +1063,7 @@ ________________________________________________________________________________
 
 now "prototype" propeerty of any object is referred by a key Called "__proto__" --> here generally whenever "_" is prefixed on any property name, it signifies that it is a internal property and it should Not be used.
 
-var obj ={
+var obj ={ 
   Key: VALUE,
   [{PROTOTYPE}]: object
 }
