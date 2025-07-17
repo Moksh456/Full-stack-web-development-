@@ -1194,7 +1194,26 @@ person.prototype.canTalk = funciton(){
   console.log("person can talk");
 }
 
+conclusion :
+  object.create(<whatever_you__your_want_new_object_prototype_to_point
+>)
 
+  <funciton_constructor_name>.prototype.<whatever_you__your_want_new_object_prototype_to_point
+
+
+confusing creating terms :
+
+__proto__
+prototype
+[[PROTOTYPE]]
+
+confusing creating statement :
+
+  object.prototype = obj.__proto__
+
+prototype chain ->
+every object have one peroeprty called "prototype".
+this property is itself an object, thereby having peroperty called "prototype" this goes on till the value of "PROTOTYPE" IS NULL
 ________________________________________________________________________________
 
 fucntion prototype: 
