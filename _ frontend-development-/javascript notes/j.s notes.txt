@@ -1172,7 +1172,15 @@ let ovj1 ={
 
 const p1 = new person("sharad");
 here every thing we wanted to achieve is done 
-also it look like there no need of in but there is issue here.
+also it look like there no need of inheritence
+but there is issue here.
+
+Whenever object gets created via "new" Keyword....
+all the properties inside object gets memort alloacted.
+here properties can be of type - number, boolean, object, function....etc
+Common Behaviours is like canTAlk, canWalk are given memory on each object Instantiation.
+
+
 
 ________________________________________________________________________________
 
