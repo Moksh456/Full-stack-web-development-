@@ -1254,5 +1254,15 @@ Methods :
 
  
  Method chaining :
-    
+
+    let str = "hello world wolr is so aswome";
+    str.tolowercase().replaceAll("world", "sharad")
+
+    one way to weite it as :
+    let str 2 = str1.tolowercase();
+    let str3 = str2.replaceAll("world", "sharad");
+
+    bu this can be done in a shortner syntax without declaring to many variables.
+
+    str1.tolowercase().replaceAll("world", "sharad")
 
