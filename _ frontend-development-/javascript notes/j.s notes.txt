@@ -1225,3 +1225,5 @@ fucntion prototype:
  here object is constructor function. 
  
 ________________________________________________________________________________
+
+
