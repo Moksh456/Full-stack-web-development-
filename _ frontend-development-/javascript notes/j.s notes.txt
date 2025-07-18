@@ -1264,5 +1264,7 @@ Methods :
 
     bu this can be done in a shortner syntax without declaring to many variables.
 
-    str1.tolowercase().replaceAll("world", "sharad")
+    str1.tolowercase().replaceAll("world", "sharad");
+
+    
 
