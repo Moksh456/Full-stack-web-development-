@@ -1245,7 +1245,7 @@ Methods :
  1. retriving specific character via index :
       String[index]
  2. Test if string contains substring or not :
-      let str1 = "hello wrold";
+      let str1 = "hello wrold"; 
       let str2 = "hello";
 
       str1.include[str2]
@@ -1253,5 +1253,5 @@ Methods :
       this method return boolean value.
 
  
-
+ 
 
