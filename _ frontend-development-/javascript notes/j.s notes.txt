@@ -1253,5 +1253,6 @@ Methods :
       this method return boolean value.
 
  
- 
+ Method chaining :
+    
 
