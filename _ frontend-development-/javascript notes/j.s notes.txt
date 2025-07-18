@@ -1226,4 +1226,12 @@ fucntion prototype:
  
 ________________________________________________________________________________
 
+Javascript String :
+    string mean anything is written in the double quote and single quote
 
+in js string can act as primitive as well as object. is string is created with largely convention is if string is created with literals it act as primitive.
+if created with new String () -> hen it acts as object.(non-primitive).
+
+whenever we use dot operator string primitive we are still able to access prperties/methods -> because in javascript converion happens due to with primitive convertred to String object.
+
+property :
