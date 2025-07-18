@@ -1235,3 +1235,23 @@ if created with new String () -> hen it acts as object.(non-primitive).
 whenever we use dot operator string primitive we are still able to access prperties/methods -> because in javascript converion happens due to with primitive convertred to String object.
 
 property :
+
+1. length poperty :
+    in string we have length property available to us which counts number of characters in a string and return that number......4
+
+    Note this is not exactly true.
+
+Methods :
+ 1. retriving specific character via index :
+      String[index]
+ 2. Test if string contains substring or not :
+      let str1 = "hello wrold";
+      let str2 = "hello";
+
+      str1.include[str2]
+  <pearent_string>.includes(<substring_you_want_to_search);
+      this method return boolean value.
+
+ 
+
+
