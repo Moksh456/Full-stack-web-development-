@@ -1266,5 +1266,6 @@ Methods :
 
     str1.tolowercase().replaceAll("world", "sharad");
 
-    
 
+converion of String to array :
+    
