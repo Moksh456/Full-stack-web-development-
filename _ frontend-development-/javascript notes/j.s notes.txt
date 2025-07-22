@@ -1316,7 +1316,7 @@ ________________________________________________________________________________
 
 DEleting elements of an array and also modify the existing array:
   .splice(start, delete_count, add_item1, add_item2, add_item3.....)
-
+  return the all elements 
   simplext form:
 
   .splice(start_index);
