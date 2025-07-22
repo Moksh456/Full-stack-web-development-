@@ -1268,4 +1268,55 @@ Methods :
 
 
 converion of String to array :
-    
+
+LET Str1 = "hello world";
+we need to convert to array ["hello", "world"]
+
+split() :
+it takes input 1 regEx or matching expression and based on it splits characters into array
+
+
+________________________________________________________________________________
+
+ARRAYS: 
+
+  const arr = new arr();
+  const arr = [1,2,3,4,5,6];
+
+convert array to String:
+
+join(<seperator>) -> return String 
+
+search index of an element of aray:
+indexof(<array_element_to_be_seached>)
+if found return index of that element otherwise -1
+
+check whether element exist or not:
+
+.includes(ARRAY_ELEMENT_TO_BE_SEARCHED) -> return boolean 
+
+
+add element to the end of array :
+
+.push(<ARRAY_ELEMENT_TO_BE_addeded>)
+
+add element to the begning of the array:
+
+.unshift(<ARRAY_ELEMENT_TO_BE_added_in_the_begning>)
+
+remove element from the end of array :
+
+.pop() -> returns removed element
+
+remove element form the start:
+
+.shift() -> returns removed element
+
+________________________________________________________________________________
+
+DEleting elements of an array and also modify the existing array:
+  .splice(start, delete_count, add_item1, add_item2, add_item3.....)
+
+  simplext form:
+
+  .splice(start_index);
