@@ -1338,4 +1338,17 @@ here abc is Higher order function i.e if a function acepts any function as input
 ________________________________________________________________________________
 
 iterate:
-   foreach loop
+   foreach loop:
+
+   invokes a callback for every element in array.
+
+   const arr = [10,20,30,40,50]
+
+   arr.forEach(<CAllback_function>);
+   where (<callback_function> ) will be executed for every element in an array.
+   this <Callback_function> is supplied with certain inputs like-current_element of array index array.
+
+________________________________________________________________________________
+
+sorting array:
+  
