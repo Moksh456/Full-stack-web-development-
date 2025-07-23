@@ -1320,3 +1320,6 @@ DEleting elements of an array and also modify the existing array:
   simplext form:
 
   .splice(start_index);
+
+________________________________________________________________________________
+
