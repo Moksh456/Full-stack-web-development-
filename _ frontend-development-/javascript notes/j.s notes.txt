@@ -1334,3 +1334,8 @@ here what is abc and what is def?
 
 here abc is Higher order function i.e if a function acepts any function as input or return function then that function come termed as higher order function 
  def is callback cunction -> function that might be called immediately or any function which is called inside a function
+
+________________________________________________________________________________
+
+iterate:
+   foreach loop
