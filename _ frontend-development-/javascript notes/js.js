@@ -47,7 +47,7 @@ my();*/
   var result = 10+20;
   console.log(result);
   return result;
-}
+}    
 var a = "sharad";*/
    /*        let obj ={
               title: "sharad",
