@@ -1491,4 +1491,7 @@ syntax:
   2nd input is termed as current_value (is the value we get on each iteration i.r it is same as 1st arguments of callbacks of filter, map)
 
   
+  if <initial_value> is not set then it assign first element of array into accumlator and starts looping from 1st index if array and current_value is assingned as arr(1)
+
+  
 
