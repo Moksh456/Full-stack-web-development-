@@ -1351,4 +1351,20 @@ iterate:
 ________________________________________________________________________________
 
 sorting array:
-  
+
+  const arr = ["grayfindor", "newtron", "placment", "guarantee"];
+
+  short array based on the alphabets:
+
+    arr.sort(); -> return the sorted array and the sources on which it was used i.e its mean it mutate the original array.
+
+    it works well on array of strings since internally ascii  are compared 
+
+    Note: 
+    in case to avoid either capitalization issues either convert to lowecase or uppercase.
+
+    but it does no well work in the case of number. 
+
+
+
+    
