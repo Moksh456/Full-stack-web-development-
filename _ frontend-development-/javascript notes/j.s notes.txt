@@ -1493,3 +1493,4 @@ syntax:
   
   if <initial_value> is not set then it assign first element of array into accumlator and starts looping from 1st index if array and current_value is assingned as arr(1)
 
+
