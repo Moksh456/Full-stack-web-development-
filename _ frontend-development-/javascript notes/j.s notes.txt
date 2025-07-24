@@ -1456,7 +1456,15 @@ eg:
 
   const arr = [10,20,30];
 
+  reqirement:
+    multiply every element by 
+ and store it in a new array.
 
+ const arr = [10,20,30,40,50,200,300,400,500]
+
+ requiraments:
+  filter array only having elements having less than 100 and after that multiply remaining element by 3...
+  finally return the new array.
      
 
 
