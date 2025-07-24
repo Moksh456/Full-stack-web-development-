@@ -1411,11 +1411,33 @@ code Trace:
 
   ->
   22,222,999
-  
+
    
 
 
 ________________________________________________________________________________
+
+
+merge array:
+
+  concat() method
+
+________________________________________________________________________________
+
+filter, map, reduce :
+  higher order functions 
+  callbacks function
+  
+  here filter map reduce are higher order funciton. all 3 of them take callback function as input like all the methods these methods are also chainable.
+
+  filter:
+    filter method as the name suggest in used to filter elements of an array based on some condition (that means based on boolean value).
+
+    const ar = [10,20,40,5000,1000];
+
+    filter out/remove all the elemnts whose value is grater than 100 from above array.
+  input - [10,20,40,5000,1000]
+  output - [10,20,40]
 
 
 
