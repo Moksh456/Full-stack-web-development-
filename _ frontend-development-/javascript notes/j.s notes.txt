@@ -1450,10 +1450,15 @@ return type:
 
 ________________________________________________________________________________
 
-map: it is used to alter/change elements of an array.
+map: 
+  it is used to alter/change elements of an array.
 eg:
 
-  const arr = [10,20,30]
+  const arr = [10,20,30];
+
+
+     
+
 
 
 
