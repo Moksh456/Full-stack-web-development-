@@ -1440,6 +1440,20 @@ filter, map, reduce :
   output - [10,20,40]
 
 
+arr.filter(callback_function);4
+
+here callback_function needs to return true or false....
+based on that element will be added or removed.
+
+return type:
+  filter() method new array of elements (which satisfy the condition written  inside callback_function)
+
+________________________________________________________________________________
+
+map: it is used to alter/change elements of an array.
+eg:
+
+  const arr = [10,20,30]
 
 
 
