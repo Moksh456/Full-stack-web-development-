@@ -1364,12 +1364,60 @@ sorting array:
     in case to avoid either capitalization issues either convert to lowecase or uppercase.
 
     but it does no well work in the case of number. 
+    eg. const arr = [22,222,222,999];
 
+    to fix this inplimentation of compare function i.e sort method callbacks function as argument that can help sor elements of an array.
+
+    arr.sort(<CAllbacl_function>)
+
+  (callback_function) gets 2 element  as  argument these elements are elements of array only.
+  
+  return value :
+    <callback_function> needs to return :- 
+
+    1. negative: if it is negative then a is sorted before B
+    2. positive
+
+
+    a-b -> here represent first value and b -> second value
+    if first_value - second_value is negative -> it means first value was smaller 
+
+  fucntion compare(a,b){
+    //here a and b are two elements of arrat 
+    return a-b;
+  }
+
+
+code Trace:
+ eg. const arr = [22,222,222,999];
+  fucntion compare(a,b){
+    //here a and b are two elements of arrat 
+    return a-b;
+  }
+
+  1st iteration 
+
+  compare -> 22, 222
+
+  22 - 222 -> negative
+  means _____________ first value was smaller -> donot swap...
+
+  2nd iteration
+
+  compare -> 222,999
+  222-999 -> positive
+  mEANS  _____________ first value was larger -> swap...
+  22,222,999
+
+  ->
+  22,222,999
+  
+   
 
 
 ________________________________________________________________________________
 
-git
+
 
 
 
