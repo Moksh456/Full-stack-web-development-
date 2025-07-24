@@ -1483,6 +1483,12 @@ reduce :
 
   req: sum of all elements?
 
-  
 
+syntax:
+  arr.reduce(<callback>, <initial_value>);
+  here <calback> gets 2 important inputs these are different form callbacks of foreach map, filter,
+  here 1st input is generally termed as accumlator.
+  2nd input is termed as current_value (is the value we get on each iteration i.r it is same as 1st arguments of callbacks of filter, map)
+
+  
 
