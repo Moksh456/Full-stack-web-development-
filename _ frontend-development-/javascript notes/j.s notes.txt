@@ -1475,6 +1475,14 @@ eg:
      })
 
 
+reduce :
+  it is used whenever we want to iterate over array bu need to conslude in a single  value.
 
+  eg:
+  const arr [20,30,40,50]
+
+  req: sum of all elements?
+
+  
 
 
