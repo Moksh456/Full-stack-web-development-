@@ -1492,3 +1492,27 @@ syntax:
 
   
   if <initial_value> is not set then it assign first element of array into accumlator and starts looping from 1st index if array and current_value is assingned as arr(1)
+
+_____________
+
+const  stt = [1,2,3,4,5,6,7,8,9]
+
+requiraments:
+we need to check whether all the elements of array. are less than 60 or not.
+
+so bsically we need a bullean output.
+
+.every() method can use here since we need to check the element of array.
+
+_____________
+
+
+requiraments:
+we need to check whether some the elements of array. are less than 60 or not.
+const  stt = [1,2,3,4,5,6,7,8,9]
+
+.some() ,ethod can be used here since we need to check some of the element of array.
+
+________________________________________________________________________________
+
+
