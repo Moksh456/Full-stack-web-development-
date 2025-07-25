@@ -1520,7 +1520,7 @@ find() method can be used pass callback function to find() method and it will re
 
 .find()
 
-________________________________________________________________________________
+_________ _______________________________________________________________________
 
 
 Scope:
@@ -1529,7 +1529,7 @@ Scope:
  function abc(){
   var dummy;
  }
- console.log(dummy)
+ console.log(dummy) 
 
  -> i will not be able to find dummy variable outside function abc since scope or visiblity of dummy variable in funcation scoped i.e it is only available inside abc function
 
