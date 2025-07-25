@@ -1532,3 +1532,24 @@ Scope:
  console.log(dummy)
 
  -> i will not be able to find dummy variable outside function abc since scope or visiblity of dummy variable in funcation scoped i.e it is only available inside abc function
+
+ _______________________________________________________________________________
+
+ execution context and lexical enviorment :
+
+ whenever function vall/invocation happens, execution context is created and it is pushed to a stack.
+
+ and then once function is executed then exection context is removed for the stack.
+
+now a along with creation of execution context there is one more thing that gets created at the same time and we call it lexical envirorment.
+
+
+var title = "sharad"
+
+fucntion printmyage(){
+  var age = 28;
+  console.log(title)
+  printmyage(){
+    console.log(age);
+  }
+}
