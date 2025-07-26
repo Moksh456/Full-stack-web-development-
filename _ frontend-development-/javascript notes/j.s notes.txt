@@ -310,7 +310,7 @@ ________________________________________________________________________________
 function ->
 syntax 1 :
 function DECLARATION
-funciton <function name>(){
+function <function name>(){
 
 } 
 
@@ -1428,7 +1428,7 @@ filter, map, reduce :
   higher order functions 
   callbacks function
   
-  here filter map reduce are higher order funciton. all 3 of them take callback function as input like all the methods these methods are also chainable.
+  here filter map reduce are higher order functions. all 3 of them take callback function as input like all the methods these methods are also chainable.
 
   filter:
     filter method as the name suggest in used to filter elements of an array based on some condition (that means based on boolean value).
@@ -1466,7 +1466,7 @@ eg:
   filter array only having elements having less than 100 and after that multiply remaining element by 3...
   finally return the new array.
      
-     arr.filter(functio(elem){
+     arr.filter(function(elem){
       return elem<100
      }).map(function(element){
       return element*3
@@ -1554,3 +1554,4 @@ fucntion printmyage(){
   }
 }
 _______________________________________________________________________________
+
