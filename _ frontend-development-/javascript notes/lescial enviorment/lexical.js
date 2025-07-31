@@ -43,3 +43,7 @@ func();
 // since execution context of printdetails got destroyed and print function is not able to access the title variable.
 // if execution context got destroyed then all the variables that got memory allocation 
 // will also destroyed.....accroding to our theory.
+// but here comes most power full feature of javascript which seprate it from 
+// other programming language..it is known as closures
+// this magic is happening because retirn we return funciton we not only funciton but intenally we are returning 2 things 
+// one is funciton code definition (basically source code) + it is lexical enviorment.
