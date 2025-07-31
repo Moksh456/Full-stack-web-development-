@@ -1,11 +1,11 @@
 var age = 28;
-var title = "sharad"
+
 function printdetails(){
-    console.log(age)
+    var title = "sharad"
 
     print();
     function print(){
-     
+     debugger
         console.log(`hello my name is ${title} and my age is ${age}`)
     }
 }
