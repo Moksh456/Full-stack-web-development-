@@ -38,3 +38,8 @@ function printdetails(){
 }
 const func = printdetails();
 func();
+
+// so the above function output is the = `hello my name is undefined and my age is 28
+// since execution context of printdetails got destroyed and print function is not able to access the title variable.
+// if execution context got destroyed then all the variables that got memory allocation 
+// will also destroyed.....accroding to our theory.
