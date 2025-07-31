@@ -19,6 +19,7 @@ printdetails();
   scope chain is applicable is variables 
  */
 
-  /* lexical Env variables accessed local + it lexical parent
+  /*  
+  lexical Env = variables accessed local + it lexical parent
     
   */
