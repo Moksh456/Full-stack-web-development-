@@ -1,3 +1,4 @@
+/*
 var age = 28;
 
 function printdetails(){
@@ -9,7 +10,7 @@ function printdetails(){
         console.log(`hello my name is ${title} and my age is ${age}`)
     }
 }
-printdetails();
+printdetails();*/
 //quetion :
 /* here title and age both the variables are not defined under print function 
  then also we are able to access it How ? 
@@ -23,3 +24,17 @@ printdetails();
   lexical Env = variables accessed local + it lexical parent
     
   */
+
+  var age = 28;
+
+function printdetails(){
+    var title = "sharad"
+
+    print();
+    function print(){
+        console.log(`hello my name is ${title} and my age is ${age}`)
+    }
+    return print
+}
+const func = printdetails();
+func();
