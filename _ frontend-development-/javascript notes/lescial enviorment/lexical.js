@@ -48,6 +48,11 @@ func();
 // this magic is happening because retirn we return funciton we not only funciton but intenally we are returning 2 things 
 // one is funciton code definition (basically source code) + it is lexical enviorment.
 
-// lexical env = VARIABLES(LOVAL) + VARIABLES of its lexical parent.
-
+// lexical env = VARIABLES(LOCAL) + VARIABLES of its lexical parent.
+ 
 // i.e  returned  function is able to access these variables even after it is removed from the exectution stack.
+
+// CLOSURE =  FUNCTION + it's lexical env
+
+// so the above code is a closure
+
