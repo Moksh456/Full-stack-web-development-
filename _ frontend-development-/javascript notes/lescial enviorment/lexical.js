@@ -36,7 +36,7 @@ function printdetails(){
     }
     return print
 }
-const func = printdetails();
+const func = printdetails(); 
 func(); 
 
 // so the above function output is the = `hello my name is undefined and my age is 28
