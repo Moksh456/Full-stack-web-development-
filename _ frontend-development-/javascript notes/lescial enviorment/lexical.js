@@ -37,7 +37,7 @@ function printdetails(){
     return print
 }
 const func = printdetails();
-func();
+func(); 
 
 // so the above function output is the = `hello my name is undefined and my age is 28
 // since execution context of printdetails got destroyed and print function is not able to access the title variable.
@@ -56,3 +56,25 @@ func();
 
 // so the above code is a closure
 
+
+/*var age = 28;
+
+function printdetails(){
+    var title = "sharad"
+
+    print();
+    function print(){
+        console.log(`hello my name is ${title} and my age is ${age}`)
+    }
+    return print
+}
+const func = printdetails();
+func();*/
+
+// in the above code, closure is formed on print() i.e event if printdetails 
+// get removed from the execution stack,..WHILE print() method will be able to infer 
+// age property..how? because it can recall.memorise it by referencing it 
+// that means age variables is still present in the memory at the same memory location 
+// one moren conslusion can be derived -> if any closure is formed them 
+// thode variables can not be garbge collected i.e these variables can not be 
+// removed form the memory.
