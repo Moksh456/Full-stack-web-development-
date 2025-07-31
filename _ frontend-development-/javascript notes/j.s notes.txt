@@ -255,7 +255,7 @@ logical operators =>
       ans: sha
 
       var a =   true && true
-      ans: true
+      ans: true 
       
       var a = false && true
        ans: false
@@ -1518,9 +1518,9 @@ ________________________________________________________________________________
 finding element in an array:
 find() method can be used pass callback function to find() method and it will return only one element as soon as condition inside callback is met 
 
-.find()
+.find() 
 
-_________ _______________________________________________________________________
+________________________________________________________________________________
 
 
 Scope:
@@ -1553,7 +1553,23 @@ fucntion printmyage(){
     console.log(age);
   }
 }
+
 _______________________________________________________________________________
 
 
+
+
+
+_______________________________________________________________________
+
+Onject oriented JAvascript:
+(OOJS)
+
+1. procedural paradign
+2. object oriented paradigm
+
+these paradigmms enforce way of writing code. 
+
+procedural:
+_______________________________________________________________________
 
