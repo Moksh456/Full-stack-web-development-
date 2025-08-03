@@ -1582,11 +1582,14 @@ making code look less complex and meaningfull
 to chieve these things we have 4 pillars :
 1. encapulation
 2. abstraction
-3. inheritence
+3. inheritence 
 4. polymorhism
 
 1. encapsulation :
-        
+        combining data and methods/function that act on the data in a single unit 
+        purpose ? reduce complexity and makes things more redable/comprehend.
+
+
 
 _______________________________________________________________________
  
