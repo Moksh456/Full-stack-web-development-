@@ -1589,9 +1589,15 @@ to chieve these things we have 4 pillars :
         combining data and methods/function that act on the data in a single unit 
         purpose ? reduce complexity and makes things more redable/comprehend.
 
+2. abstraction : 
+    
+  showing only essential part and hide actual implementation 
+  pusporse? to make simple interfaces.
+
+
+
+
 
 
 _______________________________________________________________________
  
-
-  
