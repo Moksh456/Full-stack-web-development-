@@ -1571,13 +1571,14 @@ _______________________________________________________________________
 Onject oriented JAvascript:  
 (OOJS)
 
-1. procedural paradign
+1. procedural paradigm
 2. object oriented paradigm
 
 these paradigmms enforce way of writing code. 
 
 procedural:
+    
 _______________________________________________________________________
  
- 
+
   
