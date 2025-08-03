@@ -1242,6 +1242,12 @@ property :
     Note this is not exactly true.
 
 Methods :
+
+
+
+
+
+
  1. retriving specific character via index :
       String[index]
  2. Test if string contains substring or not :
