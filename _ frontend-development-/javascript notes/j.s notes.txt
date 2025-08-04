@@ -1631,4 +1631,50 @@ apple.prototype.displayname = function(){
   console.log("hey i am apple")
 }
 
+folowing statements is also the part of polymorhinst:-
+console.log(1+1); // 1
+console.log(1+"1"); // 11
+
+_______________________________________________________________________
+
+Destructuring :
+        Array:
+    const arr = ["sharad", "akashay", "alasj"]
+
+    requirements:
+    want to get firstelement and secondelement of arr.
+
+    const firstelement = arr[1]
+    const secondelement = arrp[2]
+
+    same thing can be ashieved with a different way/syntax :
+
+    const [firstelement,secondelement ] = arr;
+
+  above line depicts that ->
+
+  here [] brackedts are used becuse we are working with array.
+  take first element of array and assign it to a const variable called firstelement 
+  take secondelement of arr and assign it to a const variable called secondelement
+
+  now let say we want third element of arr to be stored in a variable called "third".
+  what will be the change require in above syntax?
+
+  Object :
+  const perosn = {
+    name: "sharad",
+    age: 25,
+    work: "instructor"
+  }
+
+  const firstelement = person.name()
+  const secondelement = person.age()
+
+  same thing can be achieve wit a different way/syntax :
+            
+            const { name, age} = person
+        
+        initialize a const variable called "name" and then.
+        search for a proerty called "name" inside person object and return its value
+        this new variable of "name" 
 _______________________________________________________________________
