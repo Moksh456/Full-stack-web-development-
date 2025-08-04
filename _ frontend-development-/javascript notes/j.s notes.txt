@@ -1631,8 +1631,4 @@ apple.prototype.displayname = function(){
   console.log("hey i am apple")
 }
 
-
-
-
 _______________________________________________________________________
-   
