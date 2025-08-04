@@ -1617,10 +1617,8 @@ function furit(){
    }
 
 --lets create subclass/child class--
-function Apple(){
-
-}
-apple.prototype = object.create(furit.prototype);
+function Apple(){}
+apple.prototype = Object.create(furit.prototype);
 
 req: 
 now any instance created via apple constructor function and whenever we call
