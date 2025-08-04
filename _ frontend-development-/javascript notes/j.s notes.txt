@@ -1605,6 +1605,33 @@ to chieve these things we have 4 pillars :
           poly - multiple
           morphism - forms
 
+one name -- many form.....
+
+how to implement in javascript?
+
+function furit(){
+   furit.prototype.displayname = functionO(){
+    console.log("hey i am fruit")
+   }
+}
+
+--lets create subclass/child class--
+function Apple(){
+
+}
+apple.prototype = object.create(furit.prototype);
+
+req: 
+now any instance created via apple constructor function and whenever we call
+displayname() method...then..it should print "he i am apple" insted of "hey i am furit"
+
+ie. apple (subclass or entitiy which inheirts parent entitiy called furit )
+should override this method displayname();  
+
+apple.prototype.displayname = function(){
+  console.log("hey i am apple")
+}
+
 
 
 _______________________________________________________________________
