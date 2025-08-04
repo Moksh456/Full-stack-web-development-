@@ -1610,10 +1610,11 @@ one name -- many form.....
 how to implement in javascript?
 
 function furit(){
-   furit.prototype.displayname = functionO(){
+  
+}
+ furit.prototype.displayname = function(){
     console.log("hey i am fruit")
    }
-}
 
 --lets create subclass/child class--
 function Apple(){
@@ -1631,6 +1632,7 @@ should override this method displayname();
 apple.prototype.displayname = function(){
   console.log("hey i am apple")
 }
+
 
 
 
