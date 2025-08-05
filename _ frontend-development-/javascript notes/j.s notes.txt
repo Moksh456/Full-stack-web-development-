@@ -1769,8 +1769,11 @@ optional chaining :
     }
 
     person.xyz ->  UNDEFINED
-    person.xyz,querty -> 
-    
+    person.xyz,querty -> this will be throw the proper erro
+
+    solution :
+      person.xyz?.querty -> 
+
 
   
  
