@@ -1691,5 +1691,25 @@ Destructuring :
          Syntax :
           const {object_Key:Any_Variable}  = person.
 
+          important usecase W.R.T function :
+              lets say i write a function that prints first NAme.
+
+             function printFirstNAme(Firstname){
+                console.log(` hello my name is ${Firstname}`)
+              }
+
+              Now, anyone can send full object.. but our method will only  
+
+_______________________________________________________________________________
+
+Rest Operator(...)  :
+  combine multiple elements  into one.
+
+  usecase :
+    const arr = ["sharad", "akashy", "akash", "paul"]
           
+      i want first 2 elem of arr in variable called "firstelement" and "secondelement" and the rest of
+       the remaining elements should be saved inside  a variables called "leftOver"...This "leftOver" variable should be ARRAY.  
+
+       
 _______________________________________________________________________
