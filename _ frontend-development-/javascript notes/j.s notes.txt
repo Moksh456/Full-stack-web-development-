@@ -1755,6 +1755,23 @@ short curcuit evaluation :
 
   hello()
 
+  Now, what will be the output of the following code?
+
+  False && hello();
+
+_______________________________________________________________________
+
+optional chaining :
+
+    const person = {
+      name: "sharad",
+
+    }
+
+    person.xyz ->  UNDEFINED
+    person.xyz,querty -> 
+    
+
   
  
 
