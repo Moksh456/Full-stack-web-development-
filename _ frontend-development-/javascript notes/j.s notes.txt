@@ -1725,8 +1725,29 @@ Rest Operator(...)  :
 _______________________________________________________________________
 
 spread Operatror(...) :
- spread is opsite of Rest. Although, ... is reperesented for spread operator also
- one unit (iterable - array,object) is spread into multiple units. 
+    spread is opsite of Rest. Although, ... is reperesented for spread operator also
+    one unit (iterable - array,object) is spread into multiple units. 
+
+        const humman = {
+        feelings:true,
+      }
+    undefined
+    const person = {
+        name: "sharad",
+        age: 28,
+        ...humman
+      }
+    undefined
+    person{
+      name: 'sharad',
+      age: 28,
+      feelings: true
+      }
+
+
+_______________________________________________________________________
+
+
 
   
  
