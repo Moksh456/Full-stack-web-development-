@@ -1747,7 +1747,13 @@ spread Operatror(...) :
 
 _______________________________________________________________________
 
+short curcuit evaluation :
+  
+  function hello(){
+    console.log("hello wrold")
+  };
 
+  hello()
 
   
  
