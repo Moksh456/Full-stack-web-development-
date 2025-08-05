@@ -1520,7 +1520,7 @@ const  stt = [1,2,3,4,5,6,7,8,9]
 .some() ,ethod can be used here since we need to check some of the element of array.
 
 ________________________________________________________________________________
-
++
 finding element in an array:
 find() method can be used pass callback function to find() method and it will return only one element as soon as condition inside callback is met 
 
@@ -1677,4 +1677,19 @@ Destructuring :
         initialize a const variable called "name" and then.
         search for a proerty called "name" inside person object and return its value
         this new variable of "name" 
+
+        now 
+        there are some difference w.r.t destruct array vs destruct object:
+        1. [] vs {}
+        2. here during array destruct variable name can be anything and alwaus order is
+         maintained i.e first variable will always get arr[0]...second
+         variable will always get value present in arr[1]...so on....
+
+         but during object destruct...variable names need to be same as name of the key i0nside the object.
+         this might appear as a flow of we want to create variable with a different name 
+
+
+
+
+
 _______________________________________________________________________
