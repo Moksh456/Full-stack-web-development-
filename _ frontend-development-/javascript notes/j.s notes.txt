@@ -1785,7 +1785,7 @@ null coalescing:
     const age = null ?? 28;
     
     it operats on 2 operands...here if operand on the left side to null.UNDEFINED
-     then it return value on the right side (i.e 28) ...but if left side is not Null/UNDEFINED then value on the left side is return
+     then it return value on the right side (i.e 28) ...but if left side is not Null/UNDEFINED then value on the left side is return 
 
 
   
