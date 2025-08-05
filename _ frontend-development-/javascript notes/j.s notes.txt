@@ -1686,10 +1686,10 @@ Destructuring :
          variable will always get value present in arr[1]...so on....
 
          but during object destruct...variable names need to be same as name of the key i0nside the object.
-         this might appear as a flow of we want to create variable with a different name 
+         this might appear as a flow of we want to create variable with a different name(i.e name than is  present inside object's keys )
 
+         Syntax :
+          const {object_Key:Any_Variable}  = person.
 
-
-
-
+          
 _______________________________________________________________________
