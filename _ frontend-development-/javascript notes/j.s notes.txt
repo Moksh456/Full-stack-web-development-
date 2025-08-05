@@ -1711,5 +1711,9 @@ Rest Operator(...)  :
       i want first 2 elem of arr in variable called "firstelement" and "secondelement" and the rest of
        the remaining elements should be saved inside  a variables called "leftOver"...This "leftOver" variable should be ARRAY.  
 
-       
+  rest operator also works with objects. 
+
+    usecase :
+      
+
 _______________________________________________________________________
