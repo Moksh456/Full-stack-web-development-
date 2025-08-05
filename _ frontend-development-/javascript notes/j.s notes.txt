@@ -1714,6 +1714,21 @@ Rest Operator(...)  :
   rest operator also works with objects. 
 
     usecase :
-      
+      design the function that can accept ubtimmited arguments as inputs.
+
+      Soln:
+        function fn(...variablename){
+          //here variable name will club all the indput into array and the then 
+          that array can be used for all the logical works to be done inside function
+
+        }
+_______________________________________________________________________
+
+spread Operatror(...) :
+ spread is opsite of Rest. Although, ... is reperesented for spread operator also
+ one unit (iterable - array,object) is spread into multiple units. 
+
+  
+
 
 _______________________________________________________________________
