@@ -1836,5 +1836,15 @@ _______________________________________________________________________
 
   const car1 = car("creata", 2022, "white", "sx");
 
-    
+_______________________________________________________________________
+
+cloning An object :
+  let obj1 = {age:28}
+  let obj2 = {...obj1}
+
+  but here it appears that clone is secessfull...
+  i.e deep clone is performed but in reality it is still swallow clone.
+  but it only till first level in hierarchy.
+
+
 
