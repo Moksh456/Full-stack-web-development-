@@ -1865,8 +1865,9 @@ cloning An object :
   but here it appears that clone is secessfull...
   i.e deep clone is performed but in reality it is still swallow clone.
   but it only till first level in hierarchy.
-
   i.e if there are any nested objects inside a object these nested objects are
    swallow copied...,
 
 
+
+   
