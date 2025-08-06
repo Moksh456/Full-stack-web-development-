@@ -1847,7 +1847,15 @@ cloning An object :
   but it only till first level in hierarchy.
 
   i.e if there are any nested objects inside a object these nested objects are
-   swallow copied...
- 
- 
+   swallow copied...,
+
+   using object.assing() : 
+
+      Object.assign(<TARGET_OBJECT>, <SOURSE>........<SOURSE2>,......<SOURSE>)
+      
+      let obj = {
+          age: 28
+      }  
+
+      let obj2 = Object.assign({},obj);
 
