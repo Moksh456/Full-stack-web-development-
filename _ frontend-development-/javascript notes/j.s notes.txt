@@ -1869,5 +1869,6 @@ cloning An object :
    swallow copied...,
 
 
- 
- 
+  JSON.parse(JSON.stringify()) -> this will do deep cloning but it is no the recomeded
+  method to do it since it is not performant and highly discouraged.
+
