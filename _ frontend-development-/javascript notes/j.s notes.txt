@@ -1852,7 +1852,9 @@ cloning An object :
    using object.assing() : 
 
       Object.assign(<TARGET_OBJECT>, <SOURSE>........<SOURSE2>,......<SOURSE>)
-      
+      takes all the properties present in all <sources> an copy them inside 
+      <TARGET_OBJECT> and then  returns <TARGET_OBJECT>;
+     
       let obj = {
           age: 28
       }  
