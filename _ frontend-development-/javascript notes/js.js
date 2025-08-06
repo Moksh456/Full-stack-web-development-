@@ -10,7 +10,7 @@
 
 //var person = new Object();
 //person.name = "sharad"
-//person.age ="25"
+//person.age ="25" 
  
 
 /*var person = new Array(10);
