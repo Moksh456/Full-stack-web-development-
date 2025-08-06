@@ -1872,3 +1872,17 @@ cloning An object :
   JSON.parse(JSON.stringify()) -> this will do deep cloning but it is no the recomeded
   method to do it since it is not performant and highly discouraged.
 
+_______________________________________________________________________
+
+Inheritance :
+    How to implement inheritence?
+
+    USecase :
+    PArent class called PERSON which needs to be initilized with certain propeties like name and age.
+
+    there is child class called employee (which is a PERSON to!) and it needs to be
+    initilized with properties like name, age, and employmenttype.
+
+    How can we model it in javascript ?
+
+      Refer function_class.js
