@@ -44,3 +44,14 @@ const e1 = new employee("sharad", 28, "contract");
 //new object is created and prototype of this newly created object is set to person.prototype
 // this keyword is pointed to newly created object.
 // to access prototype of p1 -> object.getPrototypeOf(p1) can used 
+
+
+
+
+
+// ES6 - classes
+
+// let us solve above with different sysntax 
+// In js class keyword exist it is possible to write in object oriented manaer
+// but it is just sugar internally it gets converted to function constructor 
+// syntax onplay.
