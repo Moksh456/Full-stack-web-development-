@@ -46,7 +46,7 @@ const e1 = new employee("sharad", 28, "contract");
 // to access prototype of p1 -> object.getPrototypeOf(p1) can used 
 
 
-
+ 
 
 
 // ES6 - classes
