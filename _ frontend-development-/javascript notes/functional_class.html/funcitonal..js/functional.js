@@ -22,3 +22,4 @@ const p1 = new person("sharad", 28);
 // to access prototype of p1 -> object.getPrototypeOf(p1) can used 
 
 
+
