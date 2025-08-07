@@ -13,3 +13,5 @@ function person(name, age){
 // does that mean -> person.prototype.constructor  === person will be true?
 
 
+const p1 = new person("sharad", 28);
+
