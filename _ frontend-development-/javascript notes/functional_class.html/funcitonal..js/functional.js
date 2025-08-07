@@ -15,3 +15,4 @@ function person(name, age){
 
 const p1 = new person("sharad", 28);
 
+//new object is created and prototype of this newly created object is set to person.prototype
