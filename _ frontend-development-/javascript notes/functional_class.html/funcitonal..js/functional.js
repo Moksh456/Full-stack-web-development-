@@ -24,10 +24,9 @@ function employee(name, age, employmentType){
 
 }
 employee.prototype = Object.create(person.prototype)
-
+ // here employee.protye.constructor is lost because we are assign 
+ // employee.prototype to something ELSE EXPLICTY.
 const e1 = new employee("sharad", 28, "contract");
-
-
 
 
 // here person.Prototype.consturctor again points hack to person 
@@ -40,7 +39,3 @@ const e1 = new employee("sharad", 28, "contract");
 //new object is created and prototype of this newly created object is set to person.prototype
 // this keyword is pointed to newly created object.
 // to access prototype of p1 -> object.getPrototypeOf(p1) can used 
-
-
-
-
