@@ -10,3 +10,6 @@ function person(name, age){
 }
  
 // here person.Prototype.consturctor again points hack to person 
+// does that mean -> person.prototype.constructor  === person will be true?
+
+
