@@ -1811,12 +1811,12 @@ _______________________________________________________________________
   function Car(model,year,color,varient){ 
     this.model = model;
     this.year = year;
-    this.color = color;
+    this.color = color;   
   } 
 
   new CAr("","","")
 
-  
+
   till Now we have studied making new ibject via constructor function with the help 
   of new keyword.
 
