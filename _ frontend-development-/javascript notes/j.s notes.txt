@@ -1876,7 +1876,7 @@ _______________________________________________________________________
 
 Inheritance :
     How to implement inheritence?
-
+ 
     USecase :
     PArent class called PERSON which needs to be initilized with certain propeties like name and age.
 
@@ -1887,3 +1887,6 @@ Inheritance :
 
       Refer function_class.js
 _______________________________________________________________________
+
+
+
