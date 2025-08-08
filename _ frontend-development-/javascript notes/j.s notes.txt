@@ -1882,7 +1882,8 @@ Inheritance :
 
     there is child class called employee (which is a PERSON to!) and it needs to be
     initilized with properties like name, age, and employmenttype.
-
+      
     How can we model it in javascript ?
 
       Refer function_class.js
+_______________________________________________________________________
