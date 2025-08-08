@@ -1811,7 +1811,7 @@ _______________________________________________________________________
   function Car(model,year,color,varient){ 
     this.model = model;
     this.year = year;
-    this.color = color;   
+    this.color = color;
   } 
 
   new CAr("","","")
