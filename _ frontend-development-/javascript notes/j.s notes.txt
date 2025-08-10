@@ -1935,7 +1935,39 @@ _______________________________________________________________________
 
 Arrow function (ES6) :
 
-  const func = function (){}
-  function func = (){}
+Till now we are used to writing these syntaxes like function:
 
+
+
+  const func = function (){} // function expression
+  function func = (){} // function declaration
+
+  Now there is one more syntax for function --> 
+
+Type one :
+
+  function sum(A,B){
+    return a+b;
+  }
+
+Type 2 :
+  const sum = function(a,b){
+    return a+b
+  }
+
+Type 3 :
+  const sum = (A,b) => {
+      return a+b
+  }
+
+  observations
+  1. function keyword was removed 
+  2. => got introduced before { Brackets
+
+  Shorthand : 
+    if only 1 argument is required then no need of brackets  
+    eg: 
+    const addBy2 = (A) => {
+      return a+2;
+    }
 
