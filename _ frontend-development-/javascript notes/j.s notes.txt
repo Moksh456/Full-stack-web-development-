@@ -1890,3 +1890,7 @@ Inheritance :
 _______________________________________________________________________
 
 
+function arrguments :
+  function sum(A,B){
+    REURN A+B
+  }
