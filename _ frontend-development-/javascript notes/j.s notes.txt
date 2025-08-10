@@ -1930,3 +1930,12 @@ one approach ->
     result = result+arr[i];
    }
   }
+
+_______________________________________________________________________
+
+Arrow function (ES6) :
+
+  const func = function (){}
+  function func = (){}
+
+
