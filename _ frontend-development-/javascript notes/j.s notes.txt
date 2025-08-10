@@ -1891,6 +1891,17 @@ _______________________________________________________________________
 
 
 function arrguments :
+
+  Build an object passed to every function (whenever it is invoked)
+  it is an object which looks like an aray.
+  i.e arr[0], arr[1] --> index can be used to refer data.
+  It has .lenght property also.
+  but it is not exctly array...i.e we cannot use array methods like push, pop, etc...
+
+
+
   function sum(A,B){
+    console.log(argument[0]);
+    console.log(argument[1]);
     REURN A+B
   }
