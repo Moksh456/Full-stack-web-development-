@@ -71,7 +71,7 @@ class employee extends person{
     constructor(name,age,employmentType){
         super(name,age);
         this.employmentType = employmentType;
-    }
-     
+    }     
 }
+
 const s1 = new person("sharad", 28);

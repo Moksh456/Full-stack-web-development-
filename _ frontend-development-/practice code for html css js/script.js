@@ -114,6 +114,7 @@ const mongoDB = document.querySelector("#mongo-DB" );
 
 const subject = document.querySelector("#subject") 
 
+
 /*for(let i = 0; i< subject.length; i++){
     subject[i].addEventListener("click", function(event){
         console.log("clicked on the valeu");
@@ -123,11 +124,4 @@ const subject = document.querySelector("#subject")
 
  
 /*subject.addEventListener("click", function(){
-    console.log(event.target)});*/s
-
-
-
-
- 
- 
- 
+    console.log(event.target)});*/
