@@ -1967,7 +1967,12 @@ Type 3 :
   Shorthand : 
     if only 1 argument is required then no need of brackets  
     eg: 
-    const addBy2 = (A) => {
+    const addBy2 = A => {
       return a+2;
     }
 
+if only 1 staments/expression is to be executed then {} and return keyword is also 
+not required
+
+  const addby2 = a => a+2;
+  
