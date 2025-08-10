@@ -1911,3 +1911,10 @@ function arrguments :
     console.log(arguments[1]);
     return arguments[0] + arguments[1];
   }
+
+Write a function to sum n elements.
+
+one approach -> 
+  use argumengts object 
+  iterate over and add these values.
+  
