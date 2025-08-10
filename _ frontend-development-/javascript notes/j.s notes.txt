@@ -1914,7 +1914,19 @@ function arrguments :
 
 Write a function to sum n elements.
 
+sum(1,56,5,5,5,5)
+sum(542,867)
+
 one approach -> 
+
   use argumengts object 
   iterate over and add these values.
-  
+
+  function sum(){
+    let result = 0;
+    let arr = [...arguments]
+   // iterate ofer arr and each iteration add values to result variable
+   for(let i =0;i<arr.length; i++){
+    result = result+arr[i];
+   }
+  }
