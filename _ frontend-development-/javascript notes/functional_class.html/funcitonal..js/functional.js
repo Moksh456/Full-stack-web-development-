@@ -20,9 +20,8 @@ function employee(name, age, employmentType){
     // calling parent class constructor
      person.call(this, name,age);
     this.employmentType = employmentType;
-   
-
 }
+
 employee.prototype = Object.create(person.prototype)
  // here employee.protye.constructor is lost because we are assign 
  // employee.prototype to something ELSE EXPLICTY.
