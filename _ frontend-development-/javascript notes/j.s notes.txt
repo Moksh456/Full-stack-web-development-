@@ -1901,7 +1901,13 @@ function arrguments :
 
 
   function sum(A,B){
-    console.log(argument[0]);
-    console.log(argument[1]);
-    REURN A+B
+    console.log(arguments[0]);
+    console.log(arguments[1]);
+    return A+B;
+  }
+
+    function sum(A,B){
+    console.log(arguments[0]);
+    console.log(arguments[1]);
+    return arguments[0] + arguments[1];
   }
