@@ -1982,7 +1982,9 @@ when to use arrow function vs when not to use ?
   function (i.e binding, is created);
 
 
-  But in case of arrow functions no binding of this is created 
+  But in case of arrow functions no binding of this is created...
+  rather it will THIS of nearest element... (must of the time in interview , it will be window)
+  
 
   When not use Arrow function:
     1. if inside these function THIS keyword us used.
