@@ -1984,7 +1984,7 @@ when to use arrow function vs when not to use ?
 
   But in case of arrow functions no binding of this is created...
   rather it will THIS of nearest element... (must of the time in interview , it will be window)
-  
+
 
   When not use Arrow function:
     1. if inside these function THIS keyword us used.
@@ -1993,4 +1993,10 @@ when to use arrow function vs when not to use ?
     4. arrow function do not have arguments object.
     5. cannot use bind, call,apply -> sinzce new binding of this cannot be created by arrow functions.
     6. super keyword is not present in arrow functions.
+
+
+_______________________________________________________________________
+
+try/catch :
+  
   
