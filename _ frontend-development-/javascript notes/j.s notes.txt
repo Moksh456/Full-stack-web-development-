@@ -1978,8 +1978,10 @@ not required
 
 
 when to use arrow function vs when not to use ? 
+  
 
-  But in case of arrow functions:
+  But in case of arrow functions: 
+  
     1. if inside these function THIS keyword us used.
     2. if we want to create constructor functions, arrow function cannot be used.
     3. constructors methods/functions cannot be arrow function.
