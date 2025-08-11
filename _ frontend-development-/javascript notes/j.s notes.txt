@@ -1975,4 +1975,14 @@ if only 1 staments/expression is to be executed then {} and return keyword is al
 not required
 
   const addby2 = a => a+2;
-  
+
+
+when to use arrow function vs when not to use ? 
+
+  But in case of arrow functions:
+    1. if inside these function THIS keyword us used.
+    2. if we want to create constructor functions, arrow function cannot be used.
+    3. constructors methods/functions cannot be arrow function.
+    4. arrow function zzzdo not have arguments object.
+    5. cannot use bind, call,apply -> sinzce new binding of this cannot be created by arrow functions.
+    6. super keyword is function 
