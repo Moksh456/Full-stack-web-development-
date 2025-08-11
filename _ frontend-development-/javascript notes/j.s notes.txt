@@ -1978,13 +1978,17 @@ not required
 
 
 when to use arrow function vs when not to use ? 
-  
+  in incase of normal functions value of this is decided by who is calling that 
+  function (i.e binding, is created);
 
-  But in case of arrow functions: 
-  
+
+  But in case of arrow functions no binding of this is created 
+
+  When not use these function:
     1. if inside these function THIS keyword us used.
     2. if we want to create constructor functions, arrow function cannot be used.
     3. constructors methods/functions cannot be arrow function.
-    4. arrow function zzzdo not have arguments object.
+    4. arrow function do not have arguments object.
     5. cannot use bind, call,apply -> sinzce new binding of this cannot be created by arrow functions.
     6. super keyword is function 
+
