@@ -2019,6 +2019,11 @@ try/catch :
      catch block :
       any error that happens inside TRY block will be CTCHED by this cathch block.
 
+      if error happends inside try block, then, code execution shift to its corresponding catch block.
+      also after catch block finish running...code execution does not go back to try block 
+      ((from where it leftOver)...rather it starts execution lines written after cathc block.)
+      
+
   used to handle errors.
   
   errors like :

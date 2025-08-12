@@ -10,3 +10,4 @@ const sum = (a,b) => {
 }
 
 sum(25,30);
+console.log("sum is ", sum(25,30));
