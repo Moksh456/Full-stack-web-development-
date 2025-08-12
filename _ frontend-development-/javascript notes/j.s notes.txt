@@ -2024,9 +2024,35 @@ try/catch :
       also after catch block finish running...code execution does not go back to try block
       ((from where it leftOver)...rather it starts execution lines written after catch block.)
 
-  Finally block :
+  catch block ->  gets 1 arguments (error object) by default...
+    error object ->
+    1. name keys -> name of the error 
+    2. message keys -> message w.r.t error
+    3. stack key -> stacktrace i.e from where/which line this error came from
 
-  
+  Finally block :
+      
+      this block is executed whenever there is some error inside try block...
+
+      whenever any ERROR occurs inside try block, then, there are following paransthises of code execitions/flow :
+
+  1. either it will jump to catch block(if implemented )
+  2. or it will jump to catch block (if implemented ) and agter executing catch 
+    block...it will start executing its finally block (if implemented )
+  3. or if cathch block is not implemented but finally block is implemented...
+    then it will execute finally block.
+
+eg.:
+  talk to database detch name n age n show it on ui. 
+
+  pseudo code for the same :
+
+  try{
+    // establish connection with database
+  }
+  catch{
+    // run this code incase name n age was not present in badatabse
+  }
 
 
   used to handle errors.
