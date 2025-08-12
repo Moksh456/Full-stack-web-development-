@@ -2017,12 +2017,16 @@ try/catch :
      (note: BOTH (catch and finally) cn also be used togearther with try )
 
      catch block :
+     only runs/executes when some error happens inside its try block 
       any error that happens inside TRY block will be CTCHED by this cathch block.
 
       if error happends inside try block, then, code execution shift to its corresponding catch block.
-      also after catch block finish running...code execution does not go back to try block 
-      ((from where it leftOver)...rather it starts execution lines written after cathc block.)
-      
+      also after catch block finish running...code execution does not go back to try block
+      ((from where it leftOver)...rather it starts execution lines written after catch block.)
+
+  Finally block :
+    
+
 
   used to handle errors.
   
