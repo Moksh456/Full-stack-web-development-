@@ -2055,11 +2055,11 @@ eg.:
   }
   finally{
     // runany clean up code in this example it can be closing the connection with database 
-    
+
   }
 
   used to handle errors.
   
-  errors like :
+  errors like : 
     syntax errorr
     referenceError  
