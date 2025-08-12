@@ -2000,6 +2000,25 @@ _______________________________________________________________________
 try/catch :
   
   whenever there is a error in js code then js throw error and all the code written after that line will not run.
+
+  when we do not handler errors by ourself them has to handle it but browsere way of handling errors is not too great (Sinace it stops all execution )
+    
+    Therefore there is need for developers to handle errors by themself.
+
+    try{
+      // put all the code where error is anticipated insite try block 
+    }
+
+    Now as soon as we place try block we get a error saying :
+    uncaught syntaxerror: missing catch or finally after try 
+
+    basicaly it means if try keyword us used them Either catch or 
+     finally keyword needs to be used...
+     (note: BOTH (catch and finally) cn also be used togearther with try )
+
+     catch block :
+      any error that happens inside TRY block will be CTCHED by this cathch block.
+
   used to handle errors.
   
   errors like :
