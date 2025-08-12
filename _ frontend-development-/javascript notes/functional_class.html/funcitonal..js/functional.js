@@ -54,8 +54,8 @@ const e1 = new employee("sharad", 28, "contract");
 // In js class keyword exist it is possible to write in object oriented manaer
 // but it is just sugar internally it gets converted to function constructor 
 // syntax onplay.
-
-
+console.log("HELLO JANE MARY");
+/*
 class person12 {
     constructor(name, age){
         this.name = name;
@@ -73,4 +73,5 @@ class employee extends person{
     }     
 }
 
-const s1 = new person("sharad", 28);
+const s1 = new person("sharad", 28);*/
+
