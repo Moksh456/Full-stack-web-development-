@@ -2052,7 +2052,7 @@ eg.:
   }
   catch{
     // run this code incase name n age was not present in badatabse
-  }
+  } 
   finally{
     // runany clean up code in this example it can be closing the connection with database 
 
@@ -2063,3 +2063,4 @@ eg.:
   errors like : 
     syntax errorr
     referenceError  
+ 
