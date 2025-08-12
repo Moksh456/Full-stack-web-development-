@@ -2025,7 +2025,8 @@ try/catch :
       ((from where it leftOver)...rather it starts execution lines written after catch block.)
 
   Finally block :
-    
+
+  
 
 
   used to handle errors.
