@@ -2053,14 +2053,14 @@ eg.:
   catch{
     // run this code incase name n age was not present in badatabse
   } 
-  finally{
+  finally{ 
     // runany clean up code in this example it can be closing the connection with database 
 
   }
 
-  used to handle errors.
+  used to handle errors. 
   
   errors like : 
-    syntax errorr
+    syntax errorr 
     referenceError  
- 
+    
