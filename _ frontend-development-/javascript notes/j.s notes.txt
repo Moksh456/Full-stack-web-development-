@@ -1999,6 +1999,7 @@ _______________________________________________________________________
 
 try/catch :
   
+  whenever there is a error in js code then js throw error and all the code written after that line will not run.
   used to handle errors.
   
   errors like :
