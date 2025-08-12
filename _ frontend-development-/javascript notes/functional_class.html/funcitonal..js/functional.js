@@ -14,8 +14,6 @@ person.prototype.canwalk = function(){
         console.log(`${this.name} can walk`);
     }
 
- 
-
 function employee(name, age, employmentType){
     // calling parent class constructor
      person.call(this, name,age);
@@ -44,18 +42,16 @@ const e1 = new employee("sharad", 28, "contract");
 // this keyword is pointed to newly created object.
 // to access prototype of p1 -> object.getPrototypeOf(p1) can used 
 
-
- 
-
-
 // ES6 - classes
 
 // let us solve above with different sysntax 
 // In js class keyword exist it is possible to write in object oriented manaer
 // but it is just sugar internally it gets converted to function constructor 
 // syntax onplay.
+
 console.log("HELLO JANE MARY");
 /*
+// ES6 class syntax
 class person12 {
     constructor(name, age){
         this.name = name;
@@ -74,4 +70,3 @@ class employee extends person{
 }
 
 const s1 = new person("sharad", 28);*/
-

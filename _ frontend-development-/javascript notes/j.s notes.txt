@@ -1999,4 +1999,8 @@ _______________________________________________________________________
 
 try/catch :
   
-  used to handle errors
+  used to handle errors.
+  
+  errors like :
+    syntax errorr
+    referenceError  
