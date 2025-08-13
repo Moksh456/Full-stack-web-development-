@@ -55,6 +55,4 @@ try{
     const c = sum(1,2);
 }catch{
     console.log("Global catch hanler");
-
 }
-
