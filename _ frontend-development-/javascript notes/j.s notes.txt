@@ -2060,6 +2060,14 @@ eg.:
 
   used to handle errors. 
   
+  how to error by our own ?
+    const sum = (a,b){
+      return a+b;
+
+    }
+
+  i want to THROW error if sum is more than 10?
+  
   errors like : 
     syntax errorr 
     referenceError  
