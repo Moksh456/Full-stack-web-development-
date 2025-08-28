@@ -36,10 +36,10 @@ const sum = (a, b) => {
       if(result>10){
             throw new SyntaxError("result  is more than 10...it wrong")
            
-    }
+    } 
     // add more login -> if result is greater than 50 then Syntaxerror 
 
-    
+     
 }
 catch(error){
        if(error instanceof ReferenceError){
