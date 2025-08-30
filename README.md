@@ -1,5 +1,5 @@
 # full-stack-web-development
-we make all notes of my full stack development day by day with source code
+we make all notes of my full stack development day by day with source code 
 
 full stack devellopment is divide into a 2 parts :-
  
@@ -19,6 +19,7 @@ full stack devellopment is divide into a 2 parts :-
                                2. back end =>  
                                                 
                                                   
+
 
 
 
