@@ -1,0 +1,259 @@
+In this reposatry we use many tags of html which are used in our 
+daily routine. and all tags are explain individually.
+html = hyper text markup languege
+
+Some Important tips for web development---->
+html (hyper.text.markup.Language)
+  this is called skleton and structure of web development. our brouswer only understand three things HTML, CSS, JAVA SCRIPT.
+
+main detail for using tags:--->   
+                                 html tags are opening and closeing also  => for ex.  <tagname>  </tagname>
+attributes:------>
+                  attributes are give more info about the tag.
+                  for ex=> anchor tag :- <a href="flipcatr.com"> clic here to redirect at flip cart.com</a> 
+
+self closing tag ==>  self closing tag is not require to close. these tag     is closed automaticaly. 
+                        for ex=> <hr> , <br> , <meta> etc.
+
+
+tere are two type in html---->
+
+                    1.  block tag-->
+                                  block tag means which tag is start from new line or next line is called block tag.
+                                  eg:  h1 tag, p tag etc.......
+                    2.  inline tag--> 
+                                  in line tag mean which tag is start in same line or paragraph is called inline tag.
+                                  eg: span tag, anchor tag, etc
+table tag --> table tag is used to make table of many data. table tag containg many tag like => <tr>, <td>, <th>
+
+--> client requseted and server response to the client.
+
+--> there are many type of tag are exist in html but we discuss on the which tags is used to our daily life.
+
+there are 3 ways to applied css in html file :
+ 1. inline - with the help of style attribute.
+ 2. Internal - style Tag (children of head tag)
+ 2. external - link tag (children of head tag)
+
+--> base elements = 
+                Base elements of HTML forms are generally the tags / elements that is majorly used for creating an interactive HTML web forms for the user.
+                Index of Base elements:
+1. Form Tag
+2. Input Tag
+3. Text Input
+4. Label
+5. Radio Button
+6. Checkbox
+7. <input name="name">
+8. Submit button
+          
+________________________________________________________________________________                                                                                                                                          
+                                
+List of tags which is used in html:---> 
+1. html tag --> 
+                this tag is used to start html program. 
+
+2. HEAD Tag --> 
+                head is only formality. 
+
+3. BODY Tag --> 
+                body tag is used for the write a text in program 
+
+4. P tag   ---> 
+                p tag is used to write a paragraph in the html program
+
+5. h1 tag  --->
+                h1 tag is used give heading to any title. h tags are six typer h1, h2, h3, h4, h5, h6.
+                every tag is very use full when we decrease the number of h then decrease the size of heading.
+
+6. hr tag ---->  hr tag is use to go at lower line. this is tag is used to start with new line.
+
+7. br tag---->  br tag is used to break the line.
+
+8. meta tags ------->      meta tag is used to add details and more info about the 
+
+9. link tag --->     link tag is used to link css file in html. this tag is used like  ==   <link rel="stylesheet" href="filename.css">
+                  here add ur code of css
+                  </link>  
+                  </link> 
+ 
+
+10. image tag -->  image tag is  used to give image in the web page. 
+    ex.  <img src="inamg address" width="420px" height="auto">
+    image tag is self closing tag.
+
+
+11. audio tag -->  audio tag is used to give audio in web page.
+
+    ex. <audio controls> 
+    <source src="add a audio address " type=audio/mp3"> 
+    </audio>
+
+
+12. video tag --> video tag is used to give video to web page.
+          ex.-->  <video controls>
+                   <source src="video address" type="video/
+                            </video>
+.
+13. over list tag --> over list tag is used to make list of any itms.
+        ex. ==>  <ol>
+                <li>tea</li>
+                <li>sugar</li>
+                <li>onion</li>
+                </ol>
+                output is =>  1. tea
+                              2. sugar
+                              3. onion
+
+14. under list tag --> over list tag is used to make list of any item with out 
+                      any counting ul tag make point list.
+                      ex. => <ul>
+                                <li>tea</li>
+                                <li>sugar</li>
+                                <li>onion</li>
+                              </ul>
+                              output is==> * tea
+                                           * sugar
+                                           * onion
+ 
+ 15. decreption list --> 
+                          dl list tag is used to make detail and define his work. 
+                          ex. => <dl>
+                                  <dt>moksh</dt>
+                                  <dd> work as a java developer</dd>
+                                  </dl>
+                          output is ==>  moksh 
+                                             work as a java developer
+16. div tag -->  div tag has not any meaning div is worked AS a tag main work is it store the all paragraph in div tag and if we want to edit our all tags then we use div tag.
+
+      ex.    <div>
+            <p>i am a good boy</p>
+            <p> i am not a bad boy</p> 
+            <p>jai guru gorakh nath ki</p>
+                </div>
+
+17. header tag --> header tag is used to give heading to webpage.
+              <header> // code</header>   
+
+
+18. footer tag --> footer tag is used to give footer on webpage.
+            <footer> </footer>      
+
+
+19. main tag --> main tag is not usable tag it is only for the manage the code like modern style. main tag is lie between header and footer tag.
+
+                    <main></main>
+
+20.   Table Tags -->  table tag is used to make tables in web page.   ble tag 
+                   table tag contains many tags like 
+  
+HTML tables are used to organize data into rows and columns. The <table> tag defines an HTML table, and it consists of one or more <tr>, <th>, and <td> elements.
+
+Example->
+												<table>
+           <tr>
+    <th>Month</th>
+    <th>Savings</th>
+ </tr>
+          <tr>
+    <td>January</td>
+    <td>$100</td>
+ </tr>
+<tr>
+    <td>February</td>
+    <td>$80</td>
+ </tr>
+</table>
+
+Key Elements=>
+
+         <table>=> Defines the table.
+
+         <tr>=> Defines a row in the table.
+
+	        <th>=> Defines a header cell in the table.
+
+        	 <td>=> Defines a standard cell in the table.
+cols span --> colsspan is used to insert more coloum in coloum.
+
+row span --> used to make new coloum in one row.
+
+21. id attributes --> id id is used work on their individual h1 or another tag.
+                  <h1 id="name"> </h1>
+                  here id is name if we want to edit h1 tag when we edit id.
+ 
+22. form tag --> form tag is used to make form.
+               =>   <form>  </form>
+
+               form tag contain action attribute for the action after submit input tag. 
+               <form action="file location which u want to redirect after subbmission">
+               </form>
+
+ 23. input tag -->  input tag is the child of form tag.
+input tag is used to get input from user input tag is very good tag. 
+input tag is self closing tag.
+                   
+                  <input/>
+
+                  input tag contains type attributes is used for take input.
+
+                  <form >
+    <label for="name">please enter ur name</label>
+    <input type="text" id="name">
+                     </form>
+                     for attributes is used to when we click on the input text the  open input button.
+
+                     input tag has contain many attributes.
+                     eg. 
+                   1. text type attribute
+                  2.  date type attribute
+                  3. color type attribute
+                  4.  check box type attribute
+                  5. radio type attribute
+                  6. password type attribute
+                  7. range type attribute
+                  8. number type attributes. number type attribute is used with limit the type of limit
+                  min="0" max="50" step="10"
+              10. file type attribute
+                  11. textarea input tag
+
+
+                  attributes of form tag -->
+                  1. autocomplete: This attribute is used for enabling or disabling auto-complete text feature of text box.
+
+                  2. autofocus: This attribute is used to specify that text area field should get automatically focus when the page loads.
+
+                  3. cols: This attribute is used to define the dimension by specifying the numbers of column of text box
+
+                  4. disabled: This attribute is used to disable the text area element.
+
+                  5. form: This attribute is used to point towards the one or more forms that the <textarea> elements belongs to.
+
+                  6. maxlength: This attribute is used to limit the number of input text characters allowed inside <textarea> element.
+
+                  7. minlength: This attribute is used to define the minimum number of input text characters inside required inside 
+                  <textarea> element. 
+
+                  8. name: This attribute is used to define the name of the <textarea> element.
+
+                  9. placeholder: This attribute is used to display predefined textual content inside the <textarea> element until the user modifies the content.
+
+                  10. readonly: This attribute is used to specify that <textarea> element is read-only.
+
+                  11.required: This attribute is used to specify that the <textarea> element should be mandatorily filled out before submitting the Form.
+
+                  12.rows: This attribute is used to define the dimension by specifying the numbers of rows of text box
+
+24. fieldset tag --> field set tag is lie on the form tag it's main work is to accessbility           
+                    <fieldset>
+                       <legend > login !</legend>
+                    </fieldset>
+                    
+
+ 25.  i frame --> i frame tag is used to insert any html file in another html page. 
+                    <iframe> src=""</iframe>     
+                    
+                    attribute of iframe tag :-
+                                        1. width
+                                        2. height
+ 
