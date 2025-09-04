@@ -2067,6 +2067,7 @@ eg.:
     }
 
   i want to THROW error if sum is more than 10?
+
   concept of rethrow :
     we write catch block to handle errors coming from its try block...
     but thwn we errors in,pictily fromry block...
@@ -2074,10 +2075,10 @@ eg.:
 
     eg :
       in above example inside catch block only handle error which is of type 
-      "referenceError"..apart from that is any other error happens, then, er-throw error from catch block...
+      "referenceError"..apart from that is any other error happens, then, er-throw error 
+      from catch block...
       
   errors like : 
     syntax errorr 
-    referenceError  
-    
-    
+    referenceError
+
