@@ -2082,3 +2082,27 @@ eg.:
     syntax errorr 
     referenceError
 
+_______________________________________________________________________
+
+ Curying :
+
+_______________________________________________________________________
+
+Async Javascript :
+
+
+  timers and Intervals :-
+
+  quetions:
+    Create a timer i.r 
+    create 2 buttons  - start and stop 
+    on click of start , timer start with value 1 and on every 1 sec 
+    it should be increment value by 1..
+    on click of stop  timer will be stop  
+
+  1. setInterval 
+  2. clearInterval
+
+  3. setTimeout
+  4. Cleartimeout
+  
