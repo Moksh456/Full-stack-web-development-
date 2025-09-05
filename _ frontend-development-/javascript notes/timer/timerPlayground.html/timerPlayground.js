@@ -46,7 +46,7 @@ while (flag){
     i++;
     console.log(i);
 }
-
+ 
 setTimeout(() => {
     flag = false;
 }, 1000)
