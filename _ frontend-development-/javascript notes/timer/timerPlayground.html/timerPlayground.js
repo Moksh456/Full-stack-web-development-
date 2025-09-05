@@ -8,13 +8,15 @@
 
 // snipet 2
 
-const id = setTimeout(() => {
+/*const id = setTimeout(() => {
     console.log("hello everyone...")
 }, 1000);
 
 
 
 console.log("hello world");
+
+*/
 
 /* 
  observation :
