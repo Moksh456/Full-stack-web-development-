@@ -16,7 +16,7 @@ console.log("hello world");
 
 */
 
-/* 
+/*  
  observation :
     in snipet 1, we are calling clearTimeout, therefore Callback function inside 
     settimeout will never get a chance to run.
