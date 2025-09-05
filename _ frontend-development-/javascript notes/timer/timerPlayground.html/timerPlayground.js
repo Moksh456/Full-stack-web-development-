@@ -18,7 +18,8 @@ console.log("hello world");
 
 /* 
  observation :
-    in snipet 1, we are calling clearTimeout, therefore Callback function inside settimeout will never get a chance to run.
+    in snipet 1, we are calling clearTimeout, therefore Callback function inside 
+    settimeout will never get a chance to run.
     // snipet 2
 
     const id = setTimeout(() => {
@@ -27,7 +28,8 @@ console.log("hello world");
 
     console.log("hello world");
 
-    in snipet 2, there is weired thing happening i.e even when we give time duration of settimeout as 0 still its callback is executed after line no 11. 
+    in snipet 2, there is weired thing happening i.e even when we give time duration 
+    of settimeout as 0 still its callback is executed after line no 11. 
 
     Ideally it feels like code execution of callback function should be first and then,
     line no. 11 should be executed ---   BUT ITS NOT THE CASE.
