@@ -13,7 +13,7 @@ full stack devellopment is divide into a 2 parts :-
                                                                               html is the skleton structure of website.
                                2. css  - cascide style sheet.
                                                                               this is used to give command and make style and modren the html file.
-                               3. js   -  java script. js is used to join it with the server. and make it more attractive and flexible and give movement in webpage
+                               3. js   -  java script. js is used to join it with the server. and make it more attractive and flexible and give movement in webpage.
                                                       
                                                                   
                                2. back end =>  

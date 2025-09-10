@@ -45,8 +45,6 @@ let flag  = true;
 let i = 0;
 
 while (flag){
-    i++;
-    console.log(i);
 }
  
 setTimeout(() => {
