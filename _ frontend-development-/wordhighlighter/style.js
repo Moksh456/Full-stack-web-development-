@@ -14,7 +14,7 @@ function highlighter(event) {
     console.log(ignoreCaseElement.checked); // Check if ignore case is enabled
 
     // If input is empty, reset everything
-    if (inputValue.length === 0) {
+    if (inputValue.length === 0) { 
         paragraphElement.innerText = paragraphText;
         matchCounter.innerText = 0;
         return;
