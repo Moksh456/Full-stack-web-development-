@@ -34,7 +34,7 @@ console.log("hello world");
     Ideally it feels like code execution of callback function should be first and then,
     line no. 11 should be executed ---   BUT ITS NOT THE CASE.
 
-     Why ? 
+     Why ? why it is so weired?
      all these weired things can be better explained with the 
 
 */
