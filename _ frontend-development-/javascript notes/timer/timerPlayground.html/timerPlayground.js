@@ -49,7 +49,7 @@ while (flag){
  
 setTimeout(() => {
     flag = false;
-}, 1000)
+}, 1000) 
 
 warning:-  do not 
 run this code for the any reason
