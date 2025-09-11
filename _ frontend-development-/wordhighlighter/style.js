@@ -41,7 +41,7 @@ function highlighter(event) {
     matchCounter.innerText = noOfTimesMatchHappen;
     paragraphElement.innerHTML = result;
 }
-
+ 
 // Event listeners
 highlightedWordElement.addEventListener("input", highlighter);
 ignoreCaseElement.addEventListener("change", highlighter);
