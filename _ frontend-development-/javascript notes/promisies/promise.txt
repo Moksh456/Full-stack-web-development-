@@ -1,0 +1,9 @@
+Promises :
+
+    can land up in  states :
+
+    1. Pending 
+    2. Fullfill
+    3. Rejected
+
+    
