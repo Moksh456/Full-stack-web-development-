@@ -3,5 +3,11 @@ const res = new Promise((resolve, reject) => {;
 
     setTimeout(() => {
        resolve("Promise resolved");
-    }, 4000);})
+    }, 4000);
+});
+
 console.log(res);
+
+
+
+fetch();
