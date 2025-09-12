@@ -6,7 +6,15 @@ Promises :
     2. Fullfill
     3. Rejected
 
-    Promise in js holds :
+    Promise in js is object that holds these properties :
 
         [[PromiseState]]: "pending"
         [[PromiseResult]]: undefined
+
+        Here PromiseState is already discussed and can fall into 3 states :
+        1. pending 
+        2. fullfilled
+        3. Rejected
+
+        PromiseResult can be : 
+            
