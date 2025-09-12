@@ -37,6 +37,17 @@ console.log("hello world");
      Why ? why it is so weired?
      all these weired things can be better explained with the 
 
+     IT IS BECAUSE OF EVENT LOOP.
+
+     WEB API LIKE SETTIMEOUT, SETINTERVAL, ETC take callbacks and are executed whenever certain time is elapsed.
+     but here we need to be mindfull of how js internally works i.e event loop in action of all the time.
+     all these callbacks  (after given time is elaspsed)...sit inside callback queue and 
+     wait for execution stack to be empty...
+     Therefore there is conclusion that can be made -->
+     Any synchronous piece of code will always be executed first since it directly goes into execution stack...but callbacks retalted to timers will sit inside callback 
+     queue and wait for execution stack to be empty.
+     Therefore in snipet 2, line no 11 is synchronous code and directly goes into execution stack
+     and executed first...and only after that callback of settimeout is executed.
 */
 
 /*
