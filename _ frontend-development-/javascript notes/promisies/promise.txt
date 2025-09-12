@@ -17,4 +17,17 @@ Promises :
         3. Rejected
 
         PromiseResult can be : 
-            
+            When state of promise is "Pending", at that time...PromiseResult will be undefined 
+            when state of promise is "fullfilled" or "Rejected", at that time...PromiseResult
+            will hold some DATA.
+
+
+            Syntax:
+
+            let promise = new Promise(<callback_fn>) :
+            <callback_fn> is also known as executor.
+            now this <callback_fn> takes 2 calbacks as input.
+            General name convention of these callback is - resolve and reject.
+
+            here resolve is called whenever we want promise state to change to "fullfilled".
+            Reject is called whenever we want promise state to change to "Rejected".
