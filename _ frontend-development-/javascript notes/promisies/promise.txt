@@ -6,4 +6,7 @@ Promises :
     2. Fullfill
     3. Rejected
 
-    
+    Promise in js holds :
+
+        [[PromiseState]]: "pending"
+        [[PromiseResult]]: undefined
