@@ -10,7 +10,7 @@ let i = 0;
     // please run this <callback_func> 
 
    timerid = setInterval(()=>{
-        i++;
+        i++; 
         displayeleme.innerHTML = i;
     }, 1000)
 
