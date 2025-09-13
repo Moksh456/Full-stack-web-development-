@@ -29,7 +29,7 @@ const callback = (resolve, reject) =>{
 // above callback will be called imediately.
 // Note: provided execution stack is empty.
 // Initially promise state is  PENDING  and promise data undefined
-
+ 
 // here resolve and reject are functions that should be called inside this 
 // callback function whenever we want to change state of promise form pending to 
 // fullfilled or pending to reject
@@ -40,8 +40,8 @@ const callback = (resolve, reject) =>{
 let res = new Promise(callback);
 
 
-console.log(res);
+console.log(res); 
 
 // How do we know when promise state of promise changes ?
-// problem Statement: After Promise is fullfilled/resolved... I want to 
-// sonsole.log("Its done")
+// problem Statement: After Promise is fullfilled/resolved...I want to 
+// console.log("Its done")
