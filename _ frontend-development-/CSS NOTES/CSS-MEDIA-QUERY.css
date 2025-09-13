@@ -2,7 +2,7 @@
     background-color: blanchedalmond;
 } 
 @media (orientation : landscape) {
-    body{ 
+    body{  
         background-color: aqua;
     }
 }
