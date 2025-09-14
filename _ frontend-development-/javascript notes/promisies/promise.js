@@ -14,7 +14,7 @@ console.log(res);
 // How to create Promise by ourself?
     
 const callback = (resolve, reject) =>{
-    reject("Promise resolved");
+ 
     // here some heavylifting task might be going on 
     // like getting data form somewhere 
     // like heavy I/D
@@ -22,7 +22,13 @@ const callback = (resolve, reject) =>{
     // in order to mimic that time...lets implement settimeout 
 
     setTimeout(() => {
-        resolve("Promise resolved");
+        resolve({
+            name: "sharad",
+            age: 24
+        }
+        
+        );
+
     }, 4000);
 }
 
@@ -42,6 +48,10 @@ let res = new Promise(callback);
 
 console.log(res); 
 
+res.then((data)=>{
+    console.log("Its done");
+    console.log(data);
+});
 // How do we know when promise state of promise changes ?
 // problem Statement: After Promise is fullfilled/resolved...I want to 
 // console.log("Its done")

@@ -39,6 +39,9 @@ Promises :
                 promiseOBJ.then(<callback_fn>)..
                 here then() method takes callback as input nad this callback function will be triggered whenever 
                 promise state is changed to Fullfill.
+                this callback_fn will get some data as input...bsically whatever data is 
+                supplied to resilve method...same data will be given as input to this <callback_fn>
+                
                 NOTE:
                  Also then() method returns Promise
  
