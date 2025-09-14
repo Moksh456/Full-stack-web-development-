@@ -32,4 +32,17 @@ Promises :
             here resolve is called whenever we want promise state to change to "fullfilled".
             Reject is called whenever we want promise state to change to "Rejected".
 
-            
+            here, promiseOBJ is an object that has  3 built in methods :
+
+            1. then :
+
+                promiseOBJ.then(<callback_fn>)..
+                here then() method takes callback as input nad this callback function will be triggered whenever 
+                promise state is changed to Fullfill.
+                NOTE:
+                 Also then() method returns Promise
+ 
+            2. Catch
+            3. finally
+
+        
