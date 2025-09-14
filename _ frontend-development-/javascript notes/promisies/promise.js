@@ -12,9 +12,9 @@ console.log(res);
 */
 
 // How to create Promise by ourself?
-    
-const callback = (resolve, reject) =>{
- 
+
+const callback = (resolve, reject) => {
+
     // here some heavylifting task might be going on 
     // like getting data form somewhere 
     // like heavy I/D
@@ -25,17 +25,14 @@ const callback = (resolve, reject) =>{
         resolve({
             name: "sharad",
             age: 24
-        }
-        
-        );
-
-    }, 4000);
+        });
+}, 4000);
 }
 
 // above callback will be called imediately.
 // Note: provided execution stack is empty.
 // Initially promise state is  PENDING  and promise data undefined
- 
+
 // here resolve and reject are functions that should be called inside this 
 // callback function whenever we want to change state of promise form pending to 
 // fullfilled or pending to reject
@@ -46,13 +43,15 @@ const callback = (resolve, reject) =>{
 let res = new Promise(callback);
 
 
-console.log(res); 
+console.log(res);
 
-res.then((data)=>{
+res.then((data) => {
     console.log("Its done");
     console.log(data);
-});
+}).catch(err => {
+    console.log("CAtch Fire")
+    console.log(err)
+})
 // How do we know when promise state of promise changes ?
-// problem Statement: After Promise is fullfilled/resolved...I want to 
+// problem Statement: After Promise is fullfilled/resolved...I want to
 // console.log("Its done")
-
