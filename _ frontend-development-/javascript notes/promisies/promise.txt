@@ -63,12 +63,17 @@ Promises :
                 it takes a callback_fn but this callback does not get any input 
 
 ______________________________________________________________________________________________
+    
      quetion :
      Create promise with resolve immdiately giving output value as 200.
 
      Quetion :
         creating any array of promise and once all the promise inside the array are  
         resolved ..print on console..."all Promise are resolved".
+
+        const arr = [promise.resolve(200), promise.resolve(300), promise.resolve(500)]
+        console.log(arr)
+        console.log("All promise are resovede")
 ______________________________________________________________________________________________
 
         what is a promise?
