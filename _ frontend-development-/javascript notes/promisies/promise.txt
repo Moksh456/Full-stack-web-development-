@@ -73,9 +73,39 @@ ________________________________________________________________________________
 
         const arr = [promise.resolve(200), promise.resolve(300), promise.resolve(500)]
         console.log(arr)
-        console.log("All promise are resovede")
+        console.log("All promise are resovede") 
+    lets talk about easy scanario where promise are getting resolved immdiately.
+    const arr = [promise.resolve(300), promise.resolve(500), promise.resolved(600)];
+
+    here all the promise will be resolved imediately...
+    hence easy to write code for this..
+
+    But if array of promise looks liked :
+
+    const promies1 = new promise((resOlve, reject) => {
+        settimeout(()=>{
+            resolve();
+        }10000)
+    });
+
+    const arr = [promise.resolve(300), promise.resolve(500), promise.resolved(600)];
+
+    here promise will be resolved after 10 seconds due to settimeout 
+    therefore we need to wait for it to complete n then only print
+    "all promise are resolved"
+
+    to solve it, there is a method promise.all(<arrayofpromise);
+    Promise.all(<arrayofpromise>)
+
+    this method returns promise ...which gets resolved ONCE ALL THE PROMISE inside
+    array get resolved/fulfilled
+
+    if any promise inside this array gets REJECTED... catch method of promise.all
+    will be fired
+
 ______________________________________________________________________________________________
 
+ 
         what is a promise?
         it i an object holding 2 important properties -
         state & data
@@ -93,4 +123,3 @@ ________________________________________________________________________________
         now, as a frontend application...I don't want to block/restirct my users from
         using my application till the time i get data... 
 
-        
