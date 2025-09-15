@@ -144,3 +144,4 @@ for(let i =0; i<arr.length; i++ ){
 now here i want to first finish executing sum() function before proceeding 
 ______________________________________________________________________________________________
 
+ 
