@@ -139,7 +139,7 @@ console.log(result);
 const arr = [1,2,3,4,5];
 for(let i =0; i<arr.length; i++ ){
     console.log(i)
-}
+} 
 
 now here i want to first finish executing sum() function before proceeding 
 ______________________________________________________________________________________________
