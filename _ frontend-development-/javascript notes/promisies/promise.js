@@ -47,7 +47,7 @@ console.log(res);
 
 res.then((data) => {
     console.log("Its done");
-    console.log(data);
+    console.log(data); 
 }).catch(err => {
     console.log("CAtch Fire")
     console.log(err)
