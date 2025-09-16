@@ -136,12 +136,45 @@ ________________________________________________________________________________
 const result = sum(20+80);
 console.log(result);
 
-const arr = [1,2,3,4,5];
-for(let i =0; i<arr.length; i++ ){
-    console.log(i)
-}   
+function sum(){
+    return new promise((resolve,reject) =>{
+        settimeout((200), 5000)
+    })
+}
+______________________________________________________________________________________________
 
-now here i want to first finish executing sum() function before proceeding 
+const result = await sum();
+for(let i =0; i<reault; i++ ){
+    console.log(i);
+} 
+console.log(result);  
+
+
+
+// since we are dependent on result variable next line of cide...
+hence we would want to finish execution of sun() method so that we can value of result variable...only
+then we want to proceed...
+here, await keyword does the job well since it looks neat also...
+
+now assume same thing to be done with .then kindof syntax, then it might
+look like -
+
+function sum(){
+    return new promise((resolve,reject) =>{
+        settimeout((200), 5000)
+    })
+}
+
+const result = await sum();
+reault.then(data =>{
+    const arr = [1,2,3,4,5];
+for(let i =0; i<reault; i++ ){
+    console.log(i);
+} 
+console.log(data);  
+})
+
+
 ______________________________________________________________________________________________
 
  
