@@ -221,4 +221,23 @@ server -> entity that serves the REQUESTed RESOURSE
 
 Now there 2 entities need to connect each over for Data Access.
 this connection between them is made possible with the help of API.
+(with inclusion of some Protocols)
 
+In JS landscape if we can some function that can talk to the server and return 
+the result to the client.
+
+somefunction() -> talks to server n returns back the result back the result 
+
+API can be different types and they are based on some paradigm.
+eg: SOAP, REST, RPC etc.
+
+______________________________________________________________________________________________
+
+REST API :
+    REST -> Rerepresentational State Transfer
+
+    REST API :
+    is an architectural paradigms with a set of constrainsts for defining API.
+    Mostly used for creating we servies,
+
+    Defines some function like GET, POST, PUT, PATCH, DELETE.
