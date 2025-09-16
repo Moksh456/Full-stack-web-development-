@@ -187,6 +187,11 @@ ________________________________________________________________________________
      some difference:
      1. only datatypes in json are : String, number, boolean, null, object... 
      But undefined, function are not supported.
+
+     Helper method in JS :
+
+     JSON.Parse -> to convert json to js object 
+     json.strigify -> to convert obj to JSON
     eg: 
     const jsOBJ = {
         Name: "sharad",
