@@ -180,4 +180,14 @@ we can use normal try/catch the rejection scanerio
 
 ______________________________________________________________________________________________
 
- 
+ JSON (javascript object notation) :
+    JSON and javascript objects look very similar.
+    sometime it gets really confusing between them.
+
+    eg: 
+    const jsOBJ = {
+        Name: "sharad",
+        age: 28
+    }
+
+    
