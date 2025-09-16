@@ -47,13 +47,13 @@ console.log(res);
 
 res.then((data) => {
     console.log("Its done");
-    console.log(data); 
+    console.log(data);  
 }).catch(err => {
     console.log("CAtch Fire")
     console.log(err)
 }).finally(()=>{
     console.log("Finally callback function function fired ")
-})
+});
 // How do we know when promise state of promise changes ?
 // problem Statement: After Promise is fullfilled/resolved...I want to
 // console.log("Its done")
