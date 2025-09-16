@@ -241,3 +241,4 @@ REST API :
     Mostly used for creating we servies,
 
     Defines some function like GET, POST, PUT, PATCH, DELETE.
+
