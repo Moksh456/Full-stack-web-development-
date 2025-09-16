@@ -184,8 +184,18 @@ ________________________________________________________________________________
     JSON and javascript objects look very similar.
     sometime it gets really confusing between them.
 
+     some difference:
+     1. only datatypes in json are : String, number, boolean, null, object... 
+     But undefined, function are not supported.
     eg: 
     const jsOBJ = {
         Name: "sharad",
         age: 28
+    }
+
+    equivalent Json -> 
+
+    {
+        "name": sharad",
+        "age": 28,
     }
