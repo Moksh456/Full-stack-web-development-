@@ -242,3 +242,6 @@ REST API :
 
     Defines some function like GET, POST, PUT, PATCH, DELETE.
 
+
+    GET API : Whenever we wants to perform read operatiom
+    POST API-> whenever we want to perform some WRITE operation i,e we ant to save some data/info to Database.
