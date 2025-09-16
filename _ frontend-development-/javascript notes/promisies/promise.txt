@@ -209,4 +209,16 @@ ________________________________________________________________________________
 
 API 
 
-(application programing Interface);
+(Application Programing Interface)
+
+eg weather app.
+
+here who is client and who is server?
+client -> entity that ASKS for resource i.r mobile OWNER/consumer of the mobile in whcih 
+this application in installed.
+
+server -> entity that serves the REQUESTed RESOURSE
+
+Now there 2 entities need to connect each over for Data Access.
+this connection between them is made possible with the help of API.
+
