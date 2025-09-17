@@ -61,5 +61,5 @@ var a = "sharad";*/
               const lisofkeyanevalue = Object.entries(obj);
             console.log(listofallket);
             console.log(listofallvalue);
-            console.log(lisofkeyanevalue);*/
-            
+            console.log(lisofkeyanevalue);
+    */ 

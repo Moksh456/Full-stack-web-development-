@@ -318,4 +318,4 @@ Here we need to mention :
 now to make POST API call it bascially means we need to share some data from broswer to SERVER.
 this data will be set as value under key called "body"
 
-Also data needs to be stringfied
+Also data needs to be stringfied 
