@@ -67,7 +67,7 @@ res.then((data) => {
  // Get Api Call
  /* 
  const result = fetch("https://jsonplaceholder.typicode.com/todos/1");
-
+ 
 result.then((Response)=>{
  const jsonobj =  Response.json();
  jsonobj.then(jsonREsult => {
