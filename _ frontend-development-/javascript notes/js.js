@@ -51,7 +51,7 @@ my();*/
 var a = "sharad";*/
    /*        let obj ={
               title: "sharad",
-              age: 28,
+              age: 28, 
               isNew: false
 
             }
