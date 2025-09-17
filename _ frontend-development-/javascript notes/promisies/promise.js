@@ -65,7 +65,6 @@ res.then((data) => {
 // CAll API https://jsonplaceholder.typicode.com/
 
  const s = fetch("https://jsonplaceholder.typicode.com/todos/1");
-
+    
     console.log(s); // Promise { <pending> }
 
-    

@@ -268,7 +268,20 @@ REST API :
 
     Syntax :
 
-    fetch(<USL_OF_API>) returns Promise <>
+    fetch(<USL_OF_API>) returns Promise <Response>
+
+    Response Object contains multiple properties, but some important ls are :
+
+    1. status - it represents state code for every operation which happend 
+     (200 - ok/sucess, 
+     201 - Created RESOURSE sucessfully, 
+     500 - error,  
+     400 seris - auth related errors)
+
+
+    2. body - here we get Actually datga returned from the server...
+
+
 
     eg:
     lets call 1 API by https://jsonplaceholder.typicode.com/
