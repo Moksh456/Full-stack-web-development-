@@ -286,3 +286,14 @@ REST API :
     eg:
     lets call 1 API by https://jsonplaceholder.typicode.com/
     lets make a get call.
+
+--------------------------------------
+
+how to make POST API call with fetch method ?
+
+fetch() method accepts 2nd argument which is a object...
+Here we need to mention :
+
+    1. method
+    2. body
+    3. headers

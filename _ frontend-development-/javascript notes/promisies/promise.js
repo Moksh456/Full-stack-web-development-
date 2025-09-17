@@ -23,7 +23,7 @@ console.log(res);
 
     setTimeout(() => {
         resolve({
-            name: "sharad",
+            name: "sharad", 
             age: 24
         });
     }, 4000);
@@ -64,7 +64,15 @@ res.then((data) => {
 
 // CAll API https://jsonplaceholder.typicode.com/
 
- const s = fetch("https://jsonplaceholder.typicode.com/todos/1");
-    
-    console.log(s); // Promise { <pending> }
+ // Get Api Call
+ /* 
+ const result = fetch("https://jsonplaceholder.typicode.com/todos/1");
+
+result.then((Response)=>{
+ const jsonobj =  Response.json();
+ jsonobj.then(jsonREsult => {
+    console.log(jsonREsult);
+ })
+});
+*/
 
