@@ -245,3 +245,31 @@ REST API :
 
     GET API : Whenever we wants to perform read operatiom
     POST API-> whenever we want to perform some WRITE operation i,e we ant to save some data/info to Database.
+
+    Put/PATCH -> whenever we want to update/Modify RESOURSE
+
+    DELETE -> whenever we want to Delete resource.
+
+
+    -----------------------------------------------
+
+    how to call/work these REST API'd in JS ?
+
+    for this we need some API's we can use some them 
+    lets use ----->  
+    https://jsonplaceholder.typicode.com/
+
+    Now,
+    as a frontend engineer our job is to call these API's and display the result on UI.
+
+    To CALL these api's we have a method called -> fetch
+
+    fetch ------->
+
+    Syntax :
+
+    fetch(<USL_OF_API>) returns Promise <>
+
+    eg:
+    lets call 1 API by https://jsonplaceholder.typicode.com/
+    lets make a get call.

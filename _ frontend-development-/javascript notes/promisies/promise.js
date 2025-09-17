@@ -13,7 +13,7 @@ console.log(res);
 
 // How to create Promise by ourself?
 
-const callback = (resolve, reject) => {
+/*const callback = (resolve, reject) => {
 
     // here some heavylifting task might be going on 
     // like getting data form somewhere 
@@ -26,9 +26,9 @@ const callback = (resolve, reject) => {
             name: "sharad",
             age: 24
         });
-}, 4000);
+    }, 4000);
 }
-
+*/
 // above callback will be called imediately.
 // Note: provided execution stack is empty.
 // Initially promise state is  PENDING  and promise data undefined
@@ -40,9 +40,10 @@ const callback = (resolve, reject) => {
 // While changing state of promise to FULLFILLED i.e calling resolve function 
 // whenever data we supply to resolve function will be set inside promise data.
 
-let res = new Promise(callback);
+// let res = new Promise(callback);
 
 
+/*
 console.log(res);
 
 res.then((data) => {
@@ -54,6 +55,17 @@ res.then((data) => {
 }).finally(()=>{
     console.log("Finally callback function function fired ")
 });
+*/
 // How do we know when promise state of promise changes ?
 // problem Statement: After Promise is fullfilled/resolved...I want to
 // console.log("Its done")
+
+// ________________________________________________________________________________
+
+// CAll API https://jsonplaceholder.typicode.com/
+
+ const s = fetch("https://jsonplaceholder.typicode.com/todos/1");
+
+    console.log(s); // Promise { <pending> }
+
+    
