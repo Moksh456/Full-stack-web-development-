@@ -311,13 +311,11 @@ how to make POST API call with fetch method ?
 fetch() method accepts 2nd argument which is a object...
 Here we need to mention :
 
-    1. method
+    1. method(bydefault - get)
     2. body
     3. headers
 
-headers :
-    any metadata about this API can be given here.
-    Also Data that server needs can be shared from here also.
+now to make POST API call it bascially means we need to share some data from broswer to SERVER.
+this data will be set as value under key called "body"
 
-    Body:
-        any data that needs to be transferred to server can be shared here 
+Also data needs to be stringfied
