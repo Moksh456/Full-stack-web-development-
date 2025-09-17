@@ -251,6 +251,23 @@ REST API :
     DELETE -> whenever we want to Delete resource.
 
 
+    any api we work with there are 2 sections to it :
+
+    1. headers
+    2. body
+
+
+    headers :
+    any method about this API can be given here
+
+    Request headers -> is a Header object that is set by broswer abd forwarded to server
+    Response Header -> is a header object that is set by server and forwarded to broswer.
+
+    Also data that server needs can be shared from here also.
+
+    Body:
+    any data that needs to be transformed to served can be shared here
+
     -----------------------------------------------
 
     how to call/work these REST API'd in JS ?
