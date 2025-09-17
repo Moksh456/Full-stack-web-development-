@@ -297,3 +297,10 @@ Here we need to mention :
     1. method
     2. body
     3. headers
+
+headers :
+    any metadata about this API can be given here.
+    Also Data that server needs can be shared from here also.
+
+    Body:
+        any data that needs to be transferred to server can be shared here 
