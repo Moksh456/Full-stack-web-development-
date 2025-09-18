@@ -335,4 +335,85 @@ Here we need to mention :
 
 ----------------------------------------------------
 
-    Number of ways in which data can be sent from client to server.
+    Number of ways in which data can be sent from client to server :
+
+         1. Query paradigm
+         2. Path paradigms
+         3. body (POST CALL)
+
+
+
+https://www.amazon.com/ah/ajax/counter?ctr=desktop_ajax_atf&exp=1667924635702&rId=1VP2PHZRP76EFP35S1MX&mkId=ATVPDKIKX0DER&h=cacfb920a9f918d619e37a3963d72be159907c854128b8eccdd5053c23f2fc2d
+
+Break above url - 
+
+https://www.amazon.com ----> Server URL 
+
+/ah/ajax/counter -> RESOURCE Locator (path params)
+
+?
+ctr=desktop_ajax_atf&
+exp=1667924635702&
+rId=1VP2PHZRP76EFP35S1MX&
+mkId=ATVPDKIKX0DER&h=cacfb920a9f918d619e37a3963d72be159907c854128b8eccdd5053c23f2fc2d
+
+---> Query Params
+
+-------------------------------------
+
+
+https://jsonplaceholder.typicode.com/todos/1
+
+https://jsonplaceholder.typicode.com -> server url
+
+/todos/1 -> From a LIST of todos give me a todo whose id is 1. 
+Here, 1 is a required value to identify RESOURCE
+
+https://jsonplaceholder.typicode.com/todos/1 can be written as
+https://jsonplaceholder.typicode.com/todos?id=1...but this is wrong logically/semantically but still this can also be implemented...
+
+API 2:
+
+https://jsonplaceholder.typicode.com/comments
+
+Server url -https://jsonplaceholder.typicode.com
+Path - /comments
+
+Conclusion -
+
+Above api might return list/array of all the comments..
+But if given some query param like :
+https://jsonplaceholder.typicode.com/comments?postId=1
+
+It means return list/array of all the coments of postId = 1..
+Here postId is not required value...if it is not given, then, api will return
+list/array of all comments.
+
+------------------------------------
+
+Need api that returns info all the peoples working at newton.
+but same api should take some input like
+role= instructor and if this input is given to the api then it should only 
+info of instructor at newton...
+
+Solution :
+
+Since we need to GET details...that means api will be of GET type.
+since we need to fetch information of persons...then path should ideally look like
+/persons...
+
+GET CALL = <PROTOCALS-HTTP-://SERVER-URL>/PERSONS
+
+
+GET CALL -> <PROTOCOL_HTTP_OR_HTTPS>://<SERVER_URL>/persons
+
+Now, to cater requirement of role=instructor in the same api..
+We see that this is an optional parameter..also, it looks like a QUERY
+i.e. give me details of all PERSONS WHERE ROLE = INSTRUCTOR
+
+GET CALL -> <PROTOCOL_HTTP_OR_HTTPS>://<SERVER_URL>/persons?role=instructor
+
+Write a api to get details of person at newton whose id is 20.
+
+API signature :
+GET Call -> <PROTOCOL_HTTP_OR_HTTPS>://<SERVER_URL>/persons/<PERSON_ID>
