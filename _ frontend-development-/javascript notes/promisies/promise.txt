@@ -320,4 +320,19 @@ Here we need to mention :
 
     Also data needs to be stringfied 
 
-    
+    conclision :
+
+    to read the data use GET Api (dafault mode).
+    to create data use POST api ->
+
+    fetch(URL, {
+        method: "PSOT",
+        body: JSON.stringfied(<data to be sent to the server>)
+        headers: {
+            // REQUEST HEADERS
+        }
+    })
+
+----------------------------------------------------
+
+    Number of ways in which data can be sent from client to server.

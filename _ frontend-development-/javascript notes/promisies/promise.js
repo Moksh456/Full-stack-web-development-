@@ -77,9 +77,14 @@ result.then((Response)=>{
 */
 
  const result = fetch("https://jsonplaceholder.typicode.com/todos/1",{
-    headers: {
-        "X-dummy_value": "sharad"
- }});
+ //   headers: {
+   //     "X-dummy_value": "sharad"
+ //},
+    method: "POSt",
+    body: JSON.stringify({
+        name: "sharad",
+    })
+});
 
 
  result.then(value => value.json()).then(json => {
