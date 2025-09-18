@@ -417,3 +417,26 @@ Write a api to get details of person at newton whose id is 20.
 
 API signature :
 GET Call -> <PROTOCOL_HTTP_OR_HTTPS>://<SERVER_URL>/persons/<PERSON_ID>
+
+
+
+
+------------------------------------------------------
+
+When to use body property thile sending data form client to server ?
+
+body property will only be used when you are doing POST call.
+
+What is the main diff using POST vs GET ?
+
+In post call we send data from clinet to server with goal of saving/ PRESISTING that data in database.
+I get call we sometimes data (in the url) from client to server with the goal
+of FETCHING/READING data from the database.
+
+
+
+In POST call, we send data in a combination also...i.e. 
+URL + BODY 
+
+
+--------------------------------

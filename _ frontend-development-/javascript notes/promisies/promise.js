@@ -76,7 +76,7 @@ result.then((Response)=>{
 });
 */
 
- const result = fetch("https://jsonplaceholder.typicode.com/todos/1",{
+ /*const result = fetch("https://jsonplaceholder.typicode.com/todos/1",{
  //   headers: {
    //     "X-dummy_value": "sharad"
  //},
@@ -90,3 +90,7 @@ result.then((Response)=>{
  result.then(value => value.json()).then(json => {
     console.log(json);
  });
+*/
+
+
+ const requwst = new XMLHttpRequest();
