@@ -74,4 +74,14 @@ result.then((Response)=>{
     console.log(jsonREsult);
  })
 });
-*/ 
+*/
+
+ const result = fetch("https://jsonplaceholder.typicode.com/todos/1",{
+    headers: {
+        "X-dummy_value": "sharad"
+ }});
+
+
+ result.then(value => value.json()).then(json => {
+    console.log(json);
+ });
