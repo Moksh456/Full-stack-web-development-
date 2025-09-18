@@ -94,3 +94,11 @@ result.then((Response)=>{
 
 
  const requwst = new XMLHttpRequest();
+
+ requwst.open("GET","https://jsonplaceholder.typicode.com/todos")
+
+    requwst.send();
+    
+ //requwst.addEventListener("load",()=>{
+   // console.log("i ran!!!!!!")
+ //});
