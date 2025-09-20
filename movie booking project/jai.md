@@ -66,3 +66,9 @@ seat numbers, email and phone number.
 Terminal :
 
 git clone <REPO_NAME>
+
+  <div id="booker">
+        <h3 class="v-none">Seat Selector</h3>
+        <div id="booker-grid-holder"></div>
+        <button id="book-ticket-btn" class="v-none">Book my seats</button>
+    </div>
