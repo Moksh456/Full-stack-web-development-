@@ -12,7 +12,9 @@ const mainElement = document.querySelector("main")
 // task : conver html string to html DOM Elememt
 
 const convertToHtmlDom = (HtmlStringFormat) =>{
-    
+    const element = document.createElement('div');
+    element.innerHTML = HtmlStringFormat;
+    return element
 }
 
 const rendermoovielist = async()=>{
@@ -23,15 +25,15 @@ const rendermoovielist = async()=>{
     movieholder.classList.add('movie-holder');
 
     movielist.forEach(movies => {
-        const moviesElement =   ` <a class="movie-link" href="${movies.name}">
+        const moviesElement =  convertToHtmlDom( ` <a class="movie-link" href="${movies.name}">
          <div class="movie" data-id="${movies.name}">
-             <div class="movie-img-wrapper">
+             <div class="movie-img-wrapper" style="background-image: url('${movies.imgUrl}'); background-size: cover;">
              </div>
              <h4>${movies.name}</h4>
          </div>
-    </a>`
+    </a>`)
 
-    movieholder.innerHTML = moviesElement;
+    movieholder.appendChild(moviesElement);
     });
     
     mainElement.appendChild(movieholder);

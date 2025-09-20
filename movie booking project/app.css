@@ -26,3 +26,7 @@ nav ul{
 .v-none {
     visibility: hidden;
 }
+.movie-img-wrapper{
+    width: 300px;
+    height: 300px;
+}
