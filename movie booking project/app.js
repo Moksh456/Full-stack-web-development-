@@ -9,6 +9,12 @@ const mainElement = document.querySelector("main")
 // remove loader 
 
 
+// task : conver html string to html DOM Elememt
+
+const convertToHtmlDom = (HtmlStringFormat) =>{
+    
+}
+
 const rendermoovielist = async()=>{
     const movielist = await fetchMovieList();
     console.log(movielist)
@@ -17,11 +23,11 @@ const rendermoovielist = async()=>{
     movieholder.classList.add('movie-holder');
 
     movielist.forEach(movies => {
-        const moviesElement =   ` <a class="movie-link" href="/${movies.name}">
-         <div class="movie" data-id="/${movies.name}">
+        const moviesElement =   ` <a class="movie-link" href="${movies.name}">
+         <div class="movie" data-id="${movies.name}">
              <div class="movie-img-wrapper">
              </div>
-             <h4>/${movies.name}</h4>
+             <h4>${movies.name}</h4>
          </div>
     </a>`
 
