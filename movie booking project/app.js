@@ -1,5 +1,8 @@
 import {fetchMovieAvailability,fetchMovieList} from "./api.js";
 
+// selectors
+
+const mainElement = document.querySelector("main")
 // fetch list of all movies
 // shows a loader till fetching of movies is going on...
 // display data
@@ -24,6 +27,7 @@ const rendermoovielist = async()=>{
 
     movieholder.innerHTML = moviesElement;
     });
+    mainElement.appendChild(movieholder);
 }
 
 rendermoovielist();
