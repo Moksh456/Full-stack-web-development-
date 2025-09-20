@@ -71,4 +71,4 @@ git clone <REPO_NAME>
         <h3 class="v-none">Seat Selector</h3>
         <div id="booker-grid-holder"></div>
         <button id="book-ticket-btn" class="v-none">Book my seats</button>
-    </div>
+    </div> 
