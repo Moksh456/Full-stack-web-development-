@@ -1,12 +1,28 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.d-none{
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    color: white;
+    padding: 12px 16px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    width: 50%;
+    justify-content: space-around;
+
+}
+
+.d-none {
     display: none;
 }
-.v-none{
+
+.v-none {
     visibility: hidden;
 }

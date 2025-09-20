@@ -21,13 +21,13 @@ Inside that div we will be adding the individual movie components.
 Each individual movie component will be made up of an anchor tag on the outside with class .movie-link.
 Example of the basic strucutre is given below. Replace moviename by actual name of the rendered movie
 <code>
-    &lt;a class="movie-link" href="/moviename">
-        &lt;div class="movie" data-id="moviename">
-            &lt;div class="movie-img-wrapper">   
-            &lt;/div>
-            &lt;h4>$moviename&lt;/h4>
-        &lt;/div>
-    &lt;/a>
+    <a class="movie-link" href="/moviename">
+         <div class="movie" data-id="moviename">
+             <div class="movie-img-wrapper">   
+             </div>
+             <h4>$moviename</h4>
+         </div>
+    </a>
 </code>
 movie-img-wrapper will have css, background image property set to the imgUrl of the movie and background size as    cover.
 
