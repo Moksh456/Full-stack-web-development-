@@ -27,6 +27,7 @@ const rendermoovielist = async()=>{
 
     movieholder.innerHTML = moviesElement;
     });
+    
     mainElement.appendChild(movieholder);
 }
 
