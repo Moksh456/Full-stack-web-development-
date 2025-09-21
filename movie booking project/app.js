@@ -17,6 +17,11 @@ const convertToHtmlDom = (HtmlStringFormat) => {
     return element.firstElementChild;
 }
 
+const renderMovieTheater = (event)=>{
+    event.preventDefault();
+console.log(event)
+}
+
 const rendermoovielist = async () => {
     mainElement.appendChild(loader) // adding loader before making appi call
     const movielist = await fetchMovieList();
@@ -33,7 +38,7 @@ const rendermoovielist = async () => {
              <h4>${movies.name}</h4>
          </div>
     </a>`)
-
+            moviesElement.addEventListener("click", renderMovieTheater)
         movieholder.appendChild(moviesElement);
     });
     loader.remove(); // removing loader after fetching the data
@@ -44,3 +49,5 @@ const rendermoovielist = async () => {
 
 const loader = convertToHtmlDom(`<div class="Loader"> Loading...........</div>`)
 rendermoovielist();
+
+  
