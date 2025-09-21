@@ -1,4 +1,4 @@
-import {fetchMovieAvailability,fetchMovieList} from "./api.js";
+import { fetchMovieAvailability, fetchMovieList } from "./api.js";
 
 // selectors
 
@@ -11,13 +11,14 @@ const mainElement = document.querySelector("main")
 
 // task : conver html string to html DOM Elememt
 
-const convertToHtmlDom = (HtmlStringFormat) =>{
+const convertToHtmlDom = (HtmlStringFormat) => {
     const element = document.createElement('div');
     element.innerHTML = HtmlStringFormat;
-    return element
+    return element.firstElementChild;
 }
 
-const rendermoovielist = async()=>{
+const rendermoovielist = async () => {
+    mainElement.appendChild(loader) // adding loader before making appi call
     const movielist = await fetchMovieList();
     console.log(movielist)
 
@@ -25,7 +26,7 @@ const rendermoovielist = async()=>{
     movieholder.classList.add('movie-holder');
 
     movielist.forEach(movies => {
-        const moviesElement =  convertToHtmlDom( ` <a class="movie-link" href="${movies.name}">
+        const moviesElement = convertToHtmlDom(` <a class="movie-link" href="${movies.name}">
          <div class="movie" data-id="${movies.name}">
              <div class="movie-img-wrapper" style="background-image: url('${movies.imgUrl}'); background-size: cover;">
              </div>
@@ -33,10 +34,13 @@ const rendermoovielist = async()=>{
          </div>
     </a>`)
 
-    movieholder.appendChild(moviesElement);
+        movieholder.appendChild(moviesElement);
     });
-    
+    loader.remove(); // removing loader after fetching the data
+
     mainElement.appendChild(movieholder);
 }
+// removing loader after fetching the data
 
+const loader = convertToHtmlDom(`<div class="Loader"> Loading...........</div>`)
 rendermoovielist();
