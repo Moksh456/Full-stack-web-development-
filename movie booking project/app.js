@@ -26,7 +26,14 @@ const movieNAme = event.target.innerText;
 fetchMovieAvailability(movieNAme).then((result) => {
     console.log(result);
 
-    // make h3 element of booker div visible                                                                                                                                                                                                                                                
+    // make h3 element of booker div visible  
+    const  bookerElementHEader = document.querySelector("#booker h3")
+    bookerElementHEader.classList.toggle("v-none");       
+    
+    // rough work 
+    const grid = convertToHtmlDom(`<div class="grid-element"</div>`)
+
+    for(let i =0; i<=12;i++);
 });
 
 }
@@ -47,7 +54,7 @@ const rendermoovielist = async () => {
              <h4>${movies.name}</h4>
          </div>
     </a>`)
-            moviesElement.addEventListener("click", renderMovieTheater)
+            moviesElement.addEventListener("click", renderMovieTheater);
         movieholder.appendChild(moviesElement);
     });
     loader.remove(); // removing loader after fetching the data

@@ -19,13 +19,6 @@ nav ul{
 
 }
 
-.d-none {
-    display: none;
-}
-
-.v-none {
-    visibility: hidden;
-}
 .movie-img-wrapper{
     width: 200px;
     height: 300px;
@@ -43,3 +36,13 @@ nav ul{
     align-items: center;
     margin-top: 1rem;
 }
+
+
+.d-none {
+    display: none;
+}
+
+.v-none{
+    visibility: hidden;
+}
+

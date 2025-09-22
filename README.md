@@ -17,12 +17,4 @@ full stack devellopment is divide into a 2 parts :-
                                                       
                                                                   
                                2. back end =>  
-                                                
-                                                  
-
-
-
-
-
-
-
+                                            
