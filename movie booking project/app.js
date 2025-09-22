@@ -37,7 +37,6 @@ fetchMovieAvailability(movieNAme).then((result) => {
 
 }
 
-
 const rendermoovielist = async () => {
     mainElement.appendChild(loader) // adding loader before making appi call
     const movielist = await fetchMovieList();
