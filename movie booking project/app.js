@@ -34,7 +34,6 @@ fetchMovieAvailability(movieNAme).then((result) => {
  // const bookergridholder =  document.querySelector("#booker-grid-holder");
  // bookergridholder.appendChild(grid)
 });
-
 }
 
 const rendermoovielist = async () => {
