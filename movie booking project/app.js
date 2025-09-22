@@ -19,10 +19,9 @@ const convertToHtmlDom = (HtmlStringFormat) => {
 
 const renderMovieTheater = (event)=>{
     event.preventDefault();
-console.log(event.target.innerText)
 
-const movieNAme = event.target.innerText;
-
+const movieNAme = event.target.innerText ? event.target.innerText : event.target.parentElement.innerText;
+console.log(movieNAme)
 fetchMovieAvailability(movieNAme).then((result) => {
     console.log(result);
 
@@ -31,12 +30,13 @@ fetchMovieAvailability(movieNAme).then((result) => {
     bookerElementHEader.classList.toggle("v-none");       
     
     // rough work 
-    const grid = convertToHtmlDom(`<div class="grid-element"</div>`)
-
-    for(let i =0; i<=12;i++);
+   // const grid = convertToHtmlDom(`<div class="grid-element"</div>`)
+ // const bookergridholder =  document.querySelector("#booker-grid-holder");
+ // bookergridholder.appendChild(grid)
 });
 
 }
+
 
 const rendermoovielist = async () => {
     mainElement.appendChild(loader) // adding loader before making appi call
@@ -65,5 +65,3 @@ const rendermoovielist = async () => {
 
 const loader = convertToHtmlDom(`<div class="Loader"> Loading...........</div>`)
 rendermoovielist();
-
-   
