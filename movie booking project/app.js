@@ -20,7 +20,7 @@ const convertToHtmlDom = (HtmlStringFormat) => {
     return element.firstElementChild;
 }
 
-const renderTheaterLayout = (seatNooffset = 1) =>{
+const renderTheaterLayout = (listOfAvalilableseats = [] ,seatNooffset = 1) =>{
 
     // make a grid of 4/3
     const grid = convertToHtmlDom(`<div class="booking-grid"></div>`)
@@ -29,7 +29,7 @@ const renderTheaterLayout = (seatNooffset = 1) =>{
     let theatreseats = "";
 
     for(let i =0; i<12; i++){
-        theatreseats = theatreseats + `<div class="grid-cell seat${i+seatNooffset}">${i+seatNooffset}</div>`;
+        theatreseats = theatreseats + `<div class="grid-cell seat${i+seatNooffset}" style="background-color: ${listOfAvalilableseats.includes(i+seatNooffset) ? "green" : "red" }">${i+seatNooffset}</div>`;
     }
     grid.innerHTML = theatreseats;
     bookerGridElement.appendChild(grid)
@@ -41,9 +41,9 @@ const renderMovieTheater = (event)=>{
     event.preventDefault();
 
 const movieNAme = event.target.innerText ? event.target.innerText : event.target.parentElement.innerText;
-console.log(movieNAme)
-fetchMovieAvailability(movieNAme).then((result) => {
-    console.log(result);
+
+fetchMovieAvailability(movieNAme).then((listOfAvalilableseats) => {
+    console.log(listOfAvalilableseats);
 
     // make h3 element of booker div visible  
     const  bookerElementHEader = document.querySelector("#booker h3")
@@ -51,8 +51,8 @@ fetchMovieAvailability(movieNAme).then((result) => {
     
    
     // render theater layout view
-    renderTheaterLayout();
-    renderTheaterLayout(13);
+    renderTheaterLayout(listOfAvalilableseats);
+    renderTheaterLayout(listOfAvalilableseats, 13);
 });
 
 }
