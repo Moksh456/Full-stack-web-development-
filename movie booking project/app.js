@@ -8,7 +8,7 @@ const mainElement = document.querySelector("main")
 // display data
 // remove loader 
 
-
+ 
 // task : conver html string to html DOM Elememt
 
 const convertToHtmlDom = (HtmlStringFormat) => {
