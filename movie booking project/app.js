@@ -3,19 +3,39 @@ import { fetchMovieAvailability, fetchMovieList } from "./api.js";
 // selectors
 
 const mainElement = document.querySelector("main")
+const bookerElement = document.querySelector("#booker")
+const bookerGridElement = document.querySelector("#booker-grid-holder")
+
 // fetch list of all movies
 // shows a loader till fetching of movies is going on...
 // display data
 // remove loader 
 
  
-// task : conver html string to html DOM Elememt
+// task : convert html string to html DOM Elememt
 
 const convertToHtmlDom = (HtmlStringFormat) => {
     const element = document.createElement('div');
     element.innerHTML = HtmlStringFormat;
     return element.firstElementChild;
 }
+
+const renderTheaterLayout = () =>{
+
+    // make a grid of 4/3
+    const grid = convertToHtmlDom(`<div class="booking-grid"></div>`)
+
+    // insert grid elements basically theatre seats
+    let theatreseats = "";
+
+    for(let i =0; i<12; i++){
+        theatreseats = theatreseats + `<div class="seat${i}">${i}</div>`;
+    }
+    grid.innerHTML = theatreseats;
+    bookerGridElement.appendChild(grid)
+}
+
+
 
 const renderMovieTheater = (event)=>{
     event.preventDefault();
@@ -27,13 +47,13 @@ fetchMovieAvailability(movieNAme).then((result) => {
 
     // make h3 element of booker div visible  
     const  bookerElementHEader = document.querySelector("#booker h3")
-    bookerElementHEader.classList.toggle("v-none");       
+    bookerElementHEader.classList.toggle("v-none");  
     
-    // rough work 
-   const grid = convertToHtmlDom(`<div class="grid-element"</div>`)
-  const bookergridholder =  document.querySelector("#booker-grid-holder");
-  bookergridholder.appendChild(grid)
+    // render theater layout view
+    renderTheaterLayout();
+
 });
+
 }
 
 const rendermoovielist = async () => {

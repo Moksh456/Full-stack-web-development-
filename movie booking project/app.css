@@ -37,12 +37,19 @@ nav ul{
     margin-top: 1rem;
 }
 
-.grid-element{
+
+
+.booking-grid{
     display: grid;
     grid-template-rows: repeat(4,70px);
     grid-template-columns: repeat(3,70px);
-
+    gap: 10px;
+    justify-content: center;
+    margin-top: 2rem;
 }
+
+
+
 
 .d-none {
     display: none;
@@ -51,4 +58,3 @@ nav ul{
 .v-none{
     visibility: hidden;
 }
-
