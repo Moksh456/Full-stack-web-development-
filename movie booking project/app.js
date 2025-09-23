@@ -29,7 +29,7 @@ const renderTheaterLayout = () =>{
     let theatreseats = "";
 
     for(let i =0; i<12; i++){
-        theatreseats = theatreseats + `<div class="seat${i}">${i}</div>`;
+        theatreseats = theatreseats + `<div class="grid-cell seat${i+1}">${i+1}</div>`;
     }
     grid.innerHTML = theatreseats;
     bookerGridElement.appendChild(grid)
@@ -49,9 +49,10 @@ fetchMovieAvailability(movieNAme).then((result) => {
     const  bookerElementHEader = document.querySelector("#booker h3")
     bookerElementHEader.classList.toggle("v-none");  
     
+   
     // render theater layout view
     renderTheaterLayout();
-
+    renderTheaterLayout();
 });
 
 }
