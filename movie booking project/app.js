@@ -20,7 +20,7 @@ const convertToHtmlDom = (HtmlStringFormat) => {
     return element.firstElementChild;
 }
 
-const renderTheaterLayout = () =>{
+const renderTheaterLayout = (seatNooffset = 1) =>{
 
     // make a grid of 4/3
     const grid = convertToHtmlDom(`<div class="booking-grid"></div>`)
@@ -29,7 +29,7 @@ const renderTheaterLayout = () =>{
     let theatreseats = "";
 
     for(let i =0; i<12; i++){
-        theatreseats = theatreseats + `<div class="grid-cell seat${i+1}">${i+1}</div>`;
+        theatreseats = theatreseats + `<div class="grid-cell seat${i+seatNooffset}">${i+seatNooffset}</div>`;
     }
     grid.innerHTML = theatreseats;
     bookerGridElement.appendChild(grid)
@@ -52,7 +52,7 @@ fetchMovieAvailability(movieNAme).then((result) => {
    
     // render theater layout view
     renderTheaterLayout();
-    renderTheaterLayout();
+    renderTheaterLayout(13);
 });
 
 }
