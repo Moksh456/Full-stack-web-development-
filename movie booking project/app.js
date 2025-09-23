@@ -30,9 +30,9 @@ fetchMovieAvailability(movieNAme).then((result) => {
     bookerElementHEader.classList.toggle("v-none");       
     
     // rough work 
-   // const grid = convertToHtmlDom(`<div class="grid-element"</div>`)
- // const bookergridholder =  document.querySelector("#booker-grid-holder");
- // bookergridholder.appendChild(grid)
+   const grid = convertToHtmlDom(`<div class="grid-element"</div>`)
+  const bookergridholder =  document.querySelector("#booker-grid-holder");
+  bookergridholder.appendChild(grid)
 });
 }
 
@@ -62,4 +62,4 @@ const rendermoovielist = async () => {
 // removing loader after fetching the data
 
 const loader = convertToHtmlDom(`<div class="Loader"> Loading...........</div>`)
-rendermoovielist();
+rendermoovielist(); 
