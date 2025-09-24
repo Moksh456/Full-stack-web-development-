@@ -67,13 +67,16 @@ nav ul{
 .Unavailable{
     background-color: red;
     cursor: not-allowed;
-    pointer-events: none;
+    pointer-events:none;
 }
 .available{
     background-color: green;
     cursor: pointer;
 }
 
+.selected{
+    border: 8px solid black;
+}
 
 
 
@@ -90,5 +93,8 @@ nav ul{
 }
 
 .v-none{
-    visibility: hidden;
+    visibility:hidden;
+}
+.v-v{
+    visibility: none;
 }

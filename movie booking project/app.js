@@ -5,12 +5,27 @@ import { fetchMovieAvailability, fetchMovieList } from "./api.js";
 const mainElement = document.querySelector("main")
 const bookerElement = document.querySelector("#booker")
 const bookerGridElement = document.querySelector("#booker-grid-holder")
+const bookTicketBtn = document.querySelector("#book-ticket-btn")
 
 // fetch list of all movies
 // shows a loader till fetching of movies is going on...
 // display data
 // remove loader 
+bookTicketBtn.addEventListener("click", onbooktickethandler);
 
+function renderConfirmPurchaseForm(){
+    const form = ``
+}
+
+function onbooktickethandler  ()  {
+    bookerElement.innerHTML = "";
+    renderConfirmPurchaseForm();
+}
+
+
+// store selected seats
+
+let selectedSeats = [];
  
 // task : convert html string to html DOM Elememt
 
@@ -20,9 +35,24 @@ const convertToHtmlDom = (HtmlStringFormat) => {
     return element.firstElementChild;
 }
 
-const onseatclick = (Event) => {
-    console.log(Event.target.innerText);
-}
+const onseatclick = (event) => {
+    event.target.classList.toggle("selected");
+
+    // logic if element is having selected-seat class then it is needs to be push
+    // on selected seats Array and if it is not having then, remove that seat from selectedseats array
+
+    if (event.target.classList.contains("selected")) {
+               selectedSeats.push(event.target.innerText)
+    } else{
+        selectedSeats.filter(seat => seat !== event.target.innerText)
+    }
+
+    if(selectedSeats.length <  0){
+        bookTicketBtn.classList.add("v-none");
+    } else{
+        bookTicketBtn.classList.remove("v-none")
+    }
+} 
 
 const renderTheaterLayout = (listOfUnAvalilableseats = [] ,seatNooffset = 1) =>{
 
@@ -53,7 +83,7 @@ const renderMovieTheater = (event)=>{
 const movieNAme = event.target.innerText ? event.target.innerText : event.target.parentElement.innerText;
 
 fetchMovieAvailability(movieNAme).then((listOfUnAvalilableseats) => {
-    console.log(listOfUnAvalilableseats);
+
 
     // make h3 element of booker div visible  
     const  bookerElementHEader = document.querySelector("#booker h3")
@@ -70,7 +100,6 @@ fetchMovieAvailability(movieNAme).then((listOfUnAvalilableseats) => {
 const rendermoovielist = async () => {
     mainElement.appendChild(loader) // adding loader before making appi call
     const movielist = await fetchMovieList();
-    console.log(movielist)
 
     const movieholder = document.createElement('div');
     movieholder.classList.add('movie-holder');
