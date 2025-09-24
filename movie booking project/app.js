@@ -11,16 +11,59 @@ const bookTicketBtn = document.querySelector("#book-ticket-btn")
 // shows a loader till fetching of movies is going on...
 // display data
 // remove loader 
-bookTicketBtn.addEventListener("click", onbooktickethandler);
 
-function renderConfirmPurchaseForm(){
-    const form = ``
+const renderSucessMessage = (mobile, email) =>{
+    const sucess = convertToHtmlDom(`<div id="Sucess"> 
+        <h4>Bookig Details</h4>
+        <div> Seats: ${selectedSeats.join(",")}</div>
+        <div>Phone Number: ${mobile}</div> 
+        <div>Email: ${email}</div>
+        <div>Enjoy the Movie!</div> 
+
+    </div>`)
+    bookerElement.appendChild(sucess);
 }
 
+const onPurchaseBtnClickHandler = (event) => {
+    event.preventDefault();
+    const mobile = document.querySelector("#Phone").value;
+    const email = document.querySelector("#email").value;
+    bookerElement.innerHTML = "";
+    renderSucessMessage(mobile,email);
+}
+
+
+
+
+function renderConfirmPurchaseForm(){
+    const form = convertToHtmlDom(`
+<div id="confirm-purchase">
+    <h3>Confirm your booking for seat numbers:${selectedSeats.join(",")}</h3>
+    <form id="customer-detail-form">
+        <div> 
+        <label for="email">Email: </label>
+        <input type="email" required id="email">
+        </div>
+
+        <label for="Phone">Phone Number :</label>
+        <input type="tel" required id="Phone">
+        <div>
+        <button type="submit" id="Movie-Submit-button">Purchase</button>
+    
+        </div>
+        </form>
+</div>`);
+
+bookerElement.appendChild(form);
+document.querySelector("form").addEventListener("submit", onPurchaseBtnClickHandler)
+}
+
+bookTicketBtn.addEventListener("click", onbooktickethandler);
 function onbooktickethandler  ()  {
     bookerElement.innerHTML = "";
     renderConfirmPurchaseForm();
 }
+
 
 
 // store selected seats
@@ -79,6 +122,8 @@ const renderTheaterLayout = (listOfUnAvalilableseats = [] ,seatNooffset = 1) =>{
 
 const renderMovieTheater = (event)=>{
     event.preventDefault();
+
+
 
 const movieNAme = event.target.innerText ? event.target.innerText : event.target.parentElement.innerText;
 
