@@ -20,7 +20,11 @@ const convertToHtmlDom = (HtmlStringFormat) => {
     return element.firstElementChild;
 }
 
-const renderTheaterLayout = (listOfAvalilableseats = [] ,seatNooffset = 1) =>{
+const onseatclick = (Event) => {
+    console.log(Event.target.innerText);
+}
+
+const renderTheaterLayout = (listOfUnAvalilableseats = [] ,seatNooffset = 1) =>{
 
     // make a grid of 4/3
     const grid = convertToHtmlDom(`<div class="booking-grid"></div>`)
@@ -29,10 +33,16 @@ const renderTheaterLayout = (listOfAvalilableseats = [] ,seatNooffset = 1) =>{
     let theatreseats = "";
 
     for(let i =0; i<12; i++){
-        theatreseats = theatreseats + `<div class="grid-cell seat${i+seatNooffset}" style="background-color: ${listOfAvalilableseats.includes(i+seatNooffset) ? "green" : "red" }">${i+seatNooffset}</div>`;
+        theatreseats = theatreseats + `<div class="grid-cell seat${i+seatNooffset} ${listOfUnAvalilableseats.includes(i+seatNooffset)? "Unavailable" : "available"} ">${i+seatNooffset}</div>`;
     }
+
     grid.innerHTML = theatreseats;
-    bookerGridElement.appendChild(grid)
+
+  
+    bookerGridElement.appendChild(grid);
+
+    document.querySelectorAll(".grid-cell").forEach((cell) => cell.addEventListener("click", onseatclick));
+
 }
 
 
@@ -42,8 +52,8 @@ const renderMovieTheater = (event)=>{
 
 const movieNAme = event.target.innerText ? event.target.innerText : event.target.parentElement.innerText;
 
-fetchMovieAvailability(movieNAme).then((listOfAvalilableseats) => {
-    console.log(listOfAvalilableseats);
+fetchMovieAvailability(movieNAme).then((listOfUnAvalilableseats) => {
+    console.log(listOfUnAvalilableseats);
 
     // make h3 element of booker div visible  
     const  bookerElementHEader = document.querySelector("#booker h3")
@@ -51,8 +61,8 @@ fetchMovieAvailability(movieNAme).then((listOfAvalilableseats) => {
     
    
     // render theater layout view
-    renderTheaterLayout(listOfAvalilableseats);
-    renderTheaterLayout(listOfAvalilableseats, 13);
+    renderTheaterLayout(listOfUnAvalilableseats);
+    renderTheaterLayout(listOfUnAvalilableseats, 13);
 });
 
 }

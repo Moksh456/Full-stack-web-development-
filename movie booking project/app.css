@@ -57,18 +57,22 @@ nav ul{
 }
 
 .grid-cell{
-    background-color: green;
+
     justify-content: center;
     color: white;
     display: flex;
     align-items: center;
 }
 
-
-
-
-
-
+.Unavailable{
+    background-color: red;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+.available{
+    background-color: green;
+    cursor: pointer;
+}
 
 
 
