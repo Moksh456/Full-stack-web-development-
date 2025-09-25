@@ -25,4 +25,4 @@ axios.post("https://jsonplaceholder.typicode.com/posts", {
     title: 'foo',
     body: 'bar',
     userId: 1,
-  }).then((response) => console.log(response))
+  }).then((response) => console.log(response)) 
