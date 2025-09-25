@@ -2144,4 +2144,23 @@ it returns undefined
 --------------------------------
 
 Prompt :
-  
+
+  give us option to write some message and also ability to answere to it..
+  it ok is pressed...input answere is returned otherwise on cancle click..
+  null is returned..
+  execution of js stops..Null OK or CANCLE is pressed/
+
+-------------------------------
+
+confirm : 
+  asts as a confirmmation box...if clicked on OK it returns true and if clicked on 
+  cancle it retrurns false.
+
+-------------------------------
+
+Location :
+
+can be used to access browser URL i.e location mentioned inside browser address 
+bar.
+  http://127.0.0.1:5500/_%20frontend-development-/javascript%20notes/BOM/bom.html
+
