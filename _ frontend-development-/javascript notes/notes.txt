@@ -2113,4 +2113,9 @@ _______________________________________________________________________
  BOM : 
  (browser object model)
 
-  
+  DOM   : (docment object model) : use to interact with html is the form of js object 
+  (hierarchical manner)...
+
+  Now, there is a way via which we can talk to broswer. (here, entitiy is browser 
+  not document~html page)
+
