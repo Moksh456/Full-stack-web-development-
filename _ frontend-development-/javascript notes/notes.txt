@@ -2132,3 +2132,10 @@ BOM consists of js like :
 now, all these objects are part of window object.
 in window object there is something called "document"...via basically 
 enable DOM 
+
+alert :
+
+it is used to Alert use aboyt something
+whenever alert method is called at that point...rest of the javascript
+execution stops...
+only after acknowledgement of Alert ...js execution begins again..
