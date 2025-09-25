@@ -2119,3 +2119,16 @@ _______________________________________________________________________
   Now, there is a way via which we can talk to broswer. (here, entitiy is browser 
   not document~html page)
 
+BOM consists of js like :
+
+1. alert
+2. Prompt
+3. confirm
+4. location
+5. navigator
+6. history
+7. screen
+
+now, all these objects are part of window object.
+in window object there is something called "document"...via basically 
+enable DOM 
