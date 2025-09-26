@@ -2216,3 +2216,15 @@ addby4(20); // 24
 
 addby4(30); // 34
 -> addby(4)(30) // 34
+
+In above scenario, internally we are sing closures 
+but same problem can be solved with .bind method also.
+
+
+multiple(1)(2)(3)(4)............(n);
+
+multiply(1)(2) -> 2
+
+multiple(1)(2)(3) -> 6
+
+multiple(1)(2)(3)(4) -> 24
