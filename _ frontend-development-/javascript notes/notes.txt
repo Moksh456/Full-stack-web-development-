@@ -2170,4 +2170,6 @@ location.search ->
   location.search -> 'id=125&Name=sharad'
 
   Now to read above data we need to perform multiple transformation on string 
-  Rather than doing that.
+  Rather than doing that. we can make use of URLsearchparams
+
+  
