@@ -42,3 +42,4 @@ if(result){
 // const urlt = new URLSearchParams(location.search)
 // console.log(urlt.get("id"))
  
+
