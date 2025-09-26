@@ -37,3 +37,8 @@ if(result){
     location.replace("http://127.0.0.1:5500/dummy.html") //3rd way
 }
 */
+
+
+ const url = new URLSearchParams(location.search);
+  console.log(url.get(name));
+  

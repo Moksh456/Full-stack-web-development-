@@ -2164,3 +2164,10 @@ can be used to access browser URL i.e location mentioned inside browser address
 bar.
   http://127.0.0.1:5500/_%20frontend-development-/javascript%20notes/BOM/bom.html
 
+location.search -> 
+  return path (in string form) query params..
+  eg: URL -> http://127.0.0.1:5500/_%20frontend-development-/javascript%20notes/BOM/bom.html?id=125&Name=sharad
+  location.search -> 'id=125&Name=sharad'
+
+  Now to read above data we need to perform multiple transformation on string 
+  Rather than doing that.
