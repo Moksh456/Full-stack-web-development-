@@ -2172,4 +2172,47 @@ location.search ->
   Now to read above data we need to perform multiple transformation on string 
   Rather than doing that. we can make use of URLsearchparams
 
-  
+_______________________________________________________________________
+
+Currying :
+
+Design a function that adds 2 values.
+
+function add(value1, value2){
+  retrurns value1 + value2
+}
+
+DEsign a function that add a value but  always with 4;
+
+function add(value4){
+  return value +4;
+}
+
+Design unlimited funciton with above problem i.eachgenerate funtion that can add any number...
+
+immediately it appears to be a problem of factory functio....
+
+funtion generate(valuetobe){
+  return funciton (actually){
+    return valuetobe + actualvalue;
+  }
+}
+
+const addby2 = generator(2);
+
+addby2(20)// 22
+-> generator(2)(20)//22
+
+
+addby2(30) // 32
+-> generator(2)(30) // 32
+
+
+const addby4 = generator(
+  4);
+
+addby4(20); // 24
+-> generator(4)(30) // 34
+
+addby4(30); // 34
+-> addby(4)(30) // 34
