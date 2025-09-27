@@ -2261,3 +2261,8 @@ multiply(1,2) => 2 (2*1);
 multiply(2,3) => 6 (2*6);
 
 multiply(1)(2) => 2 (2*1);
+
+_______________________________________________________________________
+
+generators :
+  function in which we stop/resume their execution.

@@ -48,17 +48,17 @@ const result1 = multiply(2)(8);
 
 // sum(1)(2)(3) .........(n)
 
-function sum(a){
-    return function(b){
-        if(typeof b === "number"){ // condition
-            // do something
-            return sum(a+b); // rescursive call
-        }
-        else{
-            return a; // base case i.e whien come out of recursion
-        }
-    }
-}
+// function sum(a){
+//     return function(b){
+//        if(typeof b === "number"){ // condition
+//            // do something
+//            return sum(a+b); // rescursive call
+//        }
+//        else{
+//            return a; // base case i.e whien come out of recursion
+//        }
+//    }
+// }
 
-const result = sum(1)(2)(3)(2)();
-console.log(result);
+// const result = sum(1)(2)(3)(2)();
+// console.log(result);
