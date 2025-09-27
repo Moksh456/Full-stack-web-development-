@@ -50,7 +50,7 @@ const result1 = multiply(2)(8);
 
 function sum(a){
     return function(b){
-        if(b){ // condition
+        if(typeof b === "number"){ // condition
             // do something
             return sum(a+b); // rescursive call
         }
