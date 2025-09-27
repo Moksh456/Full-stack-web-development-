@@ -60,5 +60,5 @@ function sum(a){
     }
 }
 
-const result = sum(1)(2)(3)(4)();
-console.log(result)
+const result = sum(1)(2)(3)(2)();
+console.log(result);
