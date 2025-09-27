@@ -2228,3 +2228,36 @@ multiply(1)(2) -> 2
 multiple(1)(2)(3) -> 6
 
 multiple(1)(2)(3)(4) -> 24
+
+_______________________________________________________________________
+
+memoization ->
+
+  function memo(factoryNAMe){
+
+    // does large calculation which take 2 seconds
+
+  } 
+
+  Now,
+  everytime if we call memo() it will take seconds everytime.
+  Better approach can be if memo() is called with same input value th en just return
+  same output which was given before without calculating again.
+
+function func(name){
+  return name `${} Trikha` // Assume it takes seconds to do this
+}
+
+   let storeresults = {};
+  funciton memo(factoryNAMe){
+    const result = func(factoryNAMe);
+    storeresults[factoryNAMe] = result;
+
+    return result;
+  }
+_______________________________________________________________________
+
+multiply(1,2) => 2 (2*1);
+multiply(2,3) => 6 (2*6);
+
+multiply(1)(2) => 2 (2*1)
