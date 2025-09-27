@@ -9,14 +9,14 @@
 
 // DEsign a funciton that only multiply by 2 using bind
 
-function multiply(a,b){
-    return a*b
-}
+// function multiply(a,b){
+ //   return a*b
+// }
 
-const multiply2 = multiply.bind(this,2);
+// const multiply2 = multiply.bind(this,2);
 
-const result = multiply2(4);
-console.log(result)
+// const result = multiply2(4);
+// console.log(result)
 
 // now above problem statement is solved using bind method but 
 // we can also use combination of HOC which essentially works with the help
@@ -44,3 +44,21 @@ const result1 = multiply(2)(8);
 
 // sum(2)(3) -> 2 + 3;
 // sum(2)(3)(4) 2 + 3 + 4
+
+
+// sum(1)(2)(3) .........(n)
+
+function sum(a){
+    return function(b){
+        if(b){ // condition
+            // do something
+            return sum(a+b); // rescursive call
+        }
+        else{
+            return a; // base case i.e whien come out of recursion
+        }
+    }
+}
+
+const result = sum(1)(2)(3)(4)();
+console.log(result)
