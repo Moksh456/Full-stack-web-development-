@@ -7,7 +7,7 @@
 func();*/
 
 // problem statement 
-// anyone who is calling func should jave power via which we can stop  
+// anyone who is calling func should have power via which we can stop  
 // resume execution of func at my given point.
 
 function* func(){
