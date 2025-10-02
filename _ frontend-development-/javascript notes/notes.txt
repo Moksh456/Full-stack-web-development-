@@ -2276,3 +2276,9 @@ generators :
 
   As soon as tield keyword is encountered..exeution stops and there is a value 
   given as output.. this value is given via yield keyword.
+
+  next() method returns object having 2 properties :
+    1. value
+    2. done
+
+    here value property holds value given via yield keyword.
