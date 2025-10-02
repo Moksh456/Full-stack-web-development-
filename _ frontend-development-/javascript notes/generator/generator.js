@@ -12,8 +12,9 @@ func();*/
 
 function* func(){
        console.log("hi")
+      yield "hihg";
     console.log("by")
 }
 
 const result = func();
-result.next();
+console.log(result.next().value);
