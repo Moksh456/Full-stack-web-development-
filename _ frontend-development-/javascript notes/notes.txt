@@ -2241,15 +2241,16 @@ memoization ->
 
   Now,
   everytime if we call memo() it will take seconds everytime.
-  Better approach can be if memo() is called with same input value th en just return
+  Better approach can be if memo() is called with same input value then just return
   same output which was given before without calculating again.
 
 function func(name){
-  return name `${} Trikha` // Assume it takes seconds to do this
+  return  `${name} Trikha` // Assume it takes 2 seconds to do this
 }
 
    let storeresults = {};
   funciton memo(factoryNAMe){
+
     const result = func(factoryNAMe);
     storeresults[factoryNAMe] = result;
 
