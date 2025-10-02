@@ -2282,3 +2282,7 @@ generators :
     2. done
 
     here value property holds value given via yield keyword.
+
+
+    done -> boolean value telling wheather exeution of generator function is 
+    completed or not.
