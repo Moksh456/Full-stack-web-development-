@@ -1,7 +1,6 @@
 /*function func(){
     console.log("hi")
     console.log("by")
-
 }
 
 func();*/
@@ -12,7 +11,7 @@ func();*/
 
 function* func() {
     console.log("hi")
-    yield "hihg";
+   // yield "hihg";
     console.log("by")
 }
 

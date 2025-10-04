@@ -2286,3 +2286,12 @@ generators :
 
     done -> boolean value telling wheather exeution of generator function is 
     completed or not.
+
+_______________________________________________________________________
+
+Date
+
+Iso8601 {for standardziation}
+epoch {backend syntems generally work with epoch}
+
+_______________________________________________________________________
