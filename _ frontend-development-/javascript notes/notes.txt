@@ -2297,4 +2297,17 @@ epoch {backend syntems generally work with epoch}
 _______________________________________________________________________
 
  PRoperty Descriptors : 
+  Every property in any object in js can have its own configrution :
+
+  const obj ={
+    name: "sharad",
+    age: 28
+  }
   
+  name and age can have its own custom configrations :
+
+  1. writabble -> true/false(despcts whether any value can be overridden or not)
+
+  2. enumrable -> (depicts whether this property should be present while looping or not) object.keys
+
+  3. configurable -> whether above canfigruration like writable, enumrable can be change in future or not.
