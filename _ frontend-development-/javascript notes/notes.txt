@@ -2311,4 +2311,9 @@ _______________________________________________________________________
   2. enumrable -> (depicts whether this property should be present while looping or not) object.keys
 
   3. configurable -> whether above canfigruration like writable, enumrable can be change in future or not.
-  
+
+_______________________________________________________________________
+
+1. "Use strict"
+
+2. CAllback hell
