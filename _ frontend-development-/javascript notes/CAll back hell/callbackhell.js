@@ -1,17 +1,27 @@
+function End(){
+    console.log("THe End    TATA BY BY BY BY BY  ")
+}
+
 function intensiveCAlculation(a,b, callbackfn) {
     setTimeout(() => {
           const sum = a+b;
     console.log("Sum is: ", sum);
     console.log("yes it's done")
+    callbackfn(conclude)
     return sum;
     }, 3000);
 }
 
-function conclude (){
+
+function conclude (callbackfnn){
+  setTimeout(() => {
+      console.log("yes it's done");
     console.log("yes it's done");
-    console.log("yes it's done");
+    callbackfnn(End)
+  }, 4000);
 }
 intensiveCAlculation(50,60, conclude);
+
 
 // problem : once intensiveCAlculation is finished print on console "yes it done"
 
