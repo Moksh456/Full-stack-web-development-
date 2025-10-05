@@ -1,3 +1,9 @@
 Install Nodejs
     
 NodeJs + NPM
+
+
+NPM :
+    1. Bootsstrap
+    2. axios
+    3. font-awsome
