@@ -4,12 +4,9 @@ NodeJs + NPM
 
 
 NPM :
-    1. Bootsstrap
-    2. axios
-    3. font-awsome
-
-    Bootstrap - 1.0.0
-
-    Now Bootsstrap relesed new 1.0.1
-
-    Now i have to use this new version....then i have to go index.html and do changes.
+   
+   
+   NPM (Node Package Manager): 
+    1. websote
+    2. CLI (command like interface)
+    3. Registery
