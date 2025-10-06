@@ -10,3 +10,11 @@ NPM :
     1. websote
     2. CLI (command like interface)
     3. Registery
+
+BootsStrap wan to onboard to NPM registery :
+
+consider it as plain register.
+BootsStrap team asks NPM register to make 1 entry for them :
+
+Name: BootsStrap
+github 
