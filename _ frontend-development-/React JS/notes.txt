@@ -17,4 +17,12 @@ consider it as plain register.
 BootsStrap team asks NPM register to make 1 entry for them :
 
 Name: BootsStrap
-github 
+github REPO: <URL>
+Lincess: Open spurce related lincese(MIT)
+
+
+----------------> Generates/PUBLIsh --------> bootsstrap library
+
+
+
+____________________________________________________________________________________________________
