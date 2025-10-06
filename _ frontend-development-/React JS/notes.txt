@@ -23,6 +23,14 @@ Lincess: Open spurce related lincese(MIT)
 
 ----------------> Generates/PUBLIsh --------> bootsstrap library
 
+npm init
+
+Problem statment :
+
+want to use bootsstrap library by bot in a brute force manner rather wan to use it via package manager.
+here we are using mpm as package manager.
+here package means library name in our case it would be bootsstrap.
+
 
 
 ____________________________________________________________________________________________________
