@@ -78,3 +78,6 @@ SPA was invented -> single page application (i..e having only one 1 html file).
     in the form of JSON using http/https protocal following REST paradigm.
 
 
+____________________________________________________________________________________________________
+
+we will study react from the original documation.
