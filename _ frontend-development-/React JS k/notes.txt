@@ -1,0 +1,78 @@
+Install Nodejs
+    
+NodeJs + NPM
+
+
+NPM :
+   
+   
+   NPM (Node Package Manager): 
+    1. websote
+    2. CLI (command like interface)
+    3. Registery
+
+BootsStrap wan to onboard to NPM registery :
+
+consider it as plain register.
+BootsStrap team asks NPM register to make 1 entry for them :
+
+Name: BootsStrap
+github REPO: <URL>
+Lincess: Open spurce related lincese(MIT)
+
+
+----------------> Generates/PUBLIsh --------> bootsstrap library
+
+npm init
+
+Problem statment :
+
+want to use bootsstrap library by bot in a brute force manner rather wan to use it via package manager.
+here we are using mpm as package manager.
+here package means library name in our case it would be bootsstrap.
+
+
+Package versioning :
+
+"bootsstrap": "5.2.5"
+
+5.2.2 -> Major.minor.patch
+
+____________________________________________________________________________________________________
+
+History :
+
+Problem statment :
+
+make a website having 3 pages :
+Homepage
+PRoduct listing pages
+about Us pages
+
+1990s :
+
+developer used to make 3 seperate html for each view i.e homepage.html -> homepage
+PRoduct_listing.html -> PRoduct pages
+about_Us.html -> about_Us pages
+
+Now whenever user clicked on <a href="/rpduct.html> PRoduct </a> we use to fetch product.html from the server.
+
+
+Now this was not great because whole html page loads up again!
+user interaction is not good.
+also website appesars slow to the end user........
+
+then google can into picture.......
+
+google said -> lets not do this...i.e lets use only 1 html and whenever users
+click on product page/about us page...at that time...lets change the content inside this html
+page dynamically via JAVASCRIPT..
+
+
+SPA was invented -> single page application (i..e having only one 1 html file).
+
+    In SPA we do not fetch html,css,js files required on the fly instead we keep them
+    with ourself during initial load.
+    This makes we application very fast...since we have most of the improtant assets
+    beforehand...only thing that will be fetched from the server would be data 
+    in the form of JSON using http/https protocal following REST paradigm.
