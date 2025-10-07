@@ -9,7 +9,7 @@ NPM :
    NPM (Node Package Manager): 
     1. websote
     2. CLI (command like interface)
-    3. Registery 
+    3. Registery
 
 BootsStrap wan to onboard to NPM registery :
 
@@ -76,3 +76,5 @@ SPA was invented -> single page application (i..e having only one 1 html file).
     This makes we application very fast...since we have most of the improtant assets
     beforehand...only thing that will be fetched from the server would be data 
     in the form of JSON using http/https protocal following REST paradigm.
+
+
