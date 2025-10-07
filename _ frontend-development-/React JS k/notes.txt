@@ -83,4 +83,3 @@ npx create-react-app newton-first-day1
 ____________________________________________________________________________________________________
 
 we will study react from the original documation.
-
