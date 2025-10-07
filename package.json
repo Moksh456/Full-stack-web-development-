@@ -1,0 +1,23 @@
+{
+  "name": "full-stack-web-development-",
+  "version": "1.0.0",
+  "description": "we make all notes of my full stack development day by day with source code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Moksh456/Full-stack-web-development-.git"
+  },
+  "keywords": [],
+  "author": "Moksh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Moksh456/Full-stack-web-development-/issues"
+  },
+  "homepage": "https://github.com/Moksh456/Full-stack-web-development-#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.8"
+  }
+}
