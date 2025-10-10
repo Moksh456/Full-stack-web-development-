@@ -35,4 +35,8 @@ html {
 h3{
         margin-bottom: 31px;
 }
-
+.Foot-note{
+    background-color: gray;
+    color: darkgray;
+    font-weight: bold;
+}
