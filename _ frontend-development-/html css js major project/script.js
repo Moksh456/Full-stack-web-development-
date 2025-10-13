@@ -7,29 +7,29 @@ const input5 = document.querySelector("#five");
 
 
 
-const inputs = [input0,input1, input2, input3, input4, input5];
+const inputs = [input0, input1, input2, input3, input4, input5];
 
 const MovefocousNExtInput = (EventOriginationIntputNumber) => {
-    if(EventOriginationIntputNumber === 5){
+    if (EventOriginationIntputNumber === 5) {
         return
     }
-    inputs[EventOriginationIntputNumber +1].focus();
+    inputs[EventOriginationIntputNumber + 1].focus();
 };
 const movetoPreviousfunction = (EventOriginationIntputNumber) => {
-    if(EventOriginationIntputNumber === 0){
+    if (EventOriginationIntputNumber === 0) {
         return;
     }
     inputs[EventOriginationIntputNumber - 1].focus();
 }
-const oninputchange = (events) =>{
-    const inputnumber =  parseInt(events.target.getAttribute("data-number"))
+const oninputchange = (events) => {
+    const inputnumber = parseInt(events.target.getAttribute("data-number"))
     console.log(events.key)
-    if(events.key === "Backspace"){
+    if (events.key === "Backspace") {
         movetoPreviousfunction(inputnumber)
-       }else{
+    } else {
         MovefocousNExtInput(inputnumber)
-       }
+    }
 }
-inputs.forEach((even)=>{
+inputs.forEach((even) => {
     even.addEventListener('keyup', oninputchange)
 }); 
