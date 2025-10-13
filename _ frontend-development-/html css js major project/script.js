@@ -32,4 +32,4 @@ const oninputchange = (events) =>{
 }
 inputs.forEach((even)=>{
     even.addEventListener('keyup', oninputchange)
-}); 
+});
