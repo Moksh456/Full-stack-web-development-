@@ -1,7 +1,7 @@
 .grandparent{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
     height: 50vh;
     width: 50vw;
     background-color: red;
@@ -10,12 +10,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50%;
+    height: 50%; 
     
     width: 50%;
     background-color: blue;
 }
-.box1{
+.box1{ 
     height: 50%;
     width: 50%;
     background-color: green;
