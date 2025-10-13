@@ -1,10 +1,10 @@
 
-const frutis = [ "banana", "apple", "orange", "kiwi", "mango" ];
+const frutis = ["banana", "apple", "orange", "kiwi", "mango"];
 //a1[3] = "Mango";
 //console.log(a1[3]);
 const a1 = [7, " banana", true, "M", "orang"];
 //a1[3] = "Mango";
-let num = [1,2,3,4,5,6,7,8,9]
+let num = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 /*let num = [1,2,3,4,5,6,7,8,9]; 
 
 //console.log(a1.length); // Get the length of the array
@@ -73,8 +73,8 @@ num
      
 }*/
 
-  //sumbmitelement.addEventListener("click", createtable);
- 
+//sumbmitelement.addEventListener("click", createtable);
+
 // addlisttener take 2 arguments - event_name and function to be called ehenever this event get fixed.
 // previsouly we were calling create table functon from html with the help of onclick attribute  now we want to have seperetions of concerns and don't want to write js inside html unstill required .
 // so we went with a approach of calling addEventListener method on Target element
@@ -106,13 +106,13 @@ console.log("Box 1 clicked");
 }, true);*/
 
 const dsa = document.querySelector("#dsa");
-const html = document.querySelector("#html"); 
+const html = document.querySelector("#html");
 const css = document.querySelector("#css");
 const js = document.querySelector("#js");
 const reactjs = document.querySelector("#react-js");
-const mongoDB = document.querySelector("#mongo-DB" );
+const mongoDB = document.querySelector("#mongo-DB");
 
-const subject = document.querySelector("#subject") 
+const subject = document.querySelector("#subject")
 
 
 /*for(let i = 0; i< subject.length; i++){
@@ -122,6 +122,5 @@ const subject = document.querySelector("#subject")
 }*/
 
 
- 
 /*subject.addEventListener("click", function(){
-    console.log(event.target)});*/ 
+    console.log(event.target)});*/
