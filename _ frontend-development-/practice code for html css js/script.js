@@ -5,7 +5,7 @@ const frutis = [ "banana", "apple", "orange", "kiwi", "mango" ];
 const a1 = [7, " banana", true, "M", "orang"];
 //a1[3] = "Mango";
 let num = [1,2,3,4,5,6,7,8,9]
-/*let num = [1,2,3,4,5,6,7,8,9];
+/*let num = [1,2,3,4,5,6,7,8,9]; 
 
 //console.log(a1.length); // Get the length of the array
 /*console.log(a1.pop());
@@ -18,7 +18,7 @@ console.log(a1.length);*/
 //console.log(a1.length);
 //console.log(a1.shift("shantra"));
 //a1.toString
-/*ƒ toString() { [native code] }
+/*ƒ toString() { [native code] } 
 typeof a1[0]
 'number'
 a1.toString
@@ -124,4 +124,4 @@ const subject = document.querySelector("#subject")
 
  
 /*subject.addEventListener("click", function(){
-    console.log(event.target)});*/
+    console.log(event.target)});*/ 

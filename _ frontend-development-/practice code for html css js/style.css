@@ -6,7 +6,7 @@
     width: 50vw;
     background-color: red;
 }
-.parent{
+.parent{ 
     display: flex;
     justify-content: center;
     align-items: center;
