@@ -11,7 +11,7 @@ func();*/
 
 function* func() {
     console.log("hi")
-   // yield "hihg";
+    // yield "hihg";
     console.log("by")
 }
 
