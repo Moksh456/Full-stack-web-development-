@@ -92,7 +92,7 @@ ________________________________________________________________________________
 Create react app :
 
 npx create-react-app <APP_NAME>
-
+ 
 create-react-app -> here seems like a installed cli softwere just like npm or node.
 
 but there are time where we do not want to install cli softwere at the same time we want to use them.
@@ -102,6 +102,6 @@ OR
 1) npm install -g create-react-app
 2) create-react-app kksushik.
 
+ 
 
-
-command npm run start 
+command npm run start  
