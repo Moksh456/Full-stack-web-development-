@@ -4,28 +4,28 @@
     initilized with properties like name, age, and employmenttype.
 */
 
-function person(name, age){
+function person(name, age) {
     this.name = name;
     this.age = age;
-    
+
 }
 
-person.prototype.canwalk = function(){
-        console.log(`${this.name} can walk`);
-    }
+person.prototype.canwalk = function () {
+    console.log(`${this.name} can walk`);
+}
 
-function employee(name, age, employmentType){
+function employee(name, age, employmentType) {
     // calling parent class constructor
-     person.call(this, name,age);
+    person.call(this, name, age);
     this.employmentType = employmentType;
 }
 
 employee.prototype = Object.create(person.prototype)
- // here employee.protye.constructor is lost because we are assign 
- // employee.prototype to something ELSE EXPLICTY.
+// here employee.protye.constructor is lost because we are assign 
+// employee.prototype to something ELSE EXPLICTY.
 
- // Now we can reset constructor employee propety Exlicity
- employee.prototype.constructor = employee;
+// Now we can reset constructor employee propety Exlicity
+employee.prototype.constructor = employee;
 
 const e1 = new employee("sharad", 28, "contract");
 
