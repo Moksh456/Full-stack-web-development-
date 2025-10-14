@@ -20,7 +20,7 @@ div{
     background-color: blue;
 }
 */
-   /* div p{
+/* div p{
        background-color:  aqua;
     }
 div div{
@@ -80,20 +80,21 @@ div:hover{
  } 
  a[href]{ 
     background-color: blue;
- }*//*
+ }*/
+/*
  a[href^=gk]{
     background-color: aqua;
  }*/
- 
- 
+
+
 
 /* .jak{
         background-color: hsl(65, 30, 50);
  }*/
- /*div p{
+/*div p{
     background-color: rgb(50, 60, 56);
  }*/
- /*.one{
+/*.one{
     background-color: blue;
     padding: 50px;
     border-color: red;
@@ -107,11 +108,11 @@ div:hover{
     border-radius: 50px;
     border-bottom-left-radius: 555px;
  }*/
- /* .g{
+/* .g{
     background-color: rgba(2, 5, 5, 0.5);
     width : 6ch
   }*/
- /* div{
+/* div{
     width: 60%;
     background-color: aquamarine;
   }
@@ -119,7 +120,7 @@ div:hover{
     width: 50%
   }*/
 
-  /*div p{
+/*div p{
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -127,31 +128,31 @@ div:hover{
 
 }*/
 
- div{
-        display: flex;
+div {
+    display: flex;
     flex-direction: column;
     height: 47vh;
     justify-content: center;
     border: 4px dotted;
     align-items: center;
- }
- .gk{
+}
+
+.gk {
     background-color: red;
- }
- .Blue{
+}
+
+.Blue {
     background-color: blue;
- }
- .Green{
+}
+
+.Green {
     background-color: green;
- }
+}
 
 
 
- @media(max-width: 600px)   {
-      /*apply some css
+@media(max-width: 600px) {
+    /*apply some css
       max-width: 600px; -> apply below css to these screen whose which width is 600px or less */
-      
- }
 
-  
- 
+}

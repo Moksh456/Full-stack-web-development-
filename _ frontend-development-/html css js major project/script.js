@@ -6,7 +6,6 @@ const input4 = document.querySelector("#four");
 const input5 = document.querySelector("#five");
 
 
-
 const inputs = [input0, input1, input2, input3, input4, input5];
 
 const MovefocousNExtInput = (EventOriginationIntputNumber) => {
