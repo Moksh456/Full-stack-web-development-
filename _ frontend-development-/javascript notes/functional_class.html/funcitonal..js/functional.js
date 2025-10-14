@@ -29,7 +29,7 @@ employee.prototype.constructor = employee;
 
 const e1 = new employee("sharad", 28, "contract");
 
-
+ 
 
 // here person.Prototype.consturctor again points hack to person 
 // does that mean -> person.prototype.constructor  === person will be true?
@@ -66,7 +66,7 @@ class employee extends person{
     constructor(name,age,employmentType){
         super(name,age);
         this.employmentType = employmentType;
-    }     
+    }  
 }
 
 const s1 = new person("sharad", 28);*/
