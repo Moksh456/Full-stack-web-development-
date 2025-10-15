@@ -107,3 +107,29 @@ command npm run start
 
 ____________________________________________________________________________________________________
 
+How to import/export components in React :
+
+2 ways :
+
+1. Namedexport
+2. Default export 
+
+1. Named Export :
+
+export <Name>
+
+import {<NAme>} from '<file_NAme>'
+
+Note :
+
+Multiple named exports can be made from a single file.
+
+2. Default export :
+export Default <Name>
+
+import <name> from "<file_NAme>"
+
+Note :
+
+Only 1 default export can be made from a single file.
+Incase of default export ... <name> can be anything it need not be the same.
