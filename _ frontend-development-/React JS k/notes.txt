@@ -137,3 +137,10 @@ Incase of default export ... <name> can be anything it need not be the same.
 
 ____________________________________________________________________________________________________
 
+function multiplyBy2(x){
+    react x*2;
+}
+
+multiplyBy2(2) --------> 4
+multiplyBy2(4) --------> 8
+
