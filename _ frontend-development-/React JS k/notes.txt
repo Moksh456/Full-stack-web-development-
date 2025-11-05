@@ -141,5 +141,6 @@ function multiplyBy2(x){
     react x*2;
 }
 
+
 multiplyBy2(2) --------> 4
 multiplyBy2(4) --------> 8
