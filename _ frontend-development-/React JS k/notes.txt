@@ -7,7 +7,7 @@ NPM :
    
    
    NPM (Node Package Manager): 
-    1. websote
+    1. website
     2. CLI (command like interface)
     3. Registery
 
