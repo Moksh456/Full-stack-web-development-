@@ -45,7 +45,7 @@ during html lecture:-
 
   these both attribute is used to in css file 
   id() tag is used to edit a individiual html code id tag is used with the help of # hash. 
-    class attribute is used to edit a all tag. class attribute is used with the help of . dot.
+    class attribute is used to edit a all tag . class attribute is used with the help of . dot.
     
     selectors in css :-
             1. element selector :
