@@ -46,9 +46,11 @@ div ~ p{
     font-size: 50px ;
     color: rebeccapurple;
 }
+
 .kalu::first-line{
         background-color : brown ;
 }
+
 .dk::selection{
       background-color: cyan;
 }
@@ -128,31 +130,32 @@ div:hover{
 
 }*/
 
-div {
+/*div {
     display: flex;
     flex-direction: column;
     height: 47vh;
     justify-content: center;
     border: 4px dotted;
     align-items: center;
-}
+}*/
 
-.gk {
+/*.gk {
     background-color: red;
 }
+*/
 
-.Blue {
+/*.Blue {
     background-color: blue;
-}
+}*/
 
-.Green {
+/*.Green {
     background-color: green;
-}
+}*/
 
 
 
-@media(max-width: 600px) {
+/*@media(max-width: 600px) {
     /*apply some css
-      max-width: 600px; -> apply below css to these screen whose which width is 600px or less */
+      max-width: 600px; -> apply below css to these screen whose which width is 600px or less
+    }
 
-}
