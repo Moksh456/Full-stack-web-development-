@@ -130,14 +130,14 @@ div:hover{
 
 }*/
 
-div {
+/*  div {
     display: flex;
     flex-direction: column;
     height: 47vh;
     justify-content: center;
     border: 4px double red;
     align-items: center;
-}
+}  */
 
 /*.gk {
     background-color: red;
