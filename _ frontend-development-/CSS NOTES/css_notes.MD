@@ -65,6 +65,7 @@ during html lecture:-
             5. global selector  :
                     Symbol - *
 
+________________________________________________________________________________________________
     combinator selector :-
      combination of more than one selector.
 
