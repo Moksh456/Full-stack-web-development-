@@ -9,7 +9,7 @@ const input5 = document.querySelector("#five");
 const inputs = [input0, input1, input2, input3, input4, input5];
 
 const MovefocousNExtInput = (EventOriginationIntputNumber) => {
-    if (EventOriginationIntputNumber === 5) {
+    if (EventOriginationIntputNumber === 6) {
         return
     }
     inputs[EventOriginationIntputNumber + 1].focus();
