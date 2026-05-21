@@ -1,7 +1,12 @@
-var obj= {
+/*var obj= {
     name: "moxh sharma",
     age: 28,
     isIITian: false,
 }
 
-console.log(obj)
+console.log(obj)*/
+
+// var person = new Object();
+// person.name = "sharad";
+
+var arr = [];
