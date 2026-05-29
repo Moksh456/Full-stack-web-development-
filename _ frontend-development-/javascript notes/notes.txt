@@ -233,11 +233,11 @@ short overview of (DOM):-
 
 Document.queryselector("h1");
 
-var element = document.queryselector("h1");
+var element = document.queryselector("h1"); 
 
 element = h1
 
-element.innertext = h1 value
+element.innertext = h1 value 
 
 for select id in js file  -> docment.queryselector(#id_name);
 
