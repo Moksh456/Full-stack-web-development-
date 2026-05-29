@@ -108,7 +108,7 @@ Arrays =>
    Que. can we sore different primitive data type in an array?
    var arr  = [1,"rohit",false, 25n];
    ans. yes this happen 
-
+ 
   using new keyword
     var arr = new array ();
     var arr = new array (1,2,3,); -> for declare value in Arrays
