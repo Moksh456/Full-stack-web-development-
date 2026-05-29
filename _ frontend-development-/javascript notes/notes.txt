@@ -256,7 +256,7 @@ logical operators =>
 
         if a is true then B is evalated true (yes) 
       var a =  true && "sha" 
-      ans: sha
+      ans: sha      
 
       var a =   true && true
       ans: true 
