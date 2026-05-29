@@ -155,7 +155,7 @@ functin sumof(a,b){
 
   var dummy = function sharad(){
     console.log("i am a dummy");
-  }
+  }    
 
   return dummy;
 }
