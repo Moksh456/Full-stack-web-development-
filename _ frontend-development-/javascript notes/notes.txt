@@ -105,7 +105,7 @@ Arrays =>
    y[0] y[1]
 
 
-   Que. can we sore different primitive data type in an array?
+   Que. can we sore different primitive data type in an array? 
    var arr  = [1,"rohit",false, 25n];
    ans. yes this happen 
  
