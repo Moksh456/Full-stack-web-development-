@@ -20,14 +20,14 @@ function employee(name, age, employmentType) {
     this.employmentType = employmentType;
 }
 
-employee.prototype = Object.create(person.prototype)
+employee.prototype = Object.create(person.prototype) 
 // here employee.protye.constructor is lost because we are assign 
 // employee.prototype to something ELSE EXPLICTY.
  
 // Now we can reset constructor employee propety Exlicity
 employee.prototype.constructor = employee;
 
-const e1 = new employee("sharad", 28, "contract");
+const e1 = new employee("sharad", 28, "contract");  
 
  
 
