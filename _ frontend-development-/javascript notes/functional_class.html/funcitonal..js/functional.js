@@ -10,7 +10,7 @@ function person(name, age) {
 
 }
 
-person.prototype.canwalk = function () {
+person.prototype.canwalk = function () { 
     console.log(`${this.name} can walk`);
 }
  
