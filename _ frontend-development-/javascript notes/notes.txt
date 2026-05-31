@@ -222,7 +222,7 @@ comparison operators ->
  20 === "20"  = false
  
  == only check the value
- === check the value and also check the value both.
+ === check the value and also check the datatype both.
 
 ________________________________________________________________________________
 
