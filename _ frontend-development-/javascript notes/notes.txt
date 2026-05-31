@@ -311,7 +311,7 @@ scope ->
   if any variable is defined globally them it is accessible to every function.
 ________________________________________________________________________________
 
-function ->
+function -> 
 syntax 1 :
 function DECLARATION
 function <function name>(){
