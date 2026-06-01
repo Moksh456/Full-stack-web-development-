@@ -25,7 +25,7 @@ printdetails();*/
     
   */
 
-  var age = 28;
+  var age = 28; 
 
 function printdetails(){
     var title = "sharad"

@@ -380,7 +380,7 @@ by default there is global execution context created Whenever our code is execut
 
 Execution context is made of 2 phases :
   1. memory 
-  2. execution
+  2. execution 
 
   1. Memory creation :
   Memory is allocated to each object and function (internally function are also object ) 
