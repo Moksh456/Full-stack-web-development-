@@ -1,6 +1,6 @@
 /*
 var age = 28;
-
+ 
 function printdetails(){
     var title = "sharad"
 
@@ -14,15 +14,16 @@ printdetails();*/
 //quetion :
 /* here title and age both the variables are not defined under print function 
  then also we are able to access it How ? 
- it is because of scope chain 
+ it is because of scope chain  
  it appear toprototype chai stuided earlier 
  though prototype chain was applicable to objects and it's propeties similarly
   scope chain is applicable is variables 
  */
 
   /*  
+  
   lexical Env = variables accessed local + it lexical parent
-    
+
   */
 
   var age = 28; 
