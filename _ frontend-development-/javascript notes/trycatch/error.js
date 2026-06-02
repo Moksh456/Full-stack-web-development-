@@ -4,7 +4,7 @@
         console.log(person.tilte)
     } catch (error) {
         console.log("pure system...")
-    }
+    } 
     console.log("END OF THE CODE.....")
     return a+b;
 }
@@ -46,13 +46,13 @@ const sum = (a, b) => {
             console.log(error.name);
             console.log(error.message);
         }
-        else {
+        else { 
             return error
         }
     }
 }
 try {
-    const c = sum(1, 2);
+    const c = sum(1, 2); 
 } catch {
     console.log("Global catch hanler");
 }
