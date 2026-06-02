@@ -19,7 +19,7 @@ console.log("sum is ", sum(25,30));*/
       if(result>10){
             throw new Error("result  is more than 10...it wrong")
            
-    }
+    } 
     return result
 }return result
 catch(error){
