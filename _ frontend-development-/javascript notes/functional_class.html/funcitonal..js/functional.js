@@ -69,4 +69,4 @@ class employee extends person{
     }  
 }
 
-const s1 = new person("sharad", 28);*/
+const s1 = new person("sharad", 28);*/ 
