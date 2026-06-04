@@ -37,7 +37,7 @@ btnstart.addEventListener("click", (event)=>{
     }, 1000)
 
 
-})
+}) 
 btnend.addEventListener("click", ()=>{
 //    clearInterval(<ID>) here <ID> refers to id we got as return value from 
 //    setInterval API
