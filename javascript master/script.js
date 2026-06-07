@@ -38,7 +38,7 @@
  // temperol dead zone   .js ko pta oth h ki variable exist krta h lekin vo uski value use nhi kr skta
 
 
-//  console.log(a);
+//  console.log(a); 
 
 // let a = 11;
  
