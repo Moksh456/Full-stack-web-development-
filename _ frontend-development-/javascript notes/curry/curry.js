@@ -1,22 +1,21 @@
-//function multiply(a,b){
- //   return a*b;
-// }
+function multiply(a,b){
+    return a*b;
+ }
 
-// const result = multiply(2,3);
-// console.log(result);
+  const result = multiply(2,3);
+  console.log(result);
 
 
 
-// DEsign a funciton that only multiply by 2 using bind
+ //DEsign a funciton that only multiply by 2 using bind
+ function multiply(a,b){
+    return a*b
+ }
 
-// function multiply(a,b){
- //   return a*b
-// }
+ const multiply2 = multiply.bind(this,2);
 
-// const multiply2 = multiply.bind(this,2);
-
-// const result = multiply2(4);
-// console.log(result)
+ const result = multiply2(4);
+ console.log(result)
 
 // now above problem statement is solved using bind method but 
 // we can also use combination of HOC which essentially works with the help
