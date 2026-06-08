@@ -41,7 +41,7 @@ n
  // temperol dead zone   .js ko pta oth h ki variable exist krta h lekin vo uski value use nhi kr skta
 
 
-//  console.log(a); 
+//  console.log(a);   
 
 // let a = 11;
  
@@ -52,6 +52,7 @@ n
 // a = 20;
 
 
- // var -> hoist => undefined
+ // var -> hoist => undefined 
  // let -> hosit => X
  // const -> hoist => X
+ 
