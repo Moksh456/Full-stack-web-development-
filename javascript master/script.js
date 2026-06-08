@@ -33,6 +33,9 @@
 
 
 
+
+
+n
  //  REDECLARETION IS POSSIBLE WITH VAR BUT NOT POSSIBLE WITH LET
 
  // temperol dead zone   .js ko pta oth h ki variable exist krta h lekin vo uski value use nhi kr skta
