@@ -47,6 +47,7 @@ n
  
 // hoisting impect per type
 // hoisting =>   ek variable ko jab js me banate h to vo variable do hisso me tututa h and uska devclare part upar chla jata h and usko insilisation part niche rh jata h.
+
 // var a = undefined;
 
 // a = 20;
