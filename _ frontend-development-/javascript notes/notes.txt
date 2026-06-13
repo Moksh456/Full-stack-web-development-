@@ -571,7 +571,7 @@ shorthand:
           name: sharad,
           age: 28,
         }
-j.s is not close base lan
+j.s is not class base lan
 
 function person (name, age){
   
