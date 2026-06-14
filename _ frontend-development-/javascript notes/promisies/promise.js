@@ -38,7 +38,8 @@ console.log(res);
 // fullfilled or pending to reject
 
 // While changing state of promise to FULLFILLED i.e calling resolve function 
-// whenever data we supply to resolve function will be set inside promise data.
+// whenever data we supply to resolve function will be se
+// inside promise data.
 
 // let res = new Promise(callback);
 
