@@ -635,7 +635,7 @@ symbol ("sharad" ) -> return symbol value or symbol (which is always unique)
 usecase:
      primarly sued as a key of object since key always be unique hence creating keys of object with symbol instead of String will help avoid key duplication.
 
-Note:+++++++++++
+Note:
     in order to avoid uniqueness we can use symbol for()
 
 --------------------------------------------------------
