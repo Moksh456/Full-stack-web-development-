@@ -2256,7 +2256,7 @@ function func(name){
   funciton memo(factoryNAMe){
 
     const result = func(factoryNAMe);
-    storeresults[factoryNAMe] = result;
+    storeresults[factoryNAMe] = result; 
 
     return result;
   }
