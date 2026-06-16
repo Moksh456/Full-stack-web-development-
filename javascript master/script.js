@@ -62,13 +62,21 @@ b.pop();
 
 console.log(a);*/
 
-function moksh(number){
+/*function moksh(number){
     if (number >= 90 && number <= 100) return "a+";
     if(number >= 80 && number <= 89) return "b";
     if(number >= 70 && number <= 79) return "c"
-}
+}*/
 
-console.log(moksh(95))
+
 
 
 //  loops is the most og topic which we need to place
+
+for(let i = 1; i<50 ; i++){
+  
+    if(i === 20){
+        continue;
+    }  console.log(i);
+}
+
