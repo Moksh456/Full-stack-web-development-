@@ -63,8 +63,8 @@ b.pop();
 console.log(a);*/
 
 function moksh(number){
-    if (true) return true;
+    if (number =>90 && number>=100) return "A+";
+        else return "b";
 }
 
-
-
+console.log(moksh())
