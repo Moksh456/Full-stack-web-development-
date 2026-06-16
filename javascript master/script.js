@@ -67,3 +67,6 @@ function moksh(number){
 }
 
 console.log(moksh(95))
+
+
+//  loops is the most og topic whic we need
