@@ -10,7 +10,7 @@ let num = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 //console.log(a1.length); // Get the length of the array
 /*console.log(a1.pop());
 console.log(a1.length);*/
-
+ 
 //console.log(a1.push("Baljeet")); // Add an element to the end of the array
 //console.log(a1[6]); 
 
