@@ -64,9 +64,11 @@ console.log(a);*/
 
 function moksh(number){
     if (number >= 90 && number <= 100) return "a+";
+    if(number >= 80 && number <= 89) return "b";
+    if(number >= 70 && number <= 79) return "c"
 }
 
 console.log(moksh(95))
 
 
-//  loops is the most og topic whic we need
+//  loops is the most og topic which we need to place
