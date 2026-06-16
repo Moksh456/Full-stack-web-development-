@@ -54,11 +54,17 @@
  // let -> hosit => X
  // const -> hoist => X
  
-var a = [1,2,3]
+/*var a = [1,2,3]
 var b = a;
 
 
 b.pop();
 
-console.log(a);
+console.log(a);*/
+
+function moksh(number){
+    if (true) return true;
+}
+
+
 
