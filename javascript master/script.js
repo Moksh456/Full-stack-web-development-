@@ -78,3 +78,4 @@ console.log(a);*/
 // agar code likh diya to vo turant chal jata h 
 
 // function use for the our code is run imedietiely but it waits for the some user reaction on the input like button
+
