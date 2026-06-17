@@ -73,6 +73,8 @@ console.log(a);*/
 
 //  loops is the most og topic which we need to place
 
-for(let i = 1; i>1 ; i++){
-    console.log(i);
-}
+// what is function 
+
+// agar code likh diya to vo turant chal jata h 
+
+// function use for the our code is run imedietiely but it waits for the some user reaction on the input like button
