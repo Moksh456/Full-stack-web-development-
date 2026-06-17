@@ -73,10 +73,6 @@ console.log(a);*/
 
 //  loops is the most og topic which we need to place
 
-for(let i = 1; i<50 ; i++){
-  
-    if(i === 20){
-        continue;
-    }  console.log(i);
+for(let i = 1; i>1 ; i++){
+    console.log(i);
 }
-
