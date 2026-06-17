@@ -98,3 +98,6 @@ sum(22, 25, 26);
 // aesa function jo bahar ki value ko na badle vo pure function hota h ;
 
 // aesa function jo bhaar ki value ko badle ko hota h impure funtion
+
+
+/* ek function jo return kre ok or functionor return hone wala function hamesa use krega parent function */
