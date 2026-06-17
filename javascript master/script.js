@@ -79,3 +79,22 @@ console.log(a);*/
 
 // function use for the our code is run imedietiely but it waits for the some user reaction on the input like button
 
+/* function sum(v1 = 1,v2 = 1){
+    console.log(v1 + v2)
+}
+sum(22, 25, 26);
+*/
+
+ //function moksh(...val) {
+   // console.log(val[2]);
+// }
+
+// moksh(1,2,5,2,5,2,5,5,5);
+
+
+
+//  pure function and impure function 
+     
+// aesa function jo bahar ki value ko na badle vo pure function hota h ;
+
+// aesa function jo bhaar ki value ko badle ko hota h impure funtion
