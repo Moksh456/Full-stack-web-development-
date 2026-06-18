@@ -1716,7 +1716,7 @@ Rest Operator(...)  :
   rest operator also works with objects. 
 
     usecase :
-      design the function that can accept ubtimmited arguments as inputs.
+      design the function that can accept unlimmited arguments as inputs.
 
       Soln:
         function fn(...variablename){
