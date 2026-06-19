@@ -12,7 +12,7 @@ function printdetails(){
 }
 printdetails();*/
 //quetion :
-/* here title and age both the variables are not defined under print function 
+/* here title and age both the variables are not defined under print function  
  then also we are able to access it How ? 
  it is because of scope chain  
  it appear toprototype chai stuided earlier 
