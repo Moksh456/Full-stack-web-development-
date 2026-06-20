@@ -2180,7 +2180,7 @@ Currying :
 
 Design a function that adds 2 values.
 
-function add(value1, value2){
+function add(value1, value2){ 
   retrurns value1 + value2
 }
 
