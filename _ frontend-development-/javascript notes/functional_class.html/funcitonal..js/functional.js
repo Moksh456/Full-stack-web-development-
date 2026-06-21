@@ -17,7 +17,7 @@ person.prototype.canwalk = function () {
 function employee(name, age, employmentType) {
     // calling parent class constructor
     person.call(this, name, age);
-    this.employmentType = employmentType;
+    this.employmentType = employmentType;     
 }
 
 employee.prototype = Object.create(person.prototype) 
