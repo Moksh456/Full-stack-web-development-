@@ -10,13 +10,14 @@ function person(name, age) {
 
 }
  
-person.prototype.canwalk = function () { 
+person.prototype.canwalk = function () {
     console.log(`${this.name} can walk`);
 }
  
 function employee(name, age, employmentType) {
     // calling parent class constructor
     person.call(this, name, age);
+
     this.employmentType = employmentType;
 }
 
