@@ -8,7 +8,7 @@ function person(name, age) {
     this.name = name;
     this.age = age;
 
-}
+}  
  
 person.prototype.canwalk = function () {
     console.log(`${this.name} can walk`);
