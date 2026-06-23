@@ -11,7 +11,7 @@ function person(name, age) {
 }  
  
 person.prototype.canwalk = function () {
-    console.log(`${this.name} can walk`);
+    console.log(`${this.name} can walk`);  
 }
   
 function employee(name, age, employmentType) {
