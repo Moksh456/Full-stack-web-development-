@@ -30,7 +30,7 @@ catch(error){
 */
 
 const sum = (a, b) => {
-
+ 
     try {
         let result = a + b;
         if (result > 10) { 
