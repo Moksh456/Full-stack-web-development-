@@ -26,7 +26,7 @@ catch(error){
         console.log(error);
     }
 }
- const s = sum(25, 30);
+ const s = sum(25, 30); 
 */       
 
 const sum = (a, b) => {
