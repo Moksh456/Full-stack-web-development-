@@ -11,7 +11,7 @@ axios.get('https://jsonplaceholder.typicode.com/todos/1')
   // POST call
 
 //   fetch('https://jsonplaceholder.typicode.com/posts', {
-//   method: 'POST',
+//   method: 'POST',  
 //   body: JSON.stringify({
 //     title: 'foo',
 //     body: 'bar',
