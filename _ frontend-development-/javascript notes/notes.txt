@@ -794,7 +794,7 @@ ________________________________________________________________________________
  
 function beautifuname(name, prefix = "lord", decorate){
     if(decorate){
-        return decorate(name)
+        return decorate(name) 
     }
     return `${prefix } $ {name}`
 }
@@ -846,9 +846,9 @@ console.log("Box 1 clicked");
    Now to implement the flow?
 
    i.r->
-   Whether function of child should be called first then  
+   Whether function of child should be called first then   
    callback function of parent should be called,
-   callback function of grand parent should be called 
+   callback function of grand parent should be called  
 
    or (oppsite flow)
 
