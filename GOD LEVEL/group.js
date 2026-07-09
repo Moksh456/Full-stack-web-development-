@@ -9,7 +9,7 @@ a.addEventListener("input", function(eve){
 /*let h1 = document.querySelector("h1");
 
 let doc = document.querySelector("select");
-
+  
 doc.addEventListener("change", function(eve){
     console.log(eve.target.value);
 
