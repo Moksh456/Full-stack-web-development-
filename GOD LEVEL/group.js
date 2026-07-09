@@ -5,7 +5,7 @@ a.addEventListener("input", function(eve){
         console.log(eve.data)
     }  
 })*/
-
+   
 /*let h1 = document.querySelector("h1");
 
 let doc = document.querySelector("select");
