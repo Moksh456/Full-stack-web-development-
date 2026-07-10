@@ -3,7 +3,7 @@
 a.addEventListener("input", function(eve){
     if (eve.data !== null) {
         console.log(eve.data)
-    }  
+    }     
 })*/
    
 /*let h1 = document.querySelector("h1");
