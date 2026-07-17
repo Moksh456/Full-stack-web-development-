@@ -16,3 +16,14 @@ doc.addEventListener("change", function(eve){
     h1.innerText = `You have selected ${eve.target.value} device`;
 })*/
 
+/* let h1 = document.querySelector("h1")
+
+window.addEventListener("keyup", function(eve){
+   if(eve.key === " "){
+    h1.innerText = "space"
+   }else{
+     h1.innerText = eve.key;
+   }
+}) */
+
+   
