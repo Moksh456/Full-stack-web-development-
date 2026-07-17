@@ -16,4 +16,21 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    
+}
+
+.h1 input{
+    display: none;
+}
+
+.h1 button{
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background-color: rgb(9, 150, 119);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 6px;
+    
 }
