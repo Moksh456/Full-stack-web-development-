@@ -26,4 +26,9 @@ window.addEventListener("keyup", function(eve){
    }
 }) */
 
-   
+   let btn = document.querySelector("button");
+   let input = document.querySelector("input")
+
+   btn.addEventListener("click", function(){
+    input.click();
+   })
