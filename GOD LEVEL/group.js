@@ -37,9 +37,14 @@ window.addEventListener("keyup", function(eve){
     console.log(`'${eve.target.files[0].name}' was selected successfully`);
     btn.innerText = eve.target?.files[0].name + "  SELECTED";
    })*/
-
+    let input = document.querySelectorAll("input");
     let form =  document.querySelector("form");
     form.addEventListener("submit" , function(Eve){
-        console.log(Eve);
         event.preventDefault();
+        console.log(
+            input[0].value,
+            input[1].value,
+            input[2].value,
+            input[3].value,
+        );
     })

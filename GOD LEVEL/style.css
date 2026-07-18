@@ -34,18 +34,25 @@ body{
     border-radius: 6px;
     
 }*/
-
-input{
-    background-color: black;
-    color: white;
-        margin: 2px;
-        border: none;
+.main{
+    padding: 30px;
+    background-color: #222;
 }
-
+input{
+    margin: 2px;
+}
 form{
     display: flex;
     flex-direction: column;
-    padding: 12px;
-    width: 250px;
-    height: 300px;
+    width: 156px;
+    margin: 5px;
+}
+
+
+.card{
+    padding: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 10px;
 }
