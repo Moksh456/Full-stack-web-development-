@@ -1,4 +1,4 @@
-*{
+ *{
     padding: 0;
     margin: 0;
 }
@@ -9,7 +9,7 @@ body{
     background-color: #222;
     color: rgb(87, 80, 80);
 }
-
+/*
 .h1{
     width: 100vw;
     height: 100vh; 
@@ -33,4 +33,19 @@ body{
     cursor: pointer;
     border-radius: 6px;
     
+}*/
+
+input{
+    background-color: black;
+    color: white;
+        margin: 2px;
+        border: none;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    width: 250px;
+    height: 300px;
 }

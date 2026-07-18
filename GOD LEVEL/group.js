@@ -26,9 +26,20 @@ window.addEventListener("keyup", function(eve){
    }
 }) */
 
-   let btn = document.querySelector("button");
+ /*  let btn = document.querySelector("button");
    let input = document.querySelector("input")
 
    btn.addEventListener("click", function(){
     input.click();
    })
+
+   input.addEventListener("change", function(eve){
+    console.log(`'${eve.target.files[0].name}' was selected successfully`);
+    btn.innerText = eve.target?.files[0].name + "  SELECTED";
+   })*/
+
+    let form =  document.querySelector("form");
+    form.addEventListener("submit" , function(Eve){
+        console.log(Eve);
+        event.preventDefault();
+    })
