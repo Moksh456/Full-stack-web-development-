@@ -5,7 +5,7 @@ a.addEventListener("input", function(eve){
         console.log(eve.data)
     }     
 })*/
-   
+
 /*let h1 = document.querySelector("h1");
 
 let doc = document.querySelector("select");
@@ -26,25 +26,61 @@ window.addEventListener("keyup", function(eve){
    }
 }) */
 
- /*  let btn = document.querySelector("button");
-   let input = document.querySelector("input")
+/*  let btn = document.querySelector("button");
+  let input = document.querySelector("input")
 
-   btn.addEventListener("click", function(){
-    input.click();
-   })
+  btn.addEventListener("click", function(){
+   input.click();
+  })
 
-   input.addEventListener("change", function(eve){
-    console.log(`'${eve.target.files[0].name}' was selected successfully`);
-    btn.innerText = eve.target?.files[0].name + "  SELECTED";
-   })*/
-    let input = document.querySelectorAll("input");
-    let form =  document.querySelector("form");
-    form.addEventListener("submit" , function(Eve){
-        event.preventDefault();
-        console.log(
-            input[0].value,
-            input[1].value,
-            input[2].value,
-            input[3].value,
-        );
-    })
+  input.addEventListener("change", function(eve){
+   console.log(`'${eve.target.files[0].name}' was selected successfully`);
+   btn.innerText = eve.target?.files[0].name + "  SELECTED";
+  })*/
+let input = document.querySelectorAll("input");
+let form = document.querySelector("form");
+form.addEventListener("submit", function (Eve) {
+    event.preventDefault();
+    console.log(
+        input[0].value,
+        input[1].value,
+        input[2].value,
+        input[3].value,
+    );
+
+    let card = document.createElement("div");
+    card.classList = "card";
+    let profile = document.createElement("img");
+    profile.classList = "profile";
+    let h3 = document.createElement("h3")
+    h3.classList = "h3";
+    let h5 = document.createElement("h5");
+    h5.classList = "h5";
+    let p = document.createElement("p")
+    p.classList = "p"
+    card.appendChild(profile);
+    card.appendChild(h3);
+    card.appendChild(h5);
+    card.appendChild(p)
+    document.querySelector(".main").appendChild(card)
+
+    h3.innerText = `${input[0].value}`
+    h5.innerText = `${input[1].value}`
+    p.innerText = `${input[2].value}`
+    profile.innerText = `${input[3].value}`
+
+})
+
+// to make the card its imp part of the project
+
+
+
+/*
+<div class="card">
+    <div class="profile">
+        <img src="moksh.jpg" alt="">
+    </div>
+    <h3>moksh sharma</h3>
+    <h5>creative coder</h5>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia consectetur sit sed laboriosam repellat autem labore quod quos veritatis neque, itaque id magnam.</p>
+</div>*/

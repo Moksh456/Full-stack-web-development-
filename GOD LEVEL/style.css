@@ -57,12 +57,17 @@ form{
     margin-top: 20px;
     border-radius: 10px;
     color: white;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .profile{
     height: 40px;width: 40px;
     border-radius: 50%;
     overflow: hidden;
+    background-color: red;
 }
 
 .profile img{
@@ -74,4 +79,9 @@ form{
 .card p{
     font-size: 12px;
     margin-top: 10px;
+    
 }
+ .card h3{
+    margin-bottom: 5px;
+    margin-top: 7px;
+ }
