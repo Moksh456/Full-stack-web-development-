@@ -37,43 +37,52 @@ window.addEventListener("keyup", function(eve){
    console.log(`'${eve.target.files[0].name}' was selected successfully`);
    btn.innerText = eve.target?.files[0].name + "  SELECTED";
   })*/
+
 let input = document.querySelectorAll("input");
 let form = document.querySelector("form");
+
 form.addEventListener("submit", function (Eve) {
-    event.preventDefault();
-    console.log(
-        input[0].value,
-        input[1].value,
-        input[2].value,
-        input[3].value,
-    );
+    Eve.preventDefault();
+    CardMaker();
+});
+
+function CardMaker(nothing) {
 
     let card = document.createElement("div");
-    card.classList = "card";
-    let profile = document.createElement("img");
-    profile.classList = "profile";
-    let h3 = document.createElement("h3")
-    h3.classList = "h3";
+    card.className = "card";
+
+    let profile = document.createElement("div");
+    profile.className = "profile";
+
+    let img = document.createElement("img");
+    img.src = input[3].value;
+
+    let h3 = document.createElement("h3");
+    h3.className = "h3";
+
     let h5 = document.createElement("h5");
-    h5.classList = "h5";
-    let p = document.createElement("p")
-    p.classList = "p"
+    h5.className = "h5";
+
+    let p = document.createElement("p");
+    p.className = "p";
+
+    h3.innerText = input[0].value;
+    h5.innerText = input[1].value;
+    p.innerText = input[2].value;
+
+    profile.appendChild(img);
+
     card.appendChild(profile);
     card.appendChild(h3);
     card.appendChild(h5);
-    card.appendChild(p)
-    document.querySelector(".main").appendChild(card)
+    card.appendChild(p);
 
-    h3.innerText = `${input[0].value}`
-    h5.innerText = `${input[1].value}`
-    p.innerText = `${input[2].value}`
-    profile.innerText = `${input[3].value}`
+    document.querySelector(".main").appendChild(card);
 
-})
+    form.reset();
+}
 
 // to make the card its imp part of the project
-
-
 
 /*
 <div class="card">
