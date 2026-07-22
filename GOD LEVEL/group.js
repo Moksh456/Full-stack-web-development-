@@ -38,7 +38,7 @@ window.addEventListener("keyup", function(eve){
    btn.innerText = eve.target?.files[0].name + "  SELECTED";
   })*/
 
-let input = document.querySelectorAll("input");
+/* let input = document.querySelectorAll("input");
 let form = document.querySelector("form");
 
 form.addEventListener("submit", function (Eve) {
@@ -93,3 +93,24 @@ function CardMaker(nothing) {
     <h5>creative coder</h5>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia consectetur sit sed laboriosam repellat autem labore quod quos veritatis neque, itaque id magnam.</p>
 </div>*/
+
+
+
+document.querySelector(".abc").addEventListener("mouseover" ,  function(eve){
+    document.querySelector(".abc").style.backgroundColor = "yellow";
+});
+
+
+
+document.querySelector(".abc").addEventListener("mouseout" ,  function(eve){
+    document.querySelector(".abc").style.backgroundColor = "red";
+});
+
+let abc =  document.querySelector(".abc");
+
+this.addEventListener("mousemove", function(eve){
+    console.log(eve.clientX , eve.clientY);
+    console.log();
+    abc.style.top = eve.clientY + "px";
+    abc.style.left = eve.clientX + "px"
+})
