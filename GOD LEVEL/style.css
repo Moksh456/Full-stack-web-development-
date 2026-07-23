@@ -9,7 +9,7 @@ body{
     background-color: #222;
     color: rgb(87, 80, 80);
 }
- .abc{
+ /*.abc{
     position: absolute;
     width: 100px;
     height: 100px;
@@ -96,3 +96,31 @@ form{
     margin-bottom: 5px;
     margin-top: 7px;
  }*/
+
+body{
+    padding: 70px;
+}
+ .a{
+    width: 80%;
+    height: 80%;
+    background-color: red;
+ }
+ 
+ .b{
+    width: 80%;
+    height: 80%;
+    background-color: lightblue;
+ }
+
+ .c{
+    width: 80%;
+    height: 80%;
+    background-color: aqua;
+ }
+
+ 
+ .main{
+    width: 80vw;
+    height: 80vh;
+    overflow: hidden;
+ }
