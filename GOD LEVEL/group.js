@@ -96,7 +96,7 @@ function CardMaker(nothing) {
 
 
 
-document.querySelector(".abc").addEventListener("mouseover" ,  function(eve){
+/* document.querySelector(".abc").addEventListener("mouseover" ,  function(eve){
     document.querySelector(".abc").style.backgroundColor = "yellow";
 });
 
@@ -111,6 +111,16 @@ let abc =  document.querySelector(".abc");
 this.addEventListener("mousemove", function(eve){
     console.log(eve.clientX , eve.clientY);
     console.log();
-    abc.style.top = eve.clientY + "px";
-    abc.style.left = eve.clientX + "px"
+
+     let  width = abc.clientWidth / 2 
+     let height =  abc.clientHeight / 2
+
+    abc.style.top = eve.clientY - width + "px" ;
+    abc.style.left = eve.clientX - height + "px"
 })
+*/
+
+
+
+
+
