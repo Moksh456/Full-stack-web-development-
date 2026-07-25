@@ -134,4 +134,19 @@ let btn = document.querySelector("button")
 
 //  maiking caharacter calculator with the help of goood sysmetm of event handling.
 
-32
+let input = document.querySelector("input");
+let number =  document.querySelector("span");
+
+
+input.addEventListener("input", function(eve){
+    console.log(eve.target.value.length);
+
+    number.innerText = eve.target.value.length;
+
+    if(eve.target.value.length >20){
+        number.style.color = "red";
+    }else{
+        
+    }
+    
+})
