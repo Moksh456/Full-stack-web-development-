@@ -839,7 +839,8 @@ console.log("Box 1 clicked");
    or
 
    all the html element (who are in hiererchy w.r.t child div) ->
-   for these html elements onclick callbackj function should be run (only for when callback functoin is registered on them via addEventListener ).
+   for these html elements onclick callbackj function should be run (only for when callback functoin is registered on
+   them via addEventListener ).
 
    second approach got finalized.
    Now  quetion was ->
@@ -859,8 +860,8 @@ console.log("Box 1 clicked");
   -->
  
   it was decided that lets keep both the flows.
-  first  flow was named as -> BUBLE
-  second flow was named as -> CAPTURE
+  first  flow was named as -> event BUBLE
+  second flow was named as -> event CAPTURE
 
   Event Bubble -> 
   Bubble means it goes up (i.e from where it happend till last html element)
