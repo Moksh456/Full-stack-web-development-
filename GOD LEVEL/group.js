@@ -141,12 +141,13 @@ let number =  document.querySelector("span");
 input.addEventListener("input", function(eve){
     console.log(eve.target.value.length);
 
-    number.innerText = eve.target.value.length;
+    number.innerText = 20 - eve.target.value.length;
 
-    if(eve.target.value.length >20){
+    if(eve.target.value.length > 20){
         number.style.color = "red";
+        input.setAttribute("disable")
     }else{
-        
+        number.style.color = "white"
     }
     
 })
