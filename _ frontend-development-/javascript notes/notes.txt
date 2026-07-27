@@ -2096,7 +2096,7 @@ Async Javascript :
 
   timers and Intervals :-
 
-  quetions:
+   quetions:
     Create a timer i.r 
     create 2 buttons  - start and stop 
     on click of start , timer start with value 1 and on every 1 sec 
