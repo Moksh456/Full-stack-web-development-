@@ -11,6 +11,8 @@ ________________________________________________________________________________
 
 j.s is very flexible because it will automatic detect which datatype is prefect for the
 
+j.s is the most demanding skill for the we devloper in the market
+
 JAVASCRIPT :
     
     JAVASCRIPT FEATURES ->
@@ -2203,7 +2205,7 @@ funtion generate(valuetobe){
 
 const addby2 = generator(2);
 
-addby2(20)// 22
+addby2(20)// 22 
 -> generator(2)(20)//22
 
 
@@ -2217,7 +2219,7 @@ const addby4 = generator(
 addby4(20); // 24
 -> generator(4)(30) // 34
 
-addby4(30); // 34
+addby4(30); // 34 
 -> addby(4)(30) // 34
 
 In above scenario, internally we are sing closures 
