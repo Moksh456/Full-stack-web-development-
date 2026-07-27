@@ -1094,7 +1094,9 @@ local storage and session storage
 
       local storage => local storage means jo data broswer bamd hone ke baad bhi delete nhi hoga.
 
-      session storage =>  ye apna data temporaryly store krta h 
+      session storage =>  ye apna data temporaryly store krta h means if the tab close and data will dissapear
+
+      cookies => 
 _______________________________________________________________________
 
 inheritence:
