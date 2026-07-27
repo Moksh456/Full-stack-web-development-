@@ -11,7 +11,7 @@ ________________________________________________________________________________
 
 j.s is very flexible because it will automatic detect which datatype is prefect for the
 
-j.s is the most demanding skill for the we devloper in the market
+j.s is the most demanding skill for the we devloper in the market mainly we focous on the writing a neat and clean code for the company or client.
 
 JAVASCRIPT :
     
