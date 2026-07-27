@@ -1096,7 +1096,7 @@ local storage and session storage
 
       session storage =>  ye apna data temporaryly store krta h means if the tab close and data will dissapear
 
-      cookies => 
+      cookies => ye bhi data store krta hai or aapka data borswer ki cookies naam ki propeerty  me save hota h .
 _______________________________________________________________________
 
 inheritence:
