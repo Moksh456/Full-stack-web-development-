@@ -1087,6 +1087,16 @@ array is nothing but it is an object.
 every array has prototype
 ________________________________________________________________________________
 
+
+_______________________________________________________________________
+
+local storage and session storage
+
+      local storage => local storage means jo data broswer bamd hone ke baad bhi delete nhi hoga.
+
+      session storage =>  ye apna data temporaryly store krta h 
+_______________________________________________________________________
+
 inheritence:
   acquring properties / behiovour from some other entitiy.
   In Javascript, it imlies acquring properties/methid of some object.
