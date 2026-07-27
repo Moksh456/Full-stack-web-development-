@@ -1098,6 +1098,26 @@ local storage and session storage
 
       cookies => ye bhi data store krta hai or aapka data borswer ki cookies naam ki propeerty  me save hota h . this cookie is made
        for the less data or light data like pass name etc..
+
+
+
+       local storage =>   1. how to save data.   =>  setItem(value name, value)
+                          2. how to fetch data.  => getItem(value name)
+                          3. how to remove data. => removeItem(value name )
+                          4. how to update.      =>
+
+
+            1. save the data => localStorage.setItem("this is for to declare the name of value", "this is for the value");
+                if we save the value through this so our value is the permanent in the brouswer localStorage.
+            
+            2. how to fetch =>  localStorage.getItem("name the value whic you want to fetch"); 
+
+            3. 3. how to remove data. => localStorage.removeItem(value name )   this is used for the removing value
+
+            4. how to update => localStorage.setItem("name of the value", value)  if the value is not declare it will make new value 
+            and if the value will be the daclared in the past so it will override the older value and make new value at the place of 
+            oldest value. and update the value.
+
 _______________________________________________________________________
 
 inheritence:
