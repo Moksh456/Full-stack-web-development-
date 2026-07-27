@@ -124,7 +124,7 @@ this.addEventListener("mousemove", function(eve){
  /* let a = document.querySelector(".a")
 let b = document.querySelector(".b")
 let c = document.querySelector(".c")
-let btn = document.querySelector("button")
+let btn = document.querySelector("button")   
 
 
 // phele capture face chalta h fir bubling face chlta h 

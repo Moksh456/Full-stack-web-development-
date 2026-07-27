@@ -15,7 +15,7 @@
 // console.log("pricntig after aler........t");
 
 
-
+  
 // console.log(location.href);
 // console.log(location.protocol);
 // console.log(location.port);
