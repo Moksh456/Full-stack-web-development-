@@ -1118,6 +1118,8 @@ local storage and session storage
             and if the value will be the daclared in the past so it will override the older value and make new value at the place of 
             oldest value. and update the value.
 
+
+
 _______________________________________________________________________
 
 inheritence:
