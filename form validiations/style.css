@@ -78,10 +78,9 @@ button:hover{
 }
 
 
-
 .emailerr{
     display: none;
 }
-.passerr{
+.passserr{
     display: none;
 }
