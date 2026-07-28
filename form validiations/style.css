@@ -76,3 +76,12 @@ button:hover{
     font-size:17px;
     font-weight:bold;
 }
+
+
+
+.emailerr{
+    display: none;
+}
+.passerr{
+    display: none;
+}

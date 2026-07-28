@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Email & Password Validator</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
 
@@ -13,20 +14,13 @@
             <h1>Login Validator</h1>
             <p>Validate your email and password</p>
 
-            <input
-                type="email"
-                id="email"
-                placeholder="Enter your email"
-            >
-
-            <input
-                type="password"
-                id="password"
-                placeholder="Enter your password"
-            >
+            <form id="form">
+                <input type="email" id="email" placeholder="Enter your email" required>
+                <p class="emailerr"></p>
+                <input type="password" id="password" placeholder="Enter your password" required>
+                <p class="passserr"></p>
 
             <button id="validateBtn">Validate</button>
-
             <p id="result"></p>
         </div>
     </div>
