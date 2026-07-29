@@ -31,7 +31,7 @@ btnstart.addEventListener("click", (event)=>{
     // setInterval(){ , x} -> After every duration of X milisecond
     // please run this <callback_func> 
 
-   timerid = setTimeout(()=>{
+  timerid = setInterval(()=>{
         i++;
         displayeleme.innerHTML = i;
     }, 1000)
@@ -41,6 +41,7 @@ btnstart.addEventListener("click", (event)=>{
 btnend.addEventListener("click", ()=>{
 //    clearInterval(<ID>) here <ID> refers to id we got as return value from 
 //    setInterval API
-clearTimeout(timerid); 
-    i = 0;
+
+clearInterval(timerid); 
+        displayeleme.innerHTML = 0;
 })
