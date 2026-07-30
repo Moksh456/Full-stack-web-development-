@@ -1108,7 +1108,7 @@ local storage and session storage
                           5. to clear all thing  =>   .clear()
 
 
-            1. save the data => localStorage.setItem("this is for to declare the name of value", "this is for the value");
+            1. save the data =>  rage.setItem("this is for to declare the name of value", "this is for the value");
                 if we save the value through this so our value is the permanent in the brouswer localStorage.
             
             2. how to fetch =>  localStorage.getItem("name the value whic you want to fetch"); 
@@ -1119,12 +1119,18 @@ local storage and session storage
             and if the value will be the daclared in the past so it will override the older value and make new value at the place of 
             oldest value. and update the value.
 
+            local storage me sirf string save kr skte h or kuch nhi like arry object int var are not allowed in localstorage.
+
 
 session storage  => this is the temporary memomry of the broswer if the we close borswer then the all session storage item will be the disappear.
         all the functality is same like local storag set, save, fetch, remove, update etc....
 
 
-cookies => 
+cookies =>  borswe me chota data store krne ke liye use hota h isme 4kb ke lagbhag data store kr skti h or localStorage 5mb tak 
+            cookies me jo bhi data sotre hoga wo page reload hote hi SERVER pe chla jayega.
+
+
+
 
 _______________________________________________________________________
 
