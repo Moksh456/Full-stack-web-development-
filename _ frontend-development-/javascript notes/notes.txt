@@ -1120,7 +1120,11 @@ local storage and session storage
             oldest value. and update the value.
 
 
-session storage 
+session storage  => this is the temporary memomry of the broswer if the we close borswer then the all session storage item will be the disappear.
+        all the functality is same like local storag set, save, fetch, remove, update etc....
+
+
+cookies => 
 
 _______________________________________________________________________
 
