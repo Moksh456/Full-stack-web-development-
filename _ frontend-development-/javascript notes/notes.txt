@@ -1101,10 +1101,11 @@ local storage and session storage
 
 
 
-       local storage =>   1. how to save data.   =>  setItem(value name, value)
-                          2. how to fetch data.  => getItem(value name)
-                          3. how to remove data. => removeItem(value name )
-                          4. how to update.      =>
+       local storage =>   1. how to save data.   =>   .setItem(value name, value)
+                          2. how to fetch data.  =>   .getItem(value name)
+                          3. how to remove data. =>   .removeItem(value name )
+                          4. how to update.      =>   .setItem(value name, value)
+                          5. to clear all thing  =>   .clear()
 
 
             1. save the data => localStorage.setItem("this is for to declare the name of value", "this is for the value");
@@ -1119,6 +1120,7 @@ local storage and session storage
             oldest value. and update the value.
 
 
+session storage 
 
 _______________________________________________________________________
 

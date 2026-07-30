@@ -14,8 +14,6 @@ function hacked(a) {
   console.log(ans);
   
 }
-
-
 document.querySelector("button:nth-of-type(2)").addEventListener("click", () => {
     timerid = setInterval(() => {
         i++;
