@@ -1119,7 +1119,8 @@ local storage and session storage
             and if the value will be the daclared in the past so it will override the older value and make new value at the place of 
             oldest value. and update the value.
 
-            local storage me sirf string save kr skte h or kuch nhi like arry object int var are not allowed in localstorage.
+            local storage me array object jaise cheej sotre nhi kr skte isliye unhe string bna ke store krte h JSON.
+            Stringfy() wale method se or baad me use krte time JSOM.pasre() wale method se nikalte h use krne ke liye.
 
 
 session storage  => this is the temporary memomry of the broswer if the we close borswer then the all session storage item will be the disappear.
