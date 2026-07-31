@@ -2,9 +2,9 @@ let h1 = document.querySelector("h1")
 let i = 0
 document.querySelector("button").addEventListener("click", () => {
     clearInterval(timerid);
-    i = 0;
+    i = 0
     h1.textContent = i;
-});
+}, );
 
 function hacked(a) {
     let ans = a * 5;
