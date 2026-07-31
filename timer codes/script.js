@@ -1,8 +1,5 @@
 let h1 = document.querySelector("h1")
 let i = 0
-
-
-
 document.querySelector("button").addEventListener("click", () => {
     clearInterval(timerid);
     i = 0;
