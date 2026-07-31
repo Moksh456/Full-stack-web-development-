@@ -1130,9 +1130,7 @@ session storage  => this is the temporary memomry of the broswer if the we close
 cookies =>  borswe me chota data store krne ke liye use hota h isme 4kb ke lagbhag data store kr skti h or localStorage 5mb tak 
             cookies me jo bhi data sotre hoga wo page reload hote hi SERVER pe chla jayega.
 
-
-
-
+            
 _______________________________________________________________________
 
 inheritence:
