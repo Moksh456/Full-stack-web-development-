@@ -6,15 +6,13 @@
 
 html,
 body{
-        background-image: linear-gradient(36deg, #a549f0, #ff00009e);
-        width: 100%;
-        height: 100%;
+    background-image: linear-gradient(36deg, #a549f0, #ff00009e);
+    width: 100%;
+    height: 100%;
 }
 
-
-
 .main{
-        display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -23,15 +21,34 @@ body{
 
 .container{
     background-color: aqua;
-       width: 100px;
+    width: 100px;
     height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 12px;
+    flex-direction: column;
 }
 
 .bar{
-    background-color: red;
+    background-color: rgb(255, 255, 255);
+    width: 85px;
+    border-radius: 2px;
+    height: 4px;
+}
+
+.precentage{
     
+}
+
+h3{
+    font-size: 10px;
+    margin-bottom: 27px;
+}
+
+.bars{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
