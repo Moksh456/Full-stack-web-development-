@@ -31,7 +31,7 @@ body{
 }
 
 .bar{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(77, 68, 68);
     width: 85px;
     border-radius: 2px;
     height: 4px;
@@ -51,4 +51,9 @@ h3{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.process{
+    background-color: rgb(165, 25, 25);
+    width: 0;
 }
