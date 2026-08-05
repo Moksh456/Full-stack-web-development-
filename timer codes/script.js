@@ -19,5 +19,5 @@ document.querySelector("button:nth-of-type(2)").addEventListener("click", () => 
 });
 
 hacked(5);
-
+ 
 console.log("heloo mrs");
