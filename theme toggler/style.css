@@ -35,7 +35,7 @@ button:hover{
 
 .dark{
    color: white;
-       background-image: linear-gradient(147deg, #0e1318, #137c7a);
+   background-image: linear-gradient(147deg, #0e1318, #137c7a);
 }
 
 .light{
