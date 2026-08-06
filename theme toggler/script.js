@@ -7,16 +7,13 @@ let main = document.querySelector("#container");
 
 function applyClass(){
 
-    if(main.classList.value === "light"){
-        localStorage.setItem("theme", "dark")
-    }else{
-        localStorage.setItem("theme", "light")
-    }
    
 }
 
 btn.addEventListener("click", function(){
     
+    main.classList.remove("light")
+    main.classList.add("dark")
+
 })
 
-applyClass();
