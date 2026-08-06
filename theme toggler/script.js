@@ -2,3 +2,17 @@
 
 
 
+let btn = document.querySelector("button");
+let main = document.querySelector(".main");
+
+function applyClass(){
+    console.log( main.classList.value);
+    
+}
+
+btn.addEventListener("click", function(){
+
+        
+})
+
+applyClass();  
