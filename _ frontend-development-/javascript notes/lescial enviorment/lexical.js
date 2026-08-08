@@ -67,7 +67,7 @@ function printdetails(){
     function print(){
         console.log(`hello my name is ${title} and my age is ${age}`)
     }
-    return print
+    return print  
 }
 const func = printdetails();
 func();*/
