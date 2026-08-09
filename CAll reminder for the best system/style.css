@@ -1,0 +1,280 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    color-scheme: light;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #eef2f7;
+    color: #222;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+}
+
+.app-shell {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 32px 24px;
+    display: grid;
+    gap: 28px;
+}
+
+.panel-header h1 {
+    margin: 0 0 6px;
+    font-size: clamp(2rem, 2.5vw, 2.6rem);
+}
+
+.panel-header p {
+    margin: 0;
+    color: #536075;
+    font-size: 0.95rem;
+}
+
+.form-panel,
+.cards-panel {
+    background: #fff;
+    border-radius: 24px;
+    box-shadow: 0 22px 60px rgba(17, 38, 68, 0.12);
+    padding: 28px;
+}
+
+.reminder-form {
+    display: grid;
+    gap: 16px;
+    margin-top: 18px;
+}
+
+.reminder-form label,
+.status-fieldset {
+    display: grid;
+    gap: 8px;
+    font-size: 0.95rem;
+    color: #3a4355;
+}
+
+.reminder-form input[type="text"] {
+    width: 100%;
+    border: 1px solid #d7dce7;
+    border-radius: 16px;
+    padding: 14px 16px;
+    font-size: 0.97rem;
+    background: #f9fbff;
+}
+
+.reminder-form input[type="text"]:focus {
+    outline: none;
+    border-color: #4f79ff;
+    box-shadow: 0 0 0 4px rgba(79, 121, 255, 0.12);
+}
+
+.status-fieldset {
+    border: 1px solid #d7dce7;
+    border-radius: 16px;
+    padding: 18px 16px;
+}
+
+.status-fieldset legend {
+    font-weight: 600;
+    margin-left: 8px;
+}
+
+.status-fieldset label {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    color: #3a4355;
+}
+
+.status-fieldset input {
+    accent-color: #4f79ff;
+}
+
+.btn {
+    border: none;
+    border-radius: 16px;
+    padding: 14px 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #4f79ff 0%, #40c4ff 100%);
+    color: #fff;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(16, 32, 64, 0.45);
+    display: grid;
+    place-items: center;
+    padding: 24px;
+    z-index: 2000;
+}
+
+.modal-card {
+    width: min(520px, 100%);
+    background: #ffffff;
+    border-radius: 26px;
+    box-shadow: 0 36px 100px rgba(17, 38, 68, 0.2);
+    padding: 28px 28px 24px;
+    position: relative;
+}
+
+.modal-close {
+    position: absolute;
+    top: 18px;
+    right: 18px;
+    border: none;
+    background: transparent;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #556080;
+}
+
+.modal-form {
+    margin-top: 10px;
+}
+
+.cards-topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 18px;
+}
+
+.cards-topbar h2 {
+    margin: 0;
+    font-size: 1.35rem;
+}
+
+.hidden-count {
+    color: #4f79ff;
+    font-weight: 700;
+}
+
+.card-stack {
+    position: relative;
+    min-height: 340px;
+    border-radius: 28px;
+    background: linear-gradient(180deg, #f8fbff 0%, #dfe7f7 100%);
+    overflow: hidden;
+    padding: 20px;
+}
+
+.card-stack::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at top left, rgba(79, 121, 255, 0.14), transparent 32%);
+    pointer-events: none;
+}
+
+.reminder-card {
+    position: absolute;
+    inset: 18px 18px auto 18px;
+    width: calc(100% - 36px);
+    border-radius: 26px;
+    padding: 22px 22px 18px;
+    box-shadow: 0 24px 60px rgba(17, 38, 68, 0.12);
+    background: #ffffff;
+    transition: transform 0.25s ease, opacity 0.25s ease;
+    display: grid;
+    gap: 14px;
+}
+
+.reminder-card.hide {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.reminder-card .card-top {
+    display: flex;
+    justify-content: space-between;
+    gap: 14px;
+    align-items: center;
+}
+
+.reminder-card h3 {
+    margin: 0;
+    font-size: 1.15rem;
+}
+
+.reminder-card p {
+    margin: 0;
+    color: #5d667d;
+    line-height: 1.55;
+}
+
+.badge {
+    padding: 8px 12px;
+    border-radius: 999px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    display: inline-flex;
+    align-items: center;
+}
+
+.badge.pending { background: #fff4e5; color: #b26819; }
+.badge.in-progress { background: #e7f4ff; color: #1d5fcc; }
+.badge.completed { background: #e8f7ec; color: #1f7a3e; }
+
+.card-actions {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.card-actions button {
+    flex: 1 1 28%;
+    min-width: 100px;
+    border-radius: 14px;
+    padding: 12px;
+    border: 1px solid #d7dce7;
+    background: #fff;
+    font-weight: 700;
+    color: #374151;
+    cursor: pointer;
+    transition: transform 0.15s ease, background 0.15s ease;
+}
+
+.card-actions button:hover {
+    transform: translateY(-1px);
+    background: #f4f7ff;
+}
+
+.card-actions button.delete {
+    color: #b8312f;
+    border-color: rgba(184, 49, 47, 0.24);
+}
+
+.stack-note {
+    margin-top: 18px;
+    color: #5a6575;
+    font-size: 0.95rem;
+}
+
+@media (min-width: 900px) {
+    .app-shell {
+        grid-template-columns: 380px 1fr;
+        align-items: start;
+    }
+}
+
+@media (max-width: 720px) {
+    .app-shell {
+        padding: 20px;
+    }
+    .card-actions button {
+        flex: 1 1 45%;
+    }
+}

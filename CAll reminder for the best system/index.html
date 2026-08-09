@@ -3,9 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Call reminder</title>
+    <title>Call Reminder</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <main class="app-shell">
+        <section class="cards-panel">
+            <div class="cards-topbar">
+                <div>
+                    <h1>Call Reminder</h1>
+                    <p>Manage reminders in a stacked card view.</p>
+                </div>
+                <button type="button" id="open-form-btn" class="btn btn-primary">Add New Card</button>
+            </div>
+            <div id="card-stack" class="card-stack"></div>
+            <p class="stack-note">Only the top card is fully visible. Older reminders sit behind it and can be reordered.</p>
+        </section>
+    </main>
+
+    <div id="modal-overlay" class="modal-overlay hidden">
+        <div class="modal-card">
+            <button type="button" id="close-modal-btn" class="modal-close">✕</button>
+            <h2>Add Reminder</h2>
+            <form id="reminder-form" class="reminder-form modal-form">
+                <label>
+                    Name
+                    <input type="text" id="name" placeholder="Enter name" required>
+                </label>
+                <label>
+                    Work
+                    <input type="text" id="work" placeholder="Enter work or project" required>
+                </label>
+                <label>
+                    Post
+                    <input type="text" id="post" placeholder="Enter post or role" required>
+                </label>
+                <fieldset class="status-fieldset">
+                    <legend>Work condition</legend>
+                    <label><input type="radio" name="status" value="Pending" checked> Pending</label>
+                    <label><input type="radio" name="status" value="In Progress"> In Progress</label>
+                    <label><input type="radio" name="status" value="Completed"> Completed</label>
+                </fieldset>
+                <button type="submit" class="btn btn-primary">Add Reminder</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
+
+    
