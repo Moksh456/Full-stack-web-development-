@@ -49,6 +49,52 @@
  .buttons {
      display: flex;
      flex-direction: column;
-     gap: 96px;
+     gap: 65px;
      margin-right: 30px;
+ }
+
+ .themes{
+        display: flex;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+    margin-left: 30px;
+ }
+
+ .buttons button{
+        border: none;
+    background: #ff0000;
+    width: 76px;
+    height: 39px;
+    border-radius: 12px;
+    cursor: pointer;
+ }
+
+ .themes .blue{
+    background-color: blue;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+ }
+
+ .themes .green{
+    background-color: rgb(94, 255, 0);
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+ }
+
+  .themes .red{
+    background-color: rgb(255, 0, 0);
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+ }
+
+  .themes .black{
+    background-color: rgb(0, 0, 0);
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
  }
