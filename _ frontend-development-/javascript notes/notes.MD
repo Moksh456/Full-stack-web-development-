@@ -2158,6 +2158,10 @@ Async Javascript :
   4. Cleartimeout
 
   
+  sync and async
+   sync = jab code line by line clta h use syncroion js bolte h 
+   async = aesa code jo chle ke liye rewady ho jaye or baad me chle use async code khte h 
+
 _______________________________________________________________________
 
  
