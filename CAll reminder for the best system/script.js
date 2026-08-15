@@ -4,9 +4,6 @@ class ContactStack {
     #currentIndex = 0;
     static #STORAGE_KEY = 'callReminders';
     static #DEFAULT_CONTACTS = [
-        { id: 1, name: 'Don Joe', purpose: 'Debugging', position: 'Senior Engineer', image: '../GOD LEVEL/moksh.jpg' },
-        { id: 2, name: 'Sarah Smith', purpose: 'Project Review', position: 'Project Manager', image: '../GOD LEVEL/moksh.jpg' },
-        { id: 3, name: 'Mike Johnson', purpose: 'Code Review', position: 'Lead Developer', image: '../GOD LEVEL/moksh.jpg' }
     ];
 
     constructor() {
@@ -98,6 +95,7 @@ class UIManager {
         this.#updateDisplay();
         this.#createModal();
     }
+
 
     #cacheElements() {
         this.#elements = {
