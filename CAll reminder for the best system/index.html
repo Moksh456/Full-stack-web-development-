@@ -11,48 +11,61 @@
 
 <body>
     <main>
-        <div class="main">
-            <div class="box">
-                <h2>Call reminder</h2>
-                <h4>here is your all call which you remember to call the important person</h4>
+        <div class="container">
+            <!-- Header -->
+            <div class="header">
+                <h1>Call Reminder</h1>
+                <p>Keep track of important calls and contacts</p>
             </div>
 
-            <div class="card-stack">
-
-                <div class="buttons">
-                    <button>+</button>
-                    <button>UP</button>
-                    <button>Dowm</button>
-                </div>
-                <div class="box1 ">
-                    <h1>Call reminder</h1>
-                    <div class="name">
-                        <h2 class="callerName">
-                            don joe
-                        </h2>
-                        <img src="../GOD LEVEL/moksh.jpg" alt="">
-                    </div>
-                    <div class="purpoose">
-                        <h3>purpose: </h3> <h4>  to the debugging</h4>
-                    </div>
-                    <div class="worker-post">
-                      <h3>post name: </h3>  <h4>senior engineer</h4>
-                    </div>
-                    <div class="work">
-                        <button>Call</button>
-                        <button>Message</button>
-                    </div>
-
-
+            <!-- Main Content -->
+            <div class="content-wrapper">
+                <!-- Navigation Controls -->
+                <div class="nav-controls">
+                    <button class="nav-btn add-btn" title="Add new contact">+</button>
+                    <button class="nav-btn up-btn" title="Previous">↑</button>
+                    <button class="nav-btn down-btn" title="Next">↓</button>
                 </div>
 
+                <!-- Card -->
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Incoming Call</h2>
+                    </div>
 
+                    <div class="card-body">
+                        <!-- Profile Section -->
+                        <div class="profile-section">
+                            <img src="../GOD LEVEL/moksh.jpg" alt="Caller" class="profile-image">
+                            <h3 class="callerName">Don Joe</h3>
+                        </div>
 
-                <div class="themes">
-                    <p class="blue"></p>
-                    <p class="green"></p>
-                    <p class="red"></p>
-                    <p class="black"></p>
+                        <!-- Info Section -->
+                        <div class="info-section">
+                            <div class="info-item">
+                                <span class="label">Purpose:</span>
+                                <span class="value">Debugging</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="label">Position:</span>
+                                <span class="value">Senior Engineer</span>
+                            </div>
+                        </div>
+
+                        <!-- Action Buttons -->
+                        <div class="action-buttons">
+                            <button class="btn btn-call">☎ Call</button>
+                            <button class="btn btn-message">💬 Message</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Theme Selector -->
+                <div class="theme-selector">
+                    <button class="theme-btn theme-blue" title="Blue theme"></button>
+                    <button class="theme-btn theme-green" title="Green theme"></button>
+                    <button class="theme-btn theme-red" title="Red theme"></button>
+                    <button class="theme-btn theme-black" title="Dark theme"></button>
                 </div>
             </div>
         </div>
