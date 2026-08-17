@@ -4,85 +4,128 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Call Reminder</title>
+
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
 
 <body>
+
     <main>
+
         <div class="container">
+
             <!-- Header -->
             <div class="header">
                 <h1>Call Reminder</h1>
                 <p>Keep track of important calls and contacts</p>
             </div>
 
+
             <!-- Main Content -->
             <div class="content-wrapper">
-                <!-- Navigation Controls -->
+
+
+                <!-- Navigation -->
                 <div class="nav-controls">
-                    <button class="nav-btn add-btn" title="Add new contact">+</button>
-                    <button class="nav-btn up-btn" title="Previous">↑</button>
-                    <button class="nav-btn down-btn" title="Next">↓</button>
+
+                    <button class="nav-btn add-btn" title="Add Contact">
+                        +
+                    </button>
+
+                    <button class="nav-btn up-btn" title="Previous">
+                        ↑
+                    </button>
+
+                    <button class="nav-btn down-btn" title="Next">
+                        ↓
+                    </button>
+
                 </div>
-                   <!-- Card -->
-                <div class="card">
-                    <div class="card-header">
-                        <h2>Incoming Call</h2>
-                    </div>
 
-                    <div class="card-body">
-                        <!-- Profile Section -->
-                        <div class="profile-section">
-                            <img src="../GOD LEVEL/moksh.jpg" alt="Caller" class="profile-image">
-                            <h3 class="callerName">Don Joe</h3>
-                        </div>
 
-                        <!-- Info Section -->
-                        <div class="info-section">
-                            <div class="info-item">
-                                <span class="label">Purpose:</span>
-                                <span class="value">Debugging</span>
-                            </div>
-                            <div class="info-item">
-                                <span class="label">Position:</span>
-                                <span class="value">Senior Engineer</span>
-                            </div>
-                        </div>
+                <!-- Cards -->
+                <div class="card-stack"></div>
 
-                        <!-- Action Buttons -->
-                        <div class="action-buttons">
-                            <button class="btn btn-call">☎ Call</button>
-                            <button class="btn btn-message">💬 Message</button>
-                        </div>
-                    </div>
-                </div>
-             
-            
+
+                <!-- Add Contact Form -->
                 <div class="inputs hide">
-                 <form action="">
-                       <input type="text" class="input-field name" required placeholder="Enter Name">
-                    <input type="text" class="input-field purpose" required placeholder="Enter Purpose">
-                    <input type="text" class="input-field position" required placeholder="Enter Position">
-                    <input type="text" class="input-field image-url" required minlength="5" placeholder="Enter Image URL">
-                    <button class="btn btn-add" type="submit">Add Contact</button>
-                 </form>
-                    
+
+                    <form>
+
+                        <input
+                            type="text"
+                            class="input-field name"
+                            placeholder="Enter Name"
+                            required
+                        >
+
+                        <input
+                            type="text"
+                            class="input-field purpose"
+                            placeholder="Enter Purpose"
+                            required
+                        >
+
+                        <input
+                            type="text"
+                            class="input-field position"
+                            placeholder="Enter Position"
+                            required
+                        >
+
+                        <input
+                            type="url"
+                            class="input-field image-url"
+                            placeholder="Enter Image URL"
+                            required
+                        >
+
+                        <button
+                            class="btn btn-add"
+                            type="submit"
+                        >
+                            Add Contact
+                        </button>
+
+                    </form>
+
                 </div>
 
 
-
-                <!-- Theme Selector -->
+                <!-- Themes -->
                 <div class="theme-selector">
-                    <button class="theme-btn theme-blue" title="Blue theme"></button>
-                    <button class="theme-btn theme-green" title="Green theme"></button>
-                    <button class="theme-btn theme-red" title="Red theme"></button>
-                    <button class="theme-btn theme-black" title="Dark theme"></button>
-                </div>
-            </div>
-        </div>
-    </main>
-</body>
 
+                    <button
+                        class="theme-btn theme-blue"
+                        title="Blue Theme">
+                    </button>
+
+                    <button
+                        class="theme-btn theme-green"
+                        title="Green Theme">
+                    </button>
+
+                    <button
+                        class="theme-btn theme-red"
+                        title="Red Theme">
+                    </button>
+
+                    <button
+                        class="theme-btn theme-black"
+                        title="Dark Theme">
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+</body>
 </html>
+```
