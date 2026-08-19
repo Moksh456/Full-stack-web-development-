@@ -38,7 +38,7 @@ function showCards() {
         const card = document.createElement("div");
         card.className = "card";
         card.dataset.index = index;
-
+        
         card.innerHTML = `
             <div class="card-header">
                 <h2>Incoming Call</h2>
@@ -108,7 +108,6 @@ function showCurrentCard() {
         } else {
             card.style.display = "none";
         }
-
     });
 }
 
@@ -236,8 +235,6 @@ downBtn.addEventListener("click", function () {
         currentIndex = 0;
 
     }
-
-
     showCurrentCard();
 
 });
